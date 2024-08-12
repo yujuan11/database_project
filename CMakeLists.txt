@@ -11,6 +11,8 @@ find_package(bsoncxx REQUIRED)
 
 add_executable(my_project scr/main.cpp)
 
+# add crow.h route
+include_directories("/home/user1/Crow/include" "/home/user1/asio/asio/include")
 
 # Include directories for bsoncxx and mongocxx
 target_include_directories(my_project PRIVATE /usr/local/include/bsoncxx/v_noabi /usr/local/include/mongocxx/v_noabi /usr/local/include/bsoncxx/v_noabi/bsoncxx/third_party/mnmlstc)

@@ -1,4 +1,4 @@
-//#include "crow.h"
+#include "crow.h"
 #include <iostream>
 #include <string>
 #include <vector>
@@ -84,28 +84,43 @@ int main() {
     mongocxx::instance inst{};
     
     
-    search_db("data","LKr","LKr-RawDecoderSettings","NChannels" );
+    //search_db("data","LKr","LKr-RawDecoderSettings","NChannels" );
     //update_db("cern_na62","LKr","LKr-RawDecoderSettings.dat","NChannels","16834");
-    //search_db("cern_na62","LKr","LKr-RawDecoderSettings.dat","NChannels" );
-    // auto coll = conn["cern_na62"]["LKr"];
-    // // Create the find options with the projection
-    // mongocxx::options::find opts{};
-    // opts.projection(make_document(kvp("_id", 1),kvp("NChannels",1)));
+    
     
 
-    // // Execute find with options
-    // auto cursor = coll.find(make_document(kvp("_id", "LKr-RawDecoderSettings.dat")), opts);
-    // for (auto&& doc : cursor) {
-    //     cout << bsoncxx::to_json(doc) << endl;
-    //  }
-    /*
+    //create the application 
     crow::SimpleApp app;
-    CROW_ROUTE(app, "/")([](){
-        return "Hello world";
+
+    auto login_temp= crow::mustache::load("loginpage.html");
+
+    // login route, default use GET method
+    CROW_ROUTE(app, "/login")([login_temp](const crow::request& req){
+        crow::mustache::context ctx;
+	auto page= login_temp.render(ctx);
+        return page;
+    });
+    //verify login route, POST method
+    CROW_ROUTE(app,"/login").methods(crow::HTTPMethod::POST)([](const crow::request& req){
+	auto full_param=crow::query_string(req.body);
+	string username= full_param.get("username");
+	string pwd= full_param.get("password");
+	auto uri= mongocxx::uri("mongodb://"+username + ":" +pwd+ "@localhost:27017");
+	
+	try{
+	    mongocxx::client client(uri);
+	    return crow::response(302,crow::json::wvalue({{"Location", "/selectoperation"}}));
+
+	} catch (const std::exception & e){
+ 		cerr<<"Login failed: " << e.what()<<endl;
+		return crow::response(403, "Invalid username or password");
+
+	};
     });
     app.port(18080).multithreaded().run();
-    */
+    
     return EXIT_SUCCESS;
+
 }
 
 
