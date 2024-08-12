@@ -1,0 +1,23 @@
+# Run-dependent NA62MC datacards.
+# They are executed after the standard datacards but before the user datacards.
+
+# Standard NA62MC settings for HIKE Phase 2 configuration (run 30000 to be used)
+/control/echo [NA62MC] Applying run-dependent settings from CDB
+
+/beam/SetBeam KL
+/beam/neutral/TargetZPosition 0.0
+/beam/neutral/TargetRadius 2.0
+/beam/neutral/ProductionAngle 0.0024
+/beam/neutral/OpeningAngle 0.0003
+/beam/neutral/MinMomentum -1
+/beam/neutral/MaxMomentum -1
+/beam/neutral/FlatMomentumSpectrum 0
+
+/Detector/MagneticField/BlueTube/Scale 0.0
+
+/decay/zMin 120000
+/decay/zMax 210000
+/decay/type 421
+
+/kine/MinZConversions 212500
+/kine/MaxZConversions 237000

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+  <define>
+    <constant name="PI" value="1.*pi"/>
+    <variable name="safety" value="1"/>
+  </define>
+  
+  <solids>
+    <box lunit="mm" name="WorldBox" x="4400" y="4000" z="2056"/>
+    <box lunit="mm" name="MNPFullBox" x="4400" y="4000" z="2056"/>
+    <box lunit="mm" name="SubtrBox" x="2624" y="2400" z="2056+safety"/>
+    <box lunit="mm" name="OuterBox" x="4400" y="4000" z="1300"/>
+    <box lunit="mm" name="InnerBox" x="3200" y="3200" z="1300+safety"/>
+    <box lunit="mm" name="Pole" x="3200" y="400" z="800"/>
+    <box lunit="mm" name="OuterCoil_fullBox" x="3034.4" y="1050" z="2056"/>
+    <box lunit="mm" name="OuterCoil_boxX" x="3034.4+safety" y="708.80+2*safety" z="1373.6"/>
+    <box lunit="mm" name="OuterCoil_boxY" x="2624" y="1050+safety" z="1373.6"/>
+    <box lunit="mm" name="OuterCoil_boxZ" x="2624" y="844.80+2*safety" z="2056+safety"/>
+    <box lunit="mm" name="InnerCoil_fullBox" x="3034.4" y="551.2" z="1373.6"/>
+    <box lunit="mm" name="InnerCoil_boxX" x="3034.4+safety" y="210+2*safety" z="800"/>
+    <box lunit="mm" name="InnerCoil_boxY" x="2624" y="551.2+safety" z="800"/>
+    <box lunit="mm" name="InnerCoil_boxZ" x="2624" y="346+2*safety" z="1373.6+safety"/>
+
+    <subtraction name="OuterCoil_step1">
+      <first ref="OuterCoil_fullBox"/>
+      <second ref="OuterCoil_boxY"/>
+    </subtraction>
+    <subtraction name="OuterCoil_step2">
+      <first ref="OuterCoil_step1"/>
+      <second ref="OuterCoil_boxX"/>
+      <position name="OuterCoil_boxX_pos" unit="mm" x="0" y="170.6+safety" z="0"/>
+    </subtraction>
+    <subtraction name="OuterCoil_final">
+      <first ref="OuterCoil_step2"/>
+      <second ref="OuterCoil_boxZ"/>
+      <position name="OuterCoil_boxZ_pos" unit="mm" x="0" y="-102.6-safety" z="0"/>
+    </subtraction>
+
+    <subtraction name="InnerCoil_step1">
+      <first ref="InnerCoil_fullBox"/>
+      <second ref="InnerCoil_boxY"/>
+    </subtraction>
+    <subtraction name="InnerCoil_step2">
+      <first ref="InnerCoil_step1"/>
+      <second ref="InnerCoil_boxX"/>
+      <position name="InnerCoil_boxX_pos" unit="mm" x="0" y="170.6+safety" z="0"/>
+    </subtraction>
+    <subtraction name="InnerCoil_final">
+      <first ref="InnerCoil_step2"/>
+      <second ref="InnerCoil_boxZ"/>
+      <position name="InnerCoil_boxZ_pos" unit="mm" x="0" y="-102.6-safety" z="0"/>
+    </subtraction>
+
+    <subtraction name="MNPBox">
+      <first ref="MNPFullBox"/>
+      <second ref="SubtrBox"/>
+    </subtraction>
+
+    <subtraction name="Frame">
+      <first ref="OuterBox"/>
+      <second ref="InnerBox"/>
+    </subtraction>
+    <union name="FrameWithUpperPole">
+      <first ref="Frame"/>
+      <second ref="Pole"/>
+      <position name="Pole_posU" x="0" y="1400" z="0"/>
+    </union>
+    <union name="FrameWithBothPoles">
+      <first ref="FrameWithUpperPole"/>
+      <second ref="Pole"/>
+      <position name="Pole_posD" x="0" y="-1400" z="0"/>
+    </union>
+  </solids>
+
+  <structure>
+    <volume name="Yoke">
+      <materialref ref="G4_Fe0x3b8c750"/>
+      <solidref ref="FrameWithBothPoles"/>
+    </volume>
+    <volume name="InnerCoil">
+      <materialref ref="G4_Cu0x5827c10"/>
+      <solidref ref="InnerCoil_final"/>
+    </volume>
+    <volume name="OuterCoil">
+      <materialref ref="G4_Cu0x5827c10"/>
+      <solidref ref="OuterCoil_final"/>
+    </volume>
+    <volume name="Magnet">
+      <materialref ref="G4_Galactic0x2f91060"/>
+      <solidref ref="MNPBox"/>
+      <physvol name="MNP33Yoke">
+        <volumeref ref="Yoke"/>
+      </physvol>
+      <physvol copynumber="0" name="MNP33UpperInnerCoil">
+        <volumeref ref="InnerCoil"/>
+        <position name="InnerCoil_posU" unit="mm" x="0" y="1134.4" z="0"/>
+      </physvol>
+      <physvol copynumber="1" name="MNP33LowerInnerCoil">
+        <volumeref ref="InnerCoil"/>
+        <position name="InnerCoil_posL" unit="mm" x="0" y="-1134.4" z="0"/>
+	<rotation name="InnerCoil_rotL" unit="rad" x="PI" y="0" z="0"/>
+      </physvol>
+      <physvol copynumber="0" name="MNP33UpperOuterCoil">
+        <volumeref ref="OuterCoil"/>
+        <position name="OuterCoil_posU" unit="mm" x="0" y="885" z="0"/>
+      </physvol>
+      <physvol copynumber="1" name="MNP33LowerOuterCoil">
+        <volumeref ref="OuterCoil"/>
+        <position name="OuterCoil_posL" unit="mm" x="0" y="-885" z="0"/>
+	<rotation name="OuterCoil_rotL" unit="rad" x="PI" y="0" z="0"/>
+      </physvol>
+    </volume>
+    <volume name="World">
+      <materialref ref="G4_Galactic0x2f91060"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="MNP33Magnet">
+        <volumeref ref="Magnet"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="World"/>
+  </setup>
+
+</gdml>

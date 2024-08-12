@@ -1,0 +1,18 @@
+#
+# "Database" for RICH mirror alignments, depending on run number.
+# Created by Jurgen Engelfried, June 28, 2016.
+# Updated by Viacheslav Duk on 16.12.2016, 21.08.2017 (Viacheslav.Duk@cern.ch)
+# Updated by Viacheslav Duk on 13.08.2018 (Viacheslav.Duk@cern.ch)
+# Lines beginning with "#" are treated as comment lines (not within one run block!)
+#
+# Format of one run block:
+#  1. line: ExtraOffsetX[Jura] ExtraOffsetY[Jura] ExtraOffsetX[Saleve] ExtraOffsetY[Saleve]
+#  2. line: x positions of 24 mirrors (starting with #1)
+#  3. line: y positions of 24 mirrors (starting with #1)
+#              999. in alignment: mirror not aligned, take ExtraOffset.
+#
+# Global and single mirror offsets calculated in run 7517, see Slava's talk on 29.08.2017 
+#
+19.92 19.92 20.06 8.98
+ -1.16  0.00  0.10 -0.05  0.25 -0.58  0.00 -0.22 -0.87 -0.71 -0.28  0.06 -0.49  0.03 -0.01  0.25 -0.84  0.00  0.00 -0.35 -1.05 -0.31 -0.69 -0.99
+  0.08  0.00 -0.07  0.18 -1.70 -1.09  0.00  0.33  0.13 -0.12  0.45 -0.05  0.15  0.90 -0.26 -0.36  0.51  0.00  0.00  0.21 -1.01 -0.20  0.37  0.82

@@ -1,0 +1,69 @@
+# Valid from run 10000
+
+# Total number of channels
+NChannels= 512
+
+# Total number of ROBoards (board = crate)
+NROBoards= 1
+
+# Number of mezzanines for a full board
+NROMezzaninesPerFullBoard= 16
+
+# Number of readout boards for each station (board = crate) [one value for each station]
+NROBoardsPerStation= 1
+
+# Mezzanine masks to indicate the enabled mezzanines in each board [one value for each ROBoard]
+ROMezzanineMasksPerBoard= 7
+
+# Number of 25ns-long slots read [one value for each mezzanine]
+NSlots= 10 10 10
+
+# Index of last 25ns-long slot [one value for each mezzanine]
+LastSlotID= 4 4 4
+
+# Latency
+Latency= 1f02
+
+# Swap input file name
+SwapInputFileName= MUV2-Swaps.dat
+# Enable (1) or disable (0) swap detection
+SwapDetectionEnabled= 1
+# Crocus reference file
+CrocusReferenceFileName= MUVSAV-CrocusRef.dat
+
+# Flag to define the treatment of warning printouts
+#0: no warnings
+#1: general information event-related
+#2: general information detector-related
+#3: maximum detail level
+WarningsLevel= 2
+
+# Total number of channels of the readout board (to be used by CREAMRawDecoder.cc)
+NROChannels= 512
+
+# Crate remap
+CrRemap_0000= -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+CrRemap_0001= -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1  0
+
+# Slot remap
+SlRemap_0000= -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1  0  1  2
+SlRemap_0001= -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+
+# Channel remap
+# CREAM slot #13.1
+ChRemap_0000=  161 272 166 -1 167 -1 168 263 169 269 170 270 171 271 172 268
+# CREAM slot #13.0
+ChRemap_0001= -1 267 116 216 117 217 118 218 119 219 120 220 121 221 122 222
+
+# CREAM slot #14.1
+ChRemap_0002= 158 258 159 259 160 -1 -1 261 162 262 163 -1 164 264 165 -1
+# CREAM slot #14.0
+ChRemap_0003= 108 208 109 209 110 210 111 211 112 212 113 213 114 214 115 215
+
+# CREAM slot #15.1
+ChRemap_0004=  265 252 151 251 152 -1 153 253 154 254 155 255 156 256 157 257
+# CREAM slot #15.0
+ChRemap_0005=  266 260 101 201 102 202 103 203 104 204 105 205 106 206 107 207
+
+
+

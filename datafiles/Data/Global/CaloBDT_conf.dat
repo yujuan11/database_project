@@ -1,0 +1,18 @@
+
+Variable ([XXX].fShower_LKrHadronicEnergy+[XXX].fShower_MUV1Energy+[XXX].fShower_MUV2Energy)/([XXX].fTrack3Momentum.Mag()) EoP
+Variable [XXX].fShower_LKrEnergy/([XXX].fTrack3Momentum.Mag()) LKrEoP
+Variable ([XXX].fShower_MUV1Energy>0?([XXX].fShower_MUV1Energy)/([XXX].fShower_MUV1Energy+[XXX].fShower_MUV2Energy):0) MUV1Fr
+Variable ([XXX].fShower_MUV1Energy+[XXX].fShower_MUV2Energy)/([XXX].fShower_LKrEnergy+[XXX].fShower_MUV1Energy+[XXX].fShower_MUV2Energy) HACFr
+Variable ([XXX].fShower_MUV1Energy>0?[XXX].fShower_MUV1Weight:0) MUV1Weight
+Variable (([XXX].fShower_MUV1Energy+[XXX].fShower_MUV2Energy)>0?[XXX].fShower_HACWeight:0) HACWeight
+Variable [XXX].fShower_LKrRMS LKrRMS
+Variable [XXX].fShower_HACShowerWidth HACSW
+Variable [XXX].fShower_LKrSeedEnergy/[XXX].fShower_LKrEnergy LKrSeedFr
+Variable [XXX].fShower_LKrNCells/[XXX].fShower_LKrEnergy LKrNCellsFr
+Variable [XXX].fTrackLKr_dist LKrDist
+Variable ([XXX].fTrackMUV1_dist<0?1200:[XXX].fTrackMUV1_dist) MUV1Dist
+
+Method BDT BDT300_NCuts_100 !H:!V:NTrees=300:MinNodeSize=5:MaxDepth=3:BoostType=Grad:nCuts=100
+
+
+

@@ -1,0 +1,15 @@
+# L1 configuration used by NA62Analysis applications for run 9001
+# Format: <L0 bit>, <L1 algorithm>, <downscaling>, <quality flag>
+# Quality flag: 0=ok, 1=L1 trigger not operating correctly.
+0 KTAG5STRAW0 1 0
+1 KTAG5notLAV6STRAW0 1 0
+2 STRAW0 1 0
+3 KTAG5notLAV6STRAW0 1 0
+4 KTAG5STRAW0 1 0
+5 KTAG5notLAV6FlagSTRAW0 1 0
+6 KTAG5STRAW0 1 0
+7 notKTAG5STRAW0 1 0
+8 KTAG5 1 0
+9 notKTAG5notLAV10STRAW0 1 0
+10 KTAG5notLAV6STRAW0 1 0
+13 STRAW0 1 0

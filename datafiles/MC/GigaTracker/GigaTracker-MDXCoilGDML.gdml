@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="PI" value="1.*pi"/>
+  <position name="Tess_Part_0" unit="mm" x="-102.0" y="69.5" z="307.75"/>
+  <position name="Tess_Part_1" unit="mm" x="-102.0" y="-69.5" z="307.75"/>
+  <position name="Tess_Part_2" unit="mm" x="-182.0" y="69.5" z="227.75"/>
+  <position name="Tess_Part_3" unit="mm" x="-182.0" y="-69.5" z="227.75"/>
+  <position name="Tess_Part_4" unit="mm" x="-182.0" y="69.5" z="-227.75"/>
+  <position name="Tess_Part_5" unit="mm" x="-182.0" y="-69.5" z="-227.75"/>
+  <position name="Tess_Part_6" unit="mm" x="-103.0" y="-69.5" z="-195.0"/>
+  <position name="Tess_Part_7" unit="mm" x="-73.0" y="-69.5" z="-225.0"/>
+  <position name="Tess_Part_8" unit="mm" x="73.0" y="-69.5" z="-225.0"/>
+  <position name="Tess_Part_9" unit="mm" x="103.0" y="-69.5" z="-195.0"/>
+  <position name="Tess_Part_10" unit="mm" x="103.0" y="-69.5" z="195.0"/>
+  <position name="Tess_Part_11" unit="mm" x="73.0" y="-69.5" z="225.0"/>
+  <position name="Tess_Part_12" unit="mm" x="-73.0" y="-69.5" z="225.0"/>
+  <position name="Tess_Part_13" unit="mm" x="-103.0" y="-69.5" z="195.0"/>
+  <position name="Tess_Part_14" unit="mm" x="102.0" y="-69.5" z="307.75"/>
+  <position name="Tess_Part_15" unit="mm" x="182.0" y="-69.5" z="227.75"/>
+  <position name="Tess_Part_16" unit="mm" x="182.0" y="-69.5" z="-227.75"/>
+  <position name="Tess_Part_17" unit="mm" x="102.0" y="-69.5" z="-307.75"/>
+  <position name="Tess_Part_18" unit="mm" x="-102.0" y="-69.5" z="-307.75"/>
+  <position name="Tess_Part_19" unit="mm" x="102.0" y="69.5" z="307.75"/>
+  <position name="Tess_Part_20" unit="mm" x="-73.0" y="69.5" z="225.0"/>
+  <position name="Tess_Part_21" unit="mm" x="73.0" y="69.5" z="225.0"/>
+  <position name="Tess_Part_22" unit="mm" x="103.0" y="69.5" z="195.0"/>
+  <position name="Tess_Part_23" unit="mm" x="103.0" y="69.5" z="-195.0"/>
+  <position name="Tess_Part_24" unit="mm" x="73.0" y="69.5" z="-225.0"/>
+  <position name="Tess_Part_25" unit="mm" x="-73.0" y="69.5" z="-225.0"/>
+  <position name="Tess_Part_26" unit="mm" x="-103.0" y="69.5" z="-195.0"/>
+  <position name="Tess_Part_27" unit="mm" x="-103.0" y="69.5" z="195.0"/>
+  <position name="Tess_Part_28" unit="mm" x="-102.0" y="69.5" z="-307.75"/>
+  <position name="Tess_Part_29" unit="mm" x="102.0" y="69.5" z="-307.75"/>
+  <position name="Tess_Part_30" unit="mm" x="182.0" y="69.5" z="-227.75"/>
+  <position name="Tess_Part_31" unit="mm" x="182.0" y="69.5" z="227.75"/>
+  <position name="Tess_Part_32" unit="mm" x="-182.0" y="-29.885000228881836" z="227.75"/>
+  <position name="Tess_Part_33" unit="mm" x="-182.0" y="3.4749999046325684" z="227.75"/>
+  <position name="Tess_Part_34" unit="mm" x="-182.0" y="36.55699920654297" z="227.75"/>
+  <position name="Tess_Part_35" unit="mm" x="-171.36566162109375" y="-69.5" z="267.60479736328125"/>
+  <position name="Tess_Part_36" unit="mm" x="-142.07252502441406" y="-69.5" z="296.9901123046875"/>
+  <position name="Tess_Part_37" unit="mm" x="-102.0" y="-21.545000076293945" z="307.75"/>
+  <position name="Tess_Part_38" unit="mm" x="-102.0" y="27.104999542236328" z="307.75"/>
+  <position name="Tess_Part_39" unit="mm" x="-171.36566162109375" y="69.5" z="267.60479736328125"/>
+  <position name="Tess_Part_40" unit="mm" x="-142.07252502441406" y="69.5" z="296.9901123046875"/>
+  <position name="Tess_Part_41" unit="mm" x="-182.0" y="-23.073999404907227" z="-227.75"/>
+  <position name="Tess_Part_42" unit="mm" x="-182.0" y="23.21299934387207" z="-227.75"/>
+  <position name="Tess_Part_43" unit="mm" x="-182.0" y="-69.5" z="192.2209930419922"/>
+  <position name="Tess_Part_44" unit="mm" x="-182.0" y="-69.5" z="157.1475067138672"/>
+  <position name="Tess_Part_45" unit="mm" x="-182.0" y="-69.5" z="101.12100219726562"/>
+  <position name="Tess_Part_46" unit="mm" x="-182.0" y="-69.5" z="26.41900062561035"/>
+  <position name="Tess_Part_47" unit="mm" x="-182.0" y="-69.5" z="-58.30400085449219"/>
+  <position name="Tess_Part_48" unit="mm" x="-182.0" y="-69.5" z="-124.80699920654297"/>
+  <position name="Tess_Part_49" unit="mm" x="-182.0" y="-69.5" z="-181.7445068359375"/>
+  <position name="Tess_Part_50" unit="mm" x="-182.0" y="69.5" z="192.2209930419922"/>
+  <position name="Tess_Part_51" unit="mm" x="-182.0" y="69.5" z="157.1475067138672"/>
+  <position name="Tess_Part_52" unit="mm" x="-182.0" y="69.5" z="101.12100219726562"/>
+  <position name="Tess_Part_53" unit="mm" x="-182.0" y="69.5" z="26.41900062561035"/>
+  <position name="Tess_Part_54" unit="mm" x="-182.0" y="69.5" z="-58.30400085449219"/>
+  <position name="Tess_Part_55" unit="mm" x="-182.0" y="69.5" z="-124.80699920654297"/>
+  <position name="Tess_Part_56" unit="mm" x="-182.0" y="69.5" z="-181.7445068359375"/>
+  <position name="Tess_Part_57" unit="mm" x="-142.18124389648438" y="-69.5" z="-296.92706298828125"/>
+  <position name="Tess_Part_58" unit="mm" x="-170.47250366210938" y="-69.5" z="-269.1204833984375"/>
+  <position name="Tess_Part_59" unit="mm" x="-55.69200134277344" y="-69.5" z="-307.75"/>
+  <position name="Tess_Part_60" unit="mm" x="-2.6519999504089355" y="-69.5" z="-307.75"/>
+  <position name="Tess_Part_61" unit="mm" x="55.895999908447266" y="-69.5" z="-307.75"/>
+  <position name="Tess_Part_62" unit="mm" x="170.47250366210938" y="-69.5" z="-269.1204833984375"/>
+  <position name="Tess_Part_63" unit="mm" x="139.43438720703125" y="-69.5" z="-298.4512634277344"/>
+  <position name="Tess_Part_64" unit="mm" x="182.0" y="-69.5" z="-168.53500366210938"/>
+  <position name="Tess_Part_65" unit="mm" x="182.0" y="-69.5" z="-101.12100219726562"/>
+  <position name="Tess_Part_66" unit="mm" x="182.0" y="-69.5" z="-21.40850067138672"/>
+  <position name="Tess_Part_67" unit="mm" x="182.0" y="-69.5" z="69.23600006103516"/>
+  <position name="Tess_Part_68" unit="mm" x="182.0" y="-69.5" z="137.56100463867188"/>
+  <position name="Tess_Part_69" unit="mm" x="182.0" y="-69.5" z="182.65550231933594"/>
+  <position name="Tess_Part_70" unit="mm" x="141.8548126220703" y="-69.5" z="297.11566162109375"/>
+  <position name="Tess_Part_71" unit="mm" x="170.92324829101562" y="-69.5" z="268.3651123046875"/>
+  <position name="Tess_Part_72" unit="mm" x="54.672000885009766" y="-69.5" z="307.75"/>
+  <position name="Tess_Part_73" unit="mm" x="-3.875999927520752" y="-69.5" z="307.75"/>
+  <position name="Tess_Part_74" unit="mm" x="-54.875999450683594" y="-69.5" z="307.75"/>
+  <position name="Tess_Part_75" unit="mm" x="-99.03556823730469" y="-69.5" z="209.90467834472656"/>
+  <position name="Tess_Part_76" unit="mm" x="-88.1493911743164" y="-69.5" z="220.89393615722656"/>
+  <position name="Tess_Part_77" unit="mm" x="55.625999450683594" y="-69.5" z="225.0"/>
+  <position name="Tess_Part_78" unit="mm" x="31.974000930786133" y="-69.5" z="225.0"/>
+  <position name="Tess_Part_79" unit="mm" x="0.43799999356269836" y="-69.5" z="225.0"/>
+  <position name="Tess_Part_80" unit="mm" x="-31.974000930786133" y="-69.5" z="225.0"/>
+  <position name="Tess_Part_81" unit="mm" x="-56.06399917602539" y="-69.5" z="225.0"/>
+  <position name="Tess_Part_82" unit="mm" x="87.61750030517578" y="-69.5" z="221.1978759765625"/>
+  <position name="Tess_Part_83" unit="mm" x="98.70152282714844" y="-69.5" z="210.47357177734375"/>
+  <position name="Tess_Part_84" unit="mm" x="103.0" y="-69.5" z="-177.05999755859375"/>
+  <position name="Tess_Part_85" unit="mm" x="103.0" y="-69.5" z="-153.27000427246094"/>
+  <position name="Tess_Part_86" unit="mm" x="103.0" y="-69.5" z="-115.83000183105469"/>
+  <position name="Tess_Part_87" unit="mm" x="103.0" y="-69.5" z="-54.9900016784668"/>
+  <position name="Tess_Part_88" unit="mm" x="103.0" y="-69.5" z="31.979999542236328"/>
+  <position name="Tess_Part_89" unit="mm" x="103.0" y="-69.5" z="105.69000244140625"/>
+  <position name="Tess_Part_90" unit="mm" x="103.0" y="-69.5" z="148.97999572753906"/>
+  <position name="Tess_Part_91" unit="mm" x="103.0" y="-69.5" z="177.05999755859375"/>
+  <position name="Tess_Part_92" unit="mm" x="99.1978759765625" y="-69.5" z="-209.6175079345703"/>
+  <position name="Tess_Part_93" unit="mm" x="87.945556640625" y="-69.5" z="-221.01211547851562"/>
+  <position name="Tess_Part_94" unit="mm" x="-52.70600128173828" y="-69.5" z="-225.0"/>
+  <position name="Tess_Part_95" unit="mm" x="-25.257999420166016" y="-69.5" z="-225.0"/>
+  <position name="Tess_Part_96" unit="mm" x="10.366000175476074" y="-69.5" z="-225.0"/>
+  <position name="Tess_Part_97" unit="mm" x="47.59600067138672" y="-69.5" z="-225.0"/>
+  <position name="Tess_Part_98" unit="mm" x="-87.65863800048828" y="-69.5" z="-221.1748809814453"/>
+  <position name="Tess_Part_99" unit="mm" x="-98.40530395507812" y="-69.5" z="-210.95526123046875"/>
+  <position name="Tess_Part_100" unit="mm" x="-103.0" y="-69.5" z="174.3300018310547"/>
+  <position name="Tess_Part_101" unit="mm" x="-103.0" y="-69.5" z="138.05999755859375"/>
+  <position name="Tess_Part_102" unit="mm" x="-103.0" y="-69.5" z="84.62999725341797"/>
+  <position name="Tess_Part_103" unit="mm" x="-103.0" y="-69.5" z="-1.9500000476837158"/>
+  <position name="Tess_Part_104" unit="mm" x="-103.0" y="-69.5" z="-86.58000183105469"/>
+  <position name="Tess_Part_105" unit="mm" x="-103.0" y="-69.5" z="-136.88999938964844"/>
+  <position name="Tess_Part_106" unit="mm" x="-103.0" y="-69.5" z="-170.42999267578125"/>
+  <position name="Tess_Part_107" unit="mm" x="102.0" y="-23.073999404907227" z="307.75"/>
+  <position name="Tess_Part_108" unit="mm" x="102.0" y="23.21299934387207" z="307.75"/>
+  <position name="Tess_Part_109" unit="mm" x="54.672000885009766" y="69.5" z="307.75"/>
+  <position name="Tess_Part_110" unit="mm" x="-3.875999927520752" y="69.5" z="307.75"/>
+  <position name="Tess_Part_111" unit="mm" x="-54.875999450683594" y="69.5" z="307.75"/>
+  <position name="Tess_Part_112" unit="mm" x="138.31924438476562" y="69.5" z="299.030517578125"/>
+  <position name="Tess_Part_113" unit="mm" x="169.7474822998047" y="69.5" z="270.29736328125"/>
+  <position name="Tess_Part_114" unit="mm" x="182.0" y="69.5" z="-168.53500366210938"/>
+  <position name="Tess_Part_115" unit="mm" x="182.0" y="69.5" z="-101.12100219726562"/>
+  <position name="Tess_Part_116" unit="mm" x="182.0" y="69.5" z="-21.40850067138672"/>
+  <position name="Tess_Part_117" unit="mm" x="182.0" y="69.5" z="69.23600006103516"/>
+  <position name="Tess_Part_118" unit="mm" x="182.0" y="69.5" z="137.56100463867188"/>
+  <position name="Tess_Part_119" unit="mm" x="182.0" y="69.5" z="182.65550231933594"/>
+  <position name="Tess_Part_120" unit="mm" x="171.36566162109375" y="69.5" z="-267.60479736328125"/>
+  <position name="Tess_Part_121" unit="mm" x="142.39837646484375" y="69.5" z="-296.8005065917969"/>
+  <position name="Tess_Part_122" unit="mm" x="-55.69200134277344" y="69.5" z="-307.75"/>
+  <position name="Tess_Part_123" unit="mm" x="-2.6519999504089355" y="69.5" z="-307.75"/>
+  <position name="Tess_Part_124" unit="mm" x="55.895999908447266" y="69.5" z="-307.75"/>
+  <position name="Tess_Part_125" unit="mm" x="-142.18124389648438" y="69.5" z="-296.92706298828125"/>
+  <position name="Tess_Part_126" unit="mm" x="-170.47250366210938" y="69.5" z="-269.1204833984375"/>
+  <position name="Tess_Part_127" unit="mm" x="-103.0" y="69.5" z="174.3300018310547"/>
+  <position name="Tess_Part_128" unit="mm" x="-103.0" y="69.5" z="138.05999755859375"/>
+  <position name="Tess_Part_129" unit="mm" x="-103.0" y="69.5" z="84.62999725341797"/>
+  <position name="Tess_Part_130" unit="mm" x="-103.0" y="69.5" z="-1.9500000476837158"/>
+  <position name="Tess_Part_131" unit="mm" x="-103.0" y="69.5" z="-86.58000183105469"/>
+  <position name="Tess_Part_132" unit="mm" x="-103.0" y="69.5" z="-136.88999938964844"/>
+  <position name="Tess_Part_133" unit="mm" x="-103.0" y="69.5" z="-170.42999267578125"/>
+  <position name="Tess_Part_134" unit="mm" x="-87.65863800048828" y="69.5" z="-221.1748809814453"/>
+  <position name="Tess_Part_135" unit="mm" x="-98.40530395507812" y="69.5" z="-210.95526123046875"/>
+  <position name="Tess_Part_136" unit="mm" x="-52.560001373291016" y="69.5" z="-225.0"/>
+  <position name="Tess_Part_137" unit="mm" x="-25.11199951171875" y="69.5" z="-225.0"/>
+  <position name="Tess_Part_138" unit="mm" x="12.70199966430664" y="69.5" z="-225.0"/>
+  <position name="Tess_Part_139" unit="mm" x="47.59600067138672" y="69.5" z="-225.0"/>
+  <position name="Tess_Part_140" unit="mm" x="99.1978759765625" y="69.5" z="-209.6175079345703"/>
+  <position name="Tess_Part_141" unit="mm" x="87.945556640625" y="69.5" z="-221.01211547851562"/>
+  <position name="Tess_Part_142" unit="mm" x="103.0" y="69.5" z="-177.05999755859375"/>
+  <position name="Tess_Part_143" unit="mm" x="103.0" y="69.5" z="-153.27000427246094"/>
+  <position name="Tess_Part_144" unit="mm" x="103.0" y="69.5" z="-115.83000183105469"/>
+  <position name="Tess_Part_145" unit="mm" x="103.0" y="69.5" z="-54.9900016784668"/>
+  <position name="Tess_Part_146" unit="mm" x="103.0" y="69.5" z="31.979999542236328"/>
+  <position name="Tess_Part_147" unit="mm" x="103.0" y="69.5" z="105.69000244140625"/>
+  <position name="Tess_Part_148" unit="mm" x="103.0" y="69.5" z="148.97999572753906"/>
+  <position name="Tess_Part_149" unit="mm" x="103.0" y="69.5" z="177.05999755859375"/>
+  <position name="Tess_Part_150" unit="mm" x="87.61750030517578" y="69.5" z="221.1978759765625"/>
+  <position name="Tess_Part_151" unit="mm" x="98.70152282714844" y="69.5" z="210.47357177734375"/>
+  <position name="Tess_Part_152" unit="mm" x="55.625999450683594" y="69.5" z="225.0"/>
+  <position name="Tess_Part_153" unit="mm" x="31.974000930786133" y="69.5" z="225.0"/>
+  <position name="Tess_Part_154" unit="mm" x="0.5839999914169312" y="69.5" z="225.0"/>
+  <position name="Tess_Part_155" unit="mm" x="-31.827999114990234" y="69.5" z="225.0"/>
+  <position name="Tess_Part_156" unit="mm" x="-56.06399917602539" y="69.5" z="225.0"/>
+  <position name="Tess_Part_157" unit="mm" x="-99.03556823730469" y="69.5" z="209.90467834472656"/>
+  <position name="Tess_Part_158" unit="mm" x="-88.1493911743164" y="69.5" z="220.89393615722656"/>
+  <position name="Tess_Part_159" unit="mm" x="-102.0" y="-23.073999404907227" z="-307.75"/>
+  <position name="Tess_Part_160" unit="mm" x="-102.0" y="23.21299934387207" z="-307.75"/>
+  <position name="Tess_Part_161" unit="mm" x="102.0" y="-23.073999404907227" z="-307.75"/>
+  <position name="Tess_Part_162" unit="mm" x="102.0" y="23.21299934387207" z="-307.75"/>
+  <position name="Tess_Part_163" unit="mm" x="182.0" y="-23.073999404907227" z="-227.75"/>
+  <position name="Tess_Part_164" unit="mm" x="182.0" y="23.21299934387207" z="-227.75"/>
+  <position name="Tess_Part_165" unit="mm" x="182.0" y="-23.073999404907227" z="227.75"/>
+  <position name="Tess_Part_166" unit="mm" x="182.0" y="23.21299934387207" z="227.75"/>
+  <position name="Tess_Part_167" unit="mm" x="-103.0" y="-53.51499938964844" z="195.0"/>
+  <position name="Tess_Part_168" unit="mm" x="-103.0" y="-38.36399841308594" z="195.0"/>
+  <position name="Tess_Part_169" unit="mm" x="-103.0" y="-23.21299934387207" z="195.0"/>
+  <position name="Tess_Part_170" unit="mm" x="-103.0" y="-8.201000213623047" z="195.0"/>
+  <position name="Tess_Part_171" unit="mm" x="-103.0" y="6.671999931335449" z="195.0"/>
+  <position name="Tess_Part_172" unit="mm" x="-103.0" y="23.21299934387207" z="195.0"/>
+  <position name="Tess_Part_173" unit="mm" x="-103.0" y="38.36399841308594" z="195.0"/>
+  <position name="Tess_Part_174" unit="mm" x="-103.0" y="54.76599884033203" z="195.0"/>
+  <position name="Tess_Part_175" unit="mm" x="-73.0" y="-52.40299987792969" z="225.0"/>
+  <position name="Tess_Part_176" unit="mm" x="-73.0" y="-34.33300018310547" z="225.0"/>
+  <position name="Tess_Part_177" unit="mm" x="-73.0" y="-17.097000122070312" z="225.0"/>
+  <position name="Tess_Part_178" unit="mm" x="-73.0" y="0.6949999928474426" z="225.0"/>
+  <position name="Tess_Part_179" unit="mm" x="-73.0" y="18.347999572753906" z="225.0"/>
+  <position name="Tess_Part_180" unit="mm" x="-73.0" y="35.44499969482422" z="225.0"/>
+  <position name="Tess_Part_181" unit="mm" x="-73.0" y="52.40299987792969" z="225.0"/>
+  <position name="Tess_Part_182" unit="mm" x="73.0" y="-53.51499938964844" z="225.0"/>
+  <position name="Tess_Part_183" unit="mm" x="73.0" y="-38.36399841308594" z="225.0"/>
+  <position name="Tess_Part_184" unit="mm" x="73.0" y="-23.21299934387207" z="225.0"/>
+  <position name="Tess_Part_185" unit="mm" x="73.0" y="-8.201000213623047" z="225.0"/>
+  <position name="Tess_Part_186" unit="mm" x="73.0" y="6.671999931335449" z="225.0"/>
+  <position name="Tess_Part_187" unit="mm" x="73.0" y="23.21299934387207" z="225.0"/>
+  <position name="Tess_Part_188" unit="mm" x="73.0" y="38.36399841308594" z="225.0"/>
+  <position name="Tess_Part_189" unit="mm" x="73.0" y="54.76599884033203" z="225.0"/>
+  <position name="Tess_Part_190" unit="mm" x="103.0" y="-52.263999938964844" z="195.0"/>
+  <position name="Tess_Part_191" unit="mm" x="103.0" y="-35.02799987792969" z="195.0"/>
+  <position name="Tess_Part_192" unit="mm" x="103.0" y="-17.930999755859375" z="195.0"/>
+  <position name="Tess_Part_193" unit="mm" x="103.0" y="-0.6949999928474426" z="195.0"/>
+  <position name="Tess_Part_194" unit="mm" x="103.0" y="17.097000122070312" z="195.0"/>
+  <position name="Tess_Part_195" unit="mm" x="103.0" y="35.02799987792969" z="195.0"/>
+  <position name="Tess_Part_196" unit="mm" x="103.0" y="52.263999938964844" z="195.0"/>
+  <position name="Tess_Part_197" unit="mm" x="103.0" y="-54.487998962402344" z="-195.0"/>
+  <position name="Tess_Part_198" unit="mm" x="103.0" y="-39.058998107910156" z="-195.0"/>
+  <position name="Tess_Part_199" unit="mm" x="103.0" y="-23.6299991607666" z="-195.0"/>
+  <position name="Tess_Part_200" unit="mm" x="103.0" y="-8.201000213623047" z="-195.0"/>
+  <position name="Tess_Part_201" unit="mm" x="103.0" y="7.644999980926514" z="-195.0"/>
+  <position name="Tess_Part_202" unit="mm" x="103.0" y="22.934999465942383" z="-195.0"/>
+  <position name="Tess_Part_203" unit="mm" x="103.0" y="38.08599853515625" z="-195.0"/>
+  <position name="Tess_Part_204" unit="mm" x="103.0" y="54.62699890136719" z="-195.0"/>
+  <position name="Tess_Part_205" unit="mm" x="73.0" y="-51.986000061035156" z="-225.0"/>
+  <position name="Tess_Part_206" unit="mm" x="73.0" y="-34.611000061035156" z="-225.0"/>
+  <position name="Tess_Part_207" unit="mm" x="73.0" y="-17.375" z="-225.0"/>
+  <position name="Tess_Part_208" unit="mm" x="73.0" y="0.0" z="-225.0"/>
+  <position name="Tess_Part_209" unit="mm" x="73.0" y="17.375" z="-225.0"/>
+  <position name="Tess_Part_210" unit="mm" x="73.0" y="34.75" z="-225.0"/>
+  <position name="Tess_Part_211" unit="mm" x="73.0" y="52.125" z="-225.0"/>
+  <position name="Tess_Part_212" unit="mm" x="-73.0" y="-52.680999755859375" z="-225.0"/>
+  <position name="Tess_Part_213" unit="mm" x="-73.0" y="-36.000999450683594" z="-225.0"/>
+  <position name="Tess_Part_214" unit="mm" x="-73.0" y="-17.930999755859375" z="-225.0"/>
+  <position name="Tess_Part_215" unit="mm" x="-73.0" y="0.0" z="-225.0"/>
+  <position name="Tess_Part_216" unit="mm" x="-73.0" y="17.375" z="-225.0"/>
+  <position name="Tess_Part_217" unit="mm" x="-73.0" y="34.05500030517578" z="-225.0"/>
+  <position name="Tess_Part_218" unit="mm" x="-73.0" y="51.569000244140625" z="-225.0"/>
+  <position name="Tess_Part_219" unit="mm" x="-103.0" y="-51.986000061035156" z="-195.0"/>
+  <position name="Tess_Part_220" unit="mm" x="-103.0" y="-34.611000061035156" z="-195.0"/>
+  <position name="Tess_Part_221" unit="mm" x="-103.0" y="-17.375" z="-195.0"/>
+  <position name="Tess_Part_222" unit="mm" x="-103.0" y="0.0" z="-195.0"/>
+  <position name="Tess_Part_223" unit="mm" x="-103.0" y="17.375" z="-195.0"/>
+  <position name="Tess_Part_224" unit="mm" x="-103.0" y="34.75" z="-195.0"/>
+  <position name="Tess_Part_225" unit="mm" x="-103.0" y="52.125" z="-195.0"/>
+  <position name="Tess_Part_226" unit="mm" x="-176.0755615234375" y="-18.808774948120117" z="257.9627685546875"/>
+  <position name="Tess_Part_227" unit="mm" x="-175.4911346435547" y="23.131681442260742" z="259.3578186035156"/>
+  <position name="Tess_Part_228" unit="mm" x="-158.7227783203125" y="-39.409515380859375" z="284.16387939453125"/>
+  <position name="Tess_Part_229" unit="mm" x="-132.65318298339844" y="-30.930889129638672" z="301.6444091796875"/>
+  <position name="Tess_Part_230" unit="mm" x="-132.0304718017578" y="13.719818115234375" z="301.899658203125"/>
+  <position name="Tess_Part_231" unit="mm" x="-157.9228057861328" y="37.567142486572266" z="284.9570007324219"/>
+  <position name="Tess_Part_232" unit="mm" x="-157.20730590820312" y="-1.704432487487793" z="285.64776611328125"/>
+  <position name="Tess_Part_233" unit="mm" x="-182.0" y="1.377050757408142" z="-187.59104919433594"/>
+  <position name="Tess_Part_234" unit="mm" x="-182.0" y="-35.82844161987305" z="181.84437561035156"/>
+  <position name="Tess_Part_235" unit="mm" x="-182.0" y="-31.666889190673828" z="144.21507263183594"/>
+  <position name="Tess_Part_236" unit="mm" x="-182.0" y="-1.521488070487976" z="-12.100512504577637"/>
+  <position name="Tess_Part_237" unit="mm" x="-182.0" y="-8.36373233795166" z="200.10580444335938"/>
+  <position name="Tess_Part_238" unit="mm" x="-182.0" y="23.951765060424805" z="197.8114013671875"/>
+  <position name="Tess_Part_239" unit="mm" x="-182.0" y="36.933837890625" z="169.20826721191406"/>
+  <position name="Tess_Part_240" unit="mm" x="-182.0" y="15.09378719329834" z="123.95243835449219"/>
+  <position name="Tess_Part_241" unit="mm" x="-182.0" y="5.9877424240112305" z="-136.65841674804688"/>
+  <position name="Tess_Part_242" unit="mm" x="-182.0" y="2.6038293838500977" z="62.26655960083008"/>
+  <position name="Tess_Part_243" unit="mm" x="-182.0" y="-12.114935874938965" z="-80.9548110961914"/>
+  <position name="Tess_Part_244" unit="mm" x="-182.0" y="0.4657436013221741" z="168.68272399902344"/>
+  <position name="Tess_Part_245" unit="mm" x="-157.03936767578125" y="-69.5" z="215.6745147705078"/>
+  <position name="Tess_Part_246" unit="mm" x="-148.4912872314453" y="-69.5" z="189.1873321533203"/>
+  <position name="Tess_Part_247" unit="mm" x="-147.780517578125" y="-69.5" z="-201.3931121826172"/>
+  <position name="Tess_Part_248" unit="mm" x="-115.79179382324219" y="-69.5" z="-263.1394958496094"/>
+  <position name="Tess_Part_249" unit="mm" x="-137.73809814453125" y="-69.5" z="-233.479248046875"/>
+  <position name="Tess_Part_250" unit="mm" x="-25.35441017150879" y="-69.5" z="-275.54486083984375"/>
+  <position name="Tess_Part_251" unit="mm" x="78.63288879394531" y="-69.5" z="-270.1966247558594"/>
+  <position name="Tess_Part_252" unit="mm" x="140.6176300048828" y="-69.5" z="-231.46060180664062"/>
+  <position name="Tess_Part_253" unit="mm" x="119.9520034790039" y="-69.5" z="-264.58416748046875"/>
+  <position name="Tess_Part_254" unit="mm" x="156.54811096191406" y="-69.5" z="210.66160583496094"/>
+  <position name="Tess_Part_255" unit="mm" x="108.16234588623047" y="-69.5" z="269.5373840332031"/>
+  <position name="Tess_Part_256" unit="mm" x="143.9838409423828" y="-69.5" z="249.82362365722656"/>
+  <position name="Tess_Part_257" unit="mm" x="70.57537841796875" y="-69.5" z="270.6520080566406"/>
+  <position name="Tess_Part_258" unit="mm" x="-30.900253295898438" y="-69.5" z="278.3779296875"/>
+  <position name="Tess_Part_259" unit="mm" x="-71.53101348876953" y="-69.5" z="272.6585693359375"/>
+  <position name="Tess_Part_260" unit="mm" x="-146.8319854736328" y="-69.5" z="248.73373413085938"/>
+  <position name="Tess_Part_261" unit="mm" x="-112.4854965209961" y="-69.5" z="263.6305847167969"/>
+  <position name="Tess_Part_262" unit="mm" x="-125.81356048583984" y="-69.5" z="220.85255432128906"/>
+  <position name="Tess_Part_263" unit="mm" x="-101.4014892578125" y="-69.5" z="232.0218048095703"/>
+  <position name="Tess_Part_264" unit="mm" x="-83.85591125488281" y="-69.5" z="234.69589233398438"/>
+  <position name="Tess_Part_265" unit="mm" x="67.23690032958984" y="-69.5" z="242.41001892089844"/>
+  <position name="Tess_Part_266" unit="mm" x="44.41840744018555" y="-69.5" z="248.96774291992188"/>
+  <position name="Tess_Part_267" unit="mm" x="16.73823356628418" y="-69.5" z="246.64317321777344"/>
+  <position name="Tess_Part_268" unit="mm" x="-45.69796371459961" y="-69.5" z="248.74435424804688"/>
+  <position name="Tess_Part_269" unit="mm" x="-68.11162567138672" y="-69.5" z="243.07325744628906"/>
+  <position name="Tess_Part_270" unit="mm" x="88.69439697265625" y="-69.5" z="241.64236450195312"/>
+  <position name="Tess_Part_271" unit="mm" x="105.59355163574219" y="-69.5" z="225.3975372314453"/>
+  <position name="Tess_Part_272" unit="mm" x="115.7100830078125" y="-69.5" z="206.85159301757812"/>
+  <position name="Tess_Part_273" unit="mm" x="120.71179962158203" y="-69.5" z="-187.2288818359375"/>
+  <position name="Tess_Part_274" unit="mm" x="122.66974639892578" y="-69.5" z="-166.55099487304688"/>
+  <position name="Tess_Part_275" unit="mm" x="128.18247985839844" y="-69.5" z="169.67245483398438"/>
+  <position name="Tess_Part_276" unit="mm" x="117.25973510742188" y="-69.5" z="188.63668823242188"/>
+  <position name="Tess_Part_277" unit="mm" x="115.1060791015625" y="-69.5" z="-202.72708129882812"/>
+  <position name="Tess_Part_278" unit="mm" x="110.32422637939453" y="-69.5" z="-231.4868621826172"/>
+  <position name="Tess_Part_279" unit="mm" x="79.0962142944336" y="-69.5" z="-241.84805297851562"/>
+  <position name="Tess_Part_280" unit="mm" x="-61.8209342956543" y="-69.5" z="-248.8319091796875"/>
+  <position name="Tess_Part_281" unit="mm" x="-35.945926666259766" y="-69.5" z="-245.40869140625"/>
+  <position name="Tess_Part_282" unit="mm" x="-9.507230758666992" y="-69.5" z="-245.66461181640625"/>
+  <position name="Tess_Part_283" unit="mm" x="22.996028900146484" y="-69.5" z="-250.33409118652344"/>
+  <position name="Tess_Part_284" unit="mm" x="56.630340576171875" y="-69.5" z="-247.5480194091797"/>
+  <position name="Tess_Part_285" unit="mm" x="-86.7734375" y="-69.5" z="-243.376220703125"/>
+  <position name="Tess_Part_286" unit="mm" x="-107.72754669189453" y="-69.5" z="-230.3318328857422"/>
+  <position name="Tess_Part_287" unit="mm" x="-119.45567321777344" y="-69.5" z="-210.49444580078125"/>
+  <position name="Tess_Part_288" unit="mm" x="-119.91605377197266" y="-69.5" z="194.3194122314453"/>
+  <position name="Tess_Part_289" unit="mm" x="-123.4734878540039" y="-69.5" z="-188.3679656982422"/>
+  <position name="Tess_Part_290" unit="mm" x="-76.5610580444336" y="-69.5" z="-274.7132873535156"/>
+  <position name="Tess_Part_291" unit="mm" x="156.0425567626953" y="-69.5" z="180.2211456298828"/>
+  <position name="Tess_Part_292" unit="mm" x="-13.929844856262207" y="-69.5" z="250.87855529785156"/>
+  <position name="Tess_Part_293" unit="mm" x="141.4115753173828" y="-69.5" z="-143.77993774414062"/>
+  <position name="Tess_Part_294" unit="mm" x="-133.07150268554688" y="-69.5" z="162.2748260498047"/>
+  <position name="Tess_Part_295" unit="mm" x="-140.39898681640625" y="-69.5" z="-164.38600158691406"/>
+  <position name="Tess_Part_296" unit="mm" x="36.07963943481445" y="-69.5" z="-277.080322265625"/>
+  <position name="Tess_Part_297" unit="mm" x="21.018081665039062" y="-69.5" z="276.4305725097656"/>
+  <position name="Tess_Part_298" unit="mm" x="134.19537353515625" y="-69.5" z="-203.75192260742188"/>
+  <position name="Tess_Part_299" unit="mm" x="128.80567932128906" y="-69.5" z="222.9269561767578"/>
+  <position name="Tess_Part_300" unit="mm" x="134.9940185546875" y="-69.5" z="196.3873291015625"/>
+  <position name="Tess_Part_301" unit="mm" x="156.68446350097656" y="-69.5" z="-204.26698303222656"/>
+  <position name="Tess_Part_302" unit="mm" x="-88.55036163330078" y="-69.5" z="251.21337890625"/>
+  <position name="Tess_Part_303" unit="mm" x="144.78378295898438" y="-69.5" z="-179.0886688232422"/>
+  <position name="Tess_Part_304" unit="mm" x="95.89320373535156" y="-69.5" z="-246.14093017578125"/>
+  <position name="Tess_Part_305" unit="mm" x="114.00676727294922" y="-69.5" z="242.89852905273438"/>
+  <position name="Tess_Part_306" unit="mm" x="119.72466278076172" y="-69.5" z="-217.0424041748047"/>
+  <position name="Tess_Part_307" unit="mm" x="-60.624542236328125" y="-7.707128524780273" z="307.75"/>
+  <position name="Tess_Part_308" unit="mm" x="-56.76943588256836" y="35.21693420410156" z="307.75"/>
+  <position name="Tess_Part_309" unit="mm" x="38.56703567504883" y="-2.5029425621032715" z="307.75"/>
+  <position name="Tess_Part_310" unit="mm" x="-21.583690643310547" y="-28.59474754333496" z="307.75"/>
+  <position name="Tess_Part_311" unit="mm" x="-19.57114601135254" y="14.950423240661621" z="307.75"/>
+  <position name="Tess_Part_312" unit="mm" x="-137.40890502929688" y="69.5" z="230.07598876953125"/>
+  <position name="Tess_Part_313" unit="mm" x="-111.24893951416016" y="69.5" z="261.91943359375"/>
+  <position name="Tess_Part_314" unit="mm" x="77.0262451171875" y="69.5" z="277.4709777832031"/>
+  <position name="Tess_Part_315" unit="mm" x="-34.70854949951172" y="69.5" z="277.56109619140625"/>
+  <position name="Tess_Part_316" unit="mm" x="-75.14456939697266" y="69.5" z="281.8470153808594"/>
+  <position name="Tess_Part_317" unit="mm" x="120.85050201416016" y="69.5" z="274.1974182128906"/>
+  <position name="Tess_Part_318" unit="mm" x="143.98138427734375" y="69.5" z="206.9236297607422"/>
+  <position name="Tess_Part_319" unit="mm" x="149.29202270507812" y="69.5" z="-238.04122924804688"/>
+  <position name="Tess_Part_320" unit="mm" x="109.39468383789062" y="69.5" z="-272.318115234375"/>
+  <position name="Tess_Part_321" unit="mm" x="-79.97663879394531" y="69.5" z="-272.1664123535156"/>
+  <position name="Tess_Part_322" unit="mm" x="-117.11274719238281" y="69.5" z="-260.7214050292969"/>
+  <position name="Tess_Part_323" unit="mm" x="-139.5307159423828" y="69.5" z="-225.38336181640625"/>
+  <position name="Tess_Part_324" unit="mm" x="-157.36721801757812" y="69.5" z="204.31581115722656"/>
+  <position name="Tess_Part_325" unit="mm" x="-139.89996337890625" y="69.5" z="171.3133544921875"/>
+  <position name="Tess_Part_326" unit="mm" x="-139.382568359375" y="69.5" z="118.40499877929688"/>
+  <position name="Tess_Part_327" unit="mm" x="-118.95548248291016" y="69.5" z="189.46803283691406"/>
+  <position name="Tess_Part_328" unit="mm" x="-130.6057891845703" y="69.5" z="-190.95965576171875"/>
+  <position name="Tess_Part_329" unit="mm" x="-87.69495391845703" y="69.5" z="-242.8618927001953"/>
+  <position name="Tess_Part_330" unit="mm" x="-107.80194854736328" y="69.5" z="-228.81710815429688"/>
+  <position name="Tess_Part_331" unit="mm" x="-116.00615692138672" y="69.5" z="-210.22943115234375"/>
+  <position name="Tess_Part_332" unit="mm" x="-64.56896209716797" y="69.5" z="-247.7017364501953"/>
+  <position name="Tess_Part_333" unit="mm" x="-38.97919464111328" y="69.5" z="-246.69277954101562"/>
+  <position name="Tess_Part_334" unit="mm" x="27.05742645263672" y="69.5" z="-253.04037475585938"/>
+  <position name="Tess_Part_335" unit="mm" x="62.3431510925293" y="69.5" z="-247.67222595214844"/>
+  <position name="Tess_Part_336" unit="mm" x="116.91655731201172" y="69.5" z="-207.89122009277344"/>
+  <position name="Tess_Part_337" unit="mm" x="106.59766387939453" y="69.5" z="-224.96524047851562"/>
+  <position name="Tess_Part_338" unit="mm" x="88.94371795654297" y="69.5" z="-243.0316619873047"/>
+  <position name="Tess_Part_339" unit="mm" x="122.50225830078125" y="69.5" z="-189.2455291748047"/>
+  <position name="Tess_Part_340" unit="mm" x="122.46036529541016" y="69.5" z="-167.09451293945312"/>
+  <position name="Tess_Part_341" unit="mm" x="85.51864624023438" y="69.5" z="236.40017700195312"/>
+  <position name="Tess_Part_342" unit="mm" x="102.66143798828125" y="69.5" z="226.88609313964844"/>
+  <position name="Tess_Part_343" unit="mm" x="116.17041778564453" y="69.5" z="209.88206481933594"/>
+  <position name="Tess_Part_344" unit="mm" x="68.20306396484375" y="69.5" z="238.5736541748047"/>
+  <position name="Tess_Part_345" unit="mm" x="50.5408935546875" y="69.5" z="251.16671752929688"/>
+  <position name="Tess_Part_346" unit="mm" x="18.477155685424805" y="69.5" z="247.650390625"/>
+  <position name="Tess_Part_347" unit="mm" x="-43.0826530456543" y="69.5" z="245.7457733154297"/>
+  <position name="Tess_Part_348" unit="mm" x="-66.48382568359375" y="69.5" z="241.8317413330078"/>
+  <position name="Tess_Part_349" unit="mm" x="-116.02833557128906" y="69.5" z="208.47763061523438"/>
+  <position name="Tess_Part_350" unit="mm" x="-106.22627258300781" y="69.5" z="227.51947021484375"/>
+  <position name="Tess_Part_351" unit="mm" x="-87.97976684570312" y="69.5" z="238.3184356689453"/>
+  <position name="Tess_Part_352" unit="mm" x="22.11638832092285" y="69.5" z="277.42724609375"/>
+  <position name="Tess_Part_353" unit="mm" x="120.87242889404297" y="69.5" z="191.19290161132812"/>
+  <position name="Tess_Part_354" unit="mm" x="143.321533203125" y="69.5" z="244.7370147705078"/>
+  <position name="Tess_Part_355" unit="mm" x="-43.133766174316406" y="69.5" z="-274.9833679199219"/>
+  <position name="Tess_Part_356" unit="mm" x="77.33151245117188" y="69.5" z="-274.54730224609375"/>
+  <position name="Tess_Part_357" unit="mm" x="-139.05758666992188" y="69.5" z="-160.060546875"/>
+  <position name="Tess_Part_358" unit="mm" x="-9.875924110412598" y="69.5" z="-255.90220642089844"/>
+  <position name="Tess_Part_359" unit="mm" x="141.24427795410156" y="69.5" z="-142.78599548339844"/>
+  <position name="Tess_Part_360" unit="mm" x="-13.209691047668457" y="69.5" z="250.84732055664062"/>
+  <position name="Tess_Part_361" unit="mm" x="123.75916290283203" y="69.5" z="228.81056213378906"/>
+  <position name="Tess_Part_362" unit="mm" x="136.0991973876953" y="69.5" z="173.46685791015625"/>
+  <position name="Tess_Part_363" unit="mm" x="147.1136932373047" y="69.5" z="-206.11903381347656"/>
+  <position name="Tess_Part_364" unit="mm" x="138.3199462890625" y="69.5" z="-264.5380859375"/>
+  <position name="Tess_Part_365" unit="mm" x="46.03765869140625" y="69.5" z="-276.1656494140625"/>
+  <position name="Tess_Part_366" unit="mm" x="-134.06166076660156" y="69.5" z="199.95352172851562"/>
+  <position name="Tess_Part_367" unit="mm" x="127.34635925292969" y="69.5" z="-223.8297119140625"/>
+  <position name="Tess_Part_368" unit="mm" x="146.3824462890625" y="69.5" z="-174.97161865234375"/>
+  <position name="Tess_Part_369" unit="mm" x="-80.16084289550781" y="69.5" z="257.3975524902344"/>
+  <position name="Tess_Part_370" unit="mm" x="103.90401458740234" y="69.5" z="250.64256286621094"/>
+  <position name="Tess_Part_371" unit="mm" x="-59.237979888916016" y="69.5" z="261.5091857910156"/>
+  <position name="Tess_Part_372" unit="mm" x="77.57234191894531" y="69.5" z="253.0399627685547"/>
+  <position name="Tess_Part_373" unit="mm" x="117.83221435546875" y="69.5" z="-244.78318786621094"/>
+  <position name="Tess_Part_374" unit="mm" x="-141.31414794921875" y="1.6274200677871704" z="-297.4234924316406"/>
+  <position name="Tess_Part_375" unit="mm" x="-158.25405883789062" y="-34.942039489746094" z="-284.63128662109375"/>
+  <position name="Tess_Part_376" unit="mm" x="-171.46002197265625" y="1.6327300071716309" z="-267.4400939941406"/>
+  <position name="Tess_Part_377" unit="mm" x="-158.2277069091797" y="36.07891082763672" z="-284.6573486328125"/>
+  <position name="Tess_Part_378" unit="mm" x="51.85014343261719" y="7.990675449371338" z="-307.75"/>
+  <position name="Tess_Part_379" unit="mm" x="-27.087045669555664" y="-30.512819290161133" z="-307.75"/>
+  <position name="Tess_Part_380" unit="mm" x="-61.51581573486328" y="-1.5731327533721924" z="-307.75"/>
+  <position name="Tess_Part_381" unit="mm" x="-15.65009593963623" y="16.831350326538086" z="-307.75"/>
+  <position name="Tess_Part_382" unit="mm" x="18.30452537536621" y="-27.29371452331543" z="-307.75"/>
+  <position name="Tess_Part_383" unit="mm" x="171.7476348876953" y="0.04449141025543213" z="-266.9324951171875"/>
+  <position name="Tess_Part_384" unit="mm" x="157.6512908935547" y="-34.320289611816406" z="-285.2211608886719"/>
+  <position name="Tess_Part_385" unit="mm" x="141.01443481445312" y="0.2801366448402405" z="-297.5917663574219"/>
+  <position name="Tess_Part_386" unit="mm" x="159.19297790527344" y="34.748870849609375" z="-283.6871337890625"/>
+  <position name="Tess_Part_387" unit="mm" x="182.0" y="0.6862143874168396" z="191.1155242919922"/>
+  <position name="Tess_Part_388" unit="mm" x="182.0" y="6.4944868087768555" z="-137.91693115234375"/>
+  <position name="Tess_Part_389" unit="mm" x="182.0" y="0.8565106391906738" z="-63.364253997802734"/>
+  <position name="Tess_Part_390" unit="mm" x="182.0" y="0.15554718673229218" z="21.30474090576172"/>
+  <position name="Tess_Part_391" unit="mm" x="182.0" y="0.7540842294692993" z="100.52452850341797"/>
+  <position name="Tess_Part_392" unit="mm" x="182.0" y="-7.134184837341309" z="-186.92388916015625"/>
+  <position name="Tess_Part_393" unit="mm" x="182.0" y="31.99012565612793" z="-186.2346954345703"/>
+  <position name="Tess_Part_394" unit="mm" x="182.0" y="-21.531166076660156" z="154.36965942382812"/>
+  <position name="Tess_Part_395" unit="mm" x="182.0" y="24.904741287231445" z="154.74574279785156"/>
+  <position name="Tess_Part_396" unit="mm" x="153.47906494140625" y="-28.188013076782227" z="288.9864807128906"/>
+  <position name="Tess_Part_397" unit="mm" x="176.1752471923828" y="-36.11664962768555" z="257.7171936035156"/>
+  <position name="Tess_Part_398" unit="mm" x="173.10243225097656" y="5.106357574462891" z="264.4166564941406"/>
+  <position name="Tess_Part_399" unit="mm" x="144.688720703125" y="17.7992000579834" z="295.40850830078125"/>
+  <position name="Tess_Part_400" unit="mm" x="-99.85344696044922" y="-44.255828857421875" z="208.3750762939453"/>
+  <position name="Tess_Part_401" unit="mm" x="-99.19152069091797" y="-30.556610107421875" z="209.62889099121094"/>
+  <position name="Tess_Part_402" unit="mm" x="-98.9664306640625" y="-15.530902862548828" z="210.02479553222656"/>
+  <position name="Tess_Part_403" unit="mm" x="-99.00214385986328" y="0.09205500781536102" z="209.96290588378906"/>
+  <position name="Tess_Part_404" unit="mm" x="-99.10826873779297" y="15.587719917297363" z="209.77694702148438"/>
+  <position name="Tess_Part_405" unit="mm" x="-99.25230407714844" y="31.356651306152344" z="209.51951599121094"/>
+  <position name="Tess_Part_406" unit="mm" x="-100.06311798095703" y="46.22523498535156" z="207.94557189941406"/>
+  <position name="Tess_Part_407" unit="mm" x="-101.10929870605469" y="59.02152633666992" z="205.4817657470703"/>
+  <position name="Tess_Part_408" unit="mm" x="-94.34181213378906" y="-55.83230972290039" z="216.0838165283203"/>
+  <position name="Tess_Part_409" unit="mm" x="-89.14421081542969" y="-40.55970764160156" z="220.28565979003906"/>
+  <position name="Tess_Part_410" unit="mm" x="-88.08819580078125" y="-24.32540512084961" z="220.9296417236328"/>
+  <position name="Tess_Part_411" unit="mm" x="-87.89091491699219" y="-7.909337997436523" z="221.04344177246094"/>
+  <position name="Tess_Part_412" unit="mm" x="-87.94778442382812" y="8.62158489227295" z="221.01083374023438"/>
+  <position name="Tess_Part_413" unit="mm" x="-88.22052764892578" y="25.06253433227539" z="220.85218811035156"/>
+  <position name="Tess_Part_414" unit="mm" x="-89.22069549560547" y="41.25017547607422" z="220.23666381835938"/>
+  <position name="Tess_Part_415" unit="mm" x="-93.08181762695312" y="56.46360397338867" z="217.2872314453125"/>
+  <position name="Tess_Part_416" unit="mm" x="36.52396774291992" y="52.922969818115234" z="225.0"/>
+  <position name="Tess_Part_417" unit="mm" x="9.846149444580078" y="47.94612121582031" z="225.0"/>
+  <position name="Tess_Part_418" unit="mm" x="-19.36207389831543" y="49.230003356933594" z="225.0"/>
+  <position name="Tess_Part_419" unit="mm" x="-41.40142822265625" y="56.24760818481445" z="225.0"/>
+  <position name="Tess_Part_420" unit="mm" x="57.587005615234375" y="-48.0393180847168" z="225.0"/>
+  <position name="Tess_Part_421" unit="mm" x="58.71919631958008" y="-30.869407653808594" z="225.0"/>
+  <position name="Tess_Part_422" unit="mm" x="58.805110931396484" y="-15.649676322937012" z="225.0"/>
+  <position name="Tess_Part_423" unit="mm" x="58.79267501831055" y="-0.47507405281066895" z="225.0"/>
+  <position name="Tess_Part_424" unit="mm" x="59.146629333496094" y="15.466182708740234" z="225.0"/>
+  <position name="Tess_Part_425" unit="mm" x="59.776676177978516" y="31.057159423828125" z="225.0"/>
+  <position name="Tess_Part_426" unit="mm" x="37.43556213378906" y="-52.24386978149414" z="225.0"/>
+  <position name="Tess_Part_427" unit="mm" x="10.479660987854004" y="-48.6878662109375" z="225.0"/>
+  <position name="Tess_Part_428" unit="mm" x="-18.259756088256836" y="-49.26918411254883" z="225.0"/>
+  <position name="Tess_Part_429" unit="mm" x="-41.11008071899414" y="-54.07687759399414" z="225.0"/>
+  <position name="Tess_Part_430" unit="mm" x="-57.44078063964844" y="-45.28242492675781" z="225.0"/>
+  <position name="Tess_Part_431" unit="mm" x="-57.243743896484375" y="-26.60651969909668" z="225.0"/>
+  <position name="Tess_Part_432" unit="mm" x="-57.027000427246094" y="-8.371684074401855" z="225.0"/>
+  <position name="Tess_Part_433" unit="mm" x="-57.350868225097656" y="9.04740047454834" z="225.0"/>
+  <position name="Tess_Part_434" unit="mm" x="-58.818031311035156" y="26.358097076416016" z="225.0"/>
+  <position name="Tess_Part_435" unit="mm" x="57.47987747192383" y="49.5014533996582" z="225.0"/>
+  <position name="Tess_Part_436" unit="mm" x="-61.51162338256836" y="41.4915771484375" z="225.0"/>
+  <position name="Tess_Part_437" unit="mm" x="-42.365379333496094" y="38.381046295166016" z="225.0"/>
+  <position name="Tess_Part_438" unit="mm" x="-12.637762069702148" y="19.296140670776367" z="225.0"/>
+  <position name="Tess_Part_439" unit="mm" x="43.61493682861328" y="-37.42203903198242" z="225.0"/>
+  <position name="Tess_Part_440" unit="mm" x="44.34269332885742" y="37.632354736328125" z="225.0"/>
+  <position name="Tess_Part_441" unit="mm" x="40.7564811706543" y="-21.80005645751953" z="225.0"/>
+  <position name="Tess_Part_442" unit="mm" x="43.81123352050781" y="-7.12227201461792" z="225.0"/>
+  <position name="Tess_Part_443" unit="mm" x="40.31666946411133" y="7.764553546905518" z="225.0"/>
+  <position name="Tess_Part_444" unit="mm" x="45.4779052734375" y="23.65802764892578" z="225.0"/>
+  <position name="Tess_Part_445" unit="mm" x="-11.48291301727295" y="-19.744474411010742" z="225.0"/>
+  <position name="Tess_Part_446" unit="mm" x="-58.44548034667969" y="55.15509033203125" z="225.0"/>
+  <position name="Tess_Part_447" unit="mm" x="-36.210636138916016" y="0.5949882864952087" z="225.0"/>
+  <position name="Tess_Part_448" unit="mm" x="-40.13289260864258" y="-17.669944763183594" z="225.0"/>
+  <position name="Tess_Part_449" unit="mm" x="-38.20579147338867" y="-35.66822052001953" z="225.0"/>
+  <position name="Tess_Part_450" unit="mm" x="-41.28303146362305" y="18.921110153198242" z="225.0"/>
+  <position name="Tess_Part_451" unit="mm" x="22.563547134399414" y="-31.205957412719727" z="225.0"/>
+  <position name="Tess_Part_452" unit="mm" x="22.320886611938477" y="26.096460342407227" z="225.0"/>
+  <position name="Tess_Part_453" unit="mm" x="19.514514923095703" y="-4.97776460647583" z="225.0"/>
+  <position name="Tess_Part_454" unit="mm" x="88.95845031738281" y="-45.44194412231445" z="220.40330505371094"/>
+  <position name="Tess_Part_455" unit="mm" x="88.50247192382812" y="-30.722883224487305" z="220.68411254882812"/>
+  <position name="Tess_Part_456" unit="mm" x="87.7940902709961" y="-15.596611976623535" z="221.0985565185547"/>
+  <position name="Tess_Part_457" unit="mm" x="85.3841781616211" y="-1.138176441192627" z="222.32456970214844"/>
+  <position name="Tess_Part_458" unit="mm" x="84.03376007080078" y="14.419007301330566" z="222.89724731445312"/>
+  <position name="Tess_Part_459" unit="mm" x="84.24747467041016" y="29.307586669921875" z="222.811767578125"/>
+  <position name="Tess_Part_460" unit="mm" x="86.03166961669922" y="44.0130729675293" z="222.02175903320312"/>
+  <position name="Tess_Part_461" unit="mm" x="88.14197540283203" y="57.792327880859375" z="220.8982696533203"/>
+  <position name="Tess_Part_462" unit="mm" x="91.0445785522461" y="-58.28085708618164" z="218.9665069580078"/>
+  <position name="Tess_Part_463" unit="mm" x="99.52533721923828" y="-55.085445404052734" z="209.01451110839844"/>
+  <position name="Tess_Part_464" unit="mm" x="99.22801971435547" y="-39.8179817199707" z="209.5633544921875"/>
+  <position name="Tess_Part_465" unit="mm" x="98.86579895019531" y="-24.04465103149414" z="210.19737243652344"/>
+  <position name="Tess_Part_466" unit="mm" x="98.43934631347656" y="-6.352783679962158" z="210.9009246826172"/>
+  <position name="Tess_Part_467" unit="mm" x="100.57465362548828" y="10.840446472167969" z="206.81687927246094"/>
+  <position name="Tess_Part_468" unit="mm" x="100.6935806274414" y="27.701045989990234" z="206.53541564941406"/>
+  <position name="Tess_Part_469" unit="mm" x="98.8260269165039" y="46.484336853027344" z="210.26487731933594"/>
+  <position name="Tess_Part_470" unit="mm" x="93.5208969116211" y="7.393535137176514" z="216.8836212158203"/>
+  <position name="Tess_Part_471" unit="mm" x="93.98719024658203" y="21.04092788696289" z="216.43682861328125"/>
+  <position name="Tess_Part_472" unit="mm" x="93.85489654541016" y="34.45599365234375" z="216.56556701660156"/>
+  <position name="Tess_Part_473" unit="mm" x="103.0" y="52.47467803955078" z="-158.94766235351562"/>
+  <position name="Tess_Part_474" unit="mm" x="103.0" y="41.185752868652344" z="-129.8286895751953"/>
+  <position name="Tess_Part_475" unit="mm" x="103.0" y="0.08803974837064743" z="0.4061480164527893"/>
+  <position name="Tess_Part_476" unit="mm" x="103.0" y="28.284854888916016" z="122.1615982055664"/>
+  <position name="Tess_Part_477" unit="mm" x="103.0" y="43.21710205078125" z="159.59323120117188"/>
+  <position name="Tess_Part_478" unit="mm" x="103.0" y="-48.60826110839844" z="-180.24880981445312"/>
+  <position name="Tess_Part_479" unit="mm" x="103.0" y="-31.54888916015625" z="-182.1330108642578"/>
+  <position name="Tess_Part_480" unit="mm" x="103.0" y="-15.371402740478516" z="-181.13133239746094"/>
+  <position name="Tess_Part_481" unit="mm" x="103.0" y="-0.18835583329200745" z="-179.948974609375"/>
+  <position name="Tess_Part_482" unit="mm" x="103.0" y="14.917766571044922" z="-181.43434143066406"/>
+  <position name="Tess_Part_483" unit="mm" x="103.0" y="30.659486770629883" z="-182.45132446289062"/>
+  <position name="Tess_Part_484" unit="mm" x="103.0" y="-52.3224983215332" z="-160.56715393066406"/>
+  <position name="Tess_Part_485" unit="mm" x="103.0" y="-49.703826904296875" z="-138.44540405273438"/>
+  <position name="Tess_Part_486" unit="mm" x="103.0" y="-20.66800880432129" z="80.42384338378906"/>
+  <position name="Tess_Part_487" unit="mm" x="103.0" y="-40.7078857421875" z="181.73385620117188"/>
+  <position name="Tess_Part_488" unit="mm" x="103.0" y="-26.70738410949707" z="182.9192657470703"/>
+  <position name="Tess_Part_489" unit="mm" x="103.0" y="-11.596514701843262" z="179.06753540039062"/>
+  <position name="Tess_Part_490" unit="mm" x="103.0" y="7.1269097328186035" z="177.5275421142578"/>
+  <position name="Tess_Part_491" unit="mm" x="103.0" y="26.73682403564453" z="177.3892059326172"/>
+  <position name="Tess_Part_492" unit="mm" x="103.0" y="45.41712951660156" z="180.4613800048828"/>
+  <position name="Tess_Part_493" unit="mm" x="103.0" y="2.203808307647705" z="-82.7601089477539"/>
+  <position name="Tess_Part_494" unit="mm" x="103.0" y="29.65365982055664" z="68.08354187011719"/>
+  <position name="Tess_Part_495" unit="mm" x="103.0" y="49.317996978759766" z="-179.81787109375"/>
+  <position name="Tess_Part_496" unit="mm" x="103.0" y="-52.582847595214844" z="172.1631622314453"/>
+  <position name="Tess_Part_497" unit="mm" x="103.0" y="-20.237918853759766" z="130.11497497558594"/>
+  <position name="Tess_Part_498" unit="mm" x="103.0" y="37.17515563964844" z="-167.86672973632812"/>
+  <position name="Tess_Part_499" unit="mm" x="103.0" y="-37.9731559753418" z="-167.46604919433594"/>
+  <position name="Tess_Part_500" unit="mm" x="103.0" y="-23.556428909301758" z="-167.9796600341797"/>
+  <position name="Tess_Part_501" unit="mm" x="103.0" y="-8.302443504333496" z="-160.96612548828125"/>
+  <position name="Tess_Part_502" unit="mm" x="103.0" y="8.610543251037598" z="-162.04672241210938"/>
+  <position name="Tess_Part_503" unit="mm" x="103.0" y="23.4591007232666" z="-168.75180053710938"/>
+  <position name="Tess_Part_504" unit="mm" x="103.0" y="-31.754613876342773" z="162.78372192382812"/>
+  <position name="Tess_Part_505" unit="mm" x="103.0" y="-8.205780029296875" z="160.50677490234375"/>
+  <position name="Tess_Part_506" unit="mm" x="103.0" y="15.060371398925781" z="153.28553771972656"/>
+  <position name="Tess_Part_507" unit="mm" x="103.0" y="-28.13611602783203" z="-147.6907501220703"/>
+  <position name="Tess_Part_508" unit="mm" x="103.0" y="27.558700561523438" z="-149.95274353027344"/>
+  <position name="Tess_Part_509" unit="mm" x="103.0" y="-26.165437698364258" z="-120.28473663330078"/>
+  <position name="Tess_Part_510" unit="mm" x="103.0" y="2.8114213943481445" z="-135.01268005371094"/>
+  <position name="Tess_Part_511" unit="mm" x="99.51304626464844" y="-48.406471252441406" z="-209.03775024414062"/>
+  <position name="Tess_Part_512" unit="mm" x="99.11155700683594" y="-32.01806640625" z="-209.77113342285156"/>
+  <position name="Tess_Part_513" unit="mm" x="99.2944564819336" y="-16.071352005004883" z="-209.4430389404297"/>
+  <position name="Tess_Part_514" unit="mm" x="100.57144165039062" y="-1.6818208694458008" z="-206.82437133789062"/>
+  <position name="Tess_Part_515" unit="mm" x="99.31995391845703" y="12.298051834106445" z="-209.39651489257812"/>
+  <position name="Tess_Part_516" unit="mm" x="99.00337219238281" y="28.843828201293945" z="-209.9607696533203"/>
+  <position name="Tess_Part_517" unit="mm" x="99.41464233398438" y="46.64852523803711" z="-209.2220458984375"/>
+  <position name="Tess_Part_518" unit="mm" x="90.96012878417969" y="-55.87333679199219" z="-219.02984619140625"/>
+  <position name="Tess_Part_519" unit="mm" x="88.4718017578125" y="-40.64400100708008" z="-220.7025909423828"/>
+  <position name="Tess_Part_520" unit="mm" x="88.12909698486328" y="-23.947704315185547" z="-220.90579223632812"/>
+  <position name="Tess_Part_521" unit="mm" x="89.9319076538086" y="-4.553864002227783" z="-219.76510620117188"/>
+  <position name="Tess_Part_522" unit="mm" x="88.23027801513672" y="15.063787460327148" z="-220.84645080566406"/>
+  <position name="Tess_Part_523" unit="mm" x="87.54563903808594" y="35.39350128173828" z="-221.2378387451172"/>
+  <position name="Tess_Part_524" unit="mm" x="90.56993865966797" y="54.029136657714844" z="-219.3166046142578"/>
+  <position name="Tess_Part_525" unit="mm" x="-32.331565856933594" y="47.89126205444336" z="-225.0"/>
+  <position name="Tess_Part_526" unit="mm" x="-3.472963333129883" y="44.91437911987305" z="-225.0"/>
+  <position name="Tess_Part_527" unit="mm" x="29.736228942871094" y="46.660621643066406" z="-225.0"/>
+  <position name="Tess_Part_528" unit="mm" x="-62.12777328491211" y="-41.676719665527344" z="-225.0"/>
+  <position name="Tess_Part_529" unit="mm" x="-60.226043701171875" y="-26.386343002319336" z="-225.0"/>
+  <position name="Tess_Part_530" unit="mm" x="-58.98337936401367" y="-9.134029388427734" z="-225.0"/>
+  <position name="Tess_Part_531" unit="mm" x="-58.59489440917969" y="7.765639305114746" z="-225.0"/>
+  <position name="Tess_Part_532" unit="mm" x="-58.487281799316406" y="25.567058563232422" z="-225.0"/>
+  <position name="Tess_Part_533" unit="mm" x="-55.904483795166016" y="44.61711502075195" z="-225.0"/>
+  <position name="Tess_Part_534" unit="mm" x="-34.77468490600586" y="-50.83964538574219" z="-225.0"/>
+  <position name="Tess_Part_535" unit="mm" x="-5.708744525909424" y="-45.51406478881836" z="-225.0"/>
+  <position name="Tess_Part_536" unit="mm" x="23.63802719116211" y="-48.55609130859375" z="-225.0"/>
+  <position name="Tess_Part_537" unit="mm" x="55.86565017700195" y="-25.881860733032227" z="-225.0"/>
+  <position name="Tess_Part_538" unit="mm" x="56.58587646484375" y="-7.4714484214782715" z="-225.0"/>
+  <position name="Tess_Part_539" unit="mm" x="57.768741607666016" y="9.22913646697998" z="-225.0"/>
+  <position name="Tess_Part_540" unit="mm" x="49.7254753112793" y="26.834882736206055" z="-225.0"/>
+  <position name="Tess_Part_541" unit="mm" x="54.42967224121094" y="46.179176330566406" z="-225.0"/>
+  <position name="Tess_Part_542" unit="mm" x="52.732139587402344" y="-45.827613830566406" z="-225.0"/>
+  <position name="Tess_Part_543" unit="mm" x="-57.060325622558594" y="-54.921142578125" z="-225.0"/>
+  <position name="Tess_Part_544" unit="mm" x="15.840865135192871" y="20.927391052246094" z="-225.0"/>
+  <position name="Tess_Part_545" unit="mm" x="-45.921939849853516" y="-37.028751373291016" z="-225.0"/>
+  <position name="Tess_Part_546" unit="mm" x="35.83814239501953" y="-30.938426971435547" z="-225.0"/>
+  <position name="Tess_Part_547" unit="mm" x="-45.0941047668457" y="-19.086496353149414" z="-225.0"/>
+  <position name="Tess_Part_548" unit="mm" x="-39.79759216308594" y="-1.9315470457077026" z="-225.0"/>
+  <position name="Tess_Part_549" unit="mm" x="-43.34523391723633" y="15.466556549072266" z="-225.0"/>
+  <position name="Tess_Part_550" unit="mm" x="-41.52470397949219" y="31.750226974487305" z="-225.0"/>
+  <position name="Tess_Part_551" unit="mm" x="37.01238250732422" y="5.8036580085754395" z="-225.0"/>
+  <position name="Tess_Part_552" unit="mm" x="39.195045471191406" y="-13.959917068481445" z="-225.0"/>
+  <position name="Tess_Part_553" unit="mm" x="10.57717514038086" y="-14.542221069335938" z="-225.0"/>
+  <position name="Tess_Part_554" unit="mm" x="-23.128503799438477" y="-21.822237014770508" z="-225.0"/>
+  <position name="Tess_Part_555" unit="mm" x="-18.563941955566406" y="16.19331932067871" z="-225.0"/>
+  <position name="Tess_Part_556" unit="mm" x="-88.85550689697266" y="-44.215030670166016" z="-220.46768188476562"/>
+  <position name="Tess_Part_557" unit="mm" x="-87.95123291015625" y="-28.33380126953125" z="-221.00885009765625"/>
+  <position name="Tess_Part_558" unit="mm" x="-87.6758804321289" y="-11.28432559967041" z="-221.16522216796875"/>
+  <position name="Tess_Part_559" unit="mm" x="-88.13528442382812" y="5.991034507751465" z="-220.90219116210938"/>
+  <position name="Tess_Part_560" unit="mm" x="-88.14514923095703" y="23.294654846191406" z="-220.89642333984375"/>
+  <position name="Tess_Part_561" unit="mm" x="-87.87752532958984" y="40.119808197021484" z="-221.05108642578125"/>
+  <position name="Tess_Part_562" unit="mm" x="-87.97784423828125" y="56.695823669433594" z="-220.99354553222656"/>
+  <position name="Tess_Part_563" unit="mm" x="-90.81181335449219" y="-57.6588134765625" z="-219.13998413085938"/>
+  <position name="Tess_Part_564" unit="mm" x="-99.3555679321289" y="-54.474727630615234" z="-209.33123779296875"/>
+  <position name="Tess_Part_565" unit="mm" x="-99.07432556152344" y="-38.96099853515625" z="-209.83676147460938"/>
+  <position name="Tess_Part_566" unit="mm" x="-98.89569091796875" y="-22.68125343322754" z="-210.14639282226562"/>
+  <position name="Tess_Part_567" unit="mm" x="-98.86375427246094" y="-5.3254852294921875" z="-210.20086669921875"/>
+  <position name="Tess_Part_568" unit="mm" x="-98.92403411865234" y="11.627957344055176" z="-210.0978240966797"/>
+  <position name="Tess_Part_569" unit="mm" x="-98.97502899169922" y="29.256460189819336" z="-210.00991821289062"/>
+  <position name="Tess_Part_570" unit="mm" x="-98.90133666992188" y="47.30229949951172" z="-210.13673400878906"/>
+  <position name="Tess_Part_571" unit="mm" x="-103.0" y="38.43389129638672" z="154.10704040527344"/>
+  <position name="Tess_Part_572" unit="mm" x="-103.0" y="-0.48820921778678894" z="48.52592849731445"/>
+  <position name="Tess_Part_573" unit="mm" x="-103.0" y="26.013139724731445" z="-109.70801544189453"/>
+  <position name="Tess_Part_574" unit="mm" x="-103.0" y="36.16842269897461" z="-150.29013061523438"/>
+  <position name="Tess_Part_575" unit="mm" x="-103.0" y="-45.70437240600586" z="176.78512573242188"/>
+  <position name="Tess_Part_576" unit="mm" x="-103.0" y="-30.483722686767578" z="182.4998321533203"/>
+  <position name="Tess_Part_577" unit="mm" x="-103.0" y="-15.799360275268555" z="181.1916961669922"/>
+  <position name="Tess_Part_578" unit="mm" x="-103.0" y="0.5184183120727539" z="181.53578186035156"/>
+  <position name="Tess_Part_579" unit="mm" x="-103.0" y="15.24610710144043" z="183.17039489746094"/>
+  <position name="Tess_Part_580" unit="mm" x="-103.0" y="30.370458602905273" z="178.8763885498047"/>
+  <position name="Tess_Part_581" unit="mm" x="-103.0" y="47.55926513671875" z="179.4297637939453"/>
+  <position name="Tess_Part_582" unit="mm" x="-103.0" y="-28.825246810913086" z="110.740478515625"/>
+  <position name="Tess_Part_583" unit="mm" x="-103.0" y="-0.5831360816955566" z="-47.6529655456543"/>
+  <position name="Tess_Part_584" unit="mm" x="-103.0" y="-28.779434204101562" z="-108.19395446777344"/>
+  <position name="Tess_Part_585" unit="mm" x="-103.0" y="-40.60081100463867" z="-145.22666931152344"/>
+  <position name="Tess_Part_586" unit="mm" x="-103.0" y="-25.25006675720215" z="-180.318115234375"/>
+  <position name="Tess_Part_587" unit="mm" x="-103.0" y="-7.9905476570129395" z="-178.34835815429688"/>
+  <position name="Tess_Part_588" unit="mm" x="-103.0" y="8.706507682800293" z="-180.9342803955078"/>
+  <position name="Tess_Part_589" unit="mm" x="-103.0" y="25.673133850097656" z="-175.80308532714844"/>
+  <position name="Tess_Part_590" unit="mm" x="-103.0" y="44.877037048339844" z="-176.69625854492188"/>
+  <position name="Tess_Part_591" unit="mm" x="-103.0" y="26.1274471282959" z="112.93350219726562"/>
+  <position name="Tess_Part_592" unit="mm" x="-103.0" y="-43.42219543457031" z="150.34181213378906"/>
+  <position name="Tess_Part_593" unit="mm" x="-103.0" y="-43.19630813598633" z="-174.12403869628906"/>
+  <position name="Tess_Part_594" unit="mm" x="-103.0" y="-3.1042990684509277" z="-135.4239044189453"/>
+  <position name="Tess_Part_595" unit="mm" x="-103.0" y="-26.353816986083984" z="164.56475830078125"/>
+  <position name="Tess_Part_596" unit="mm" x="-103.0" y="-7.241393089294434" z="165.44483947753906"/>
+  <position name="Tess_Part_597" unit="mm" x="-103.0" y="14.143691062927246" z="165.20834350585938"/>
+  <position name="Tess_Part_598" unit="mm" x="-103.0" y="6.897849082946777" z="-161.17486572265625"/>
+  <position name="Tess_Part_599" unit="mm" x="-103.0" y="-19.097244262695312" z="-160.4115447998047"/>
+  <position name="Tess_Part_600" unit="mm" x="-103.0" y="-4.848555564880371" z="141.00863647460938"/>
+  </define>
+<materials>
+</materials>
+<solids>
+    <box name="WorldBox" x="1000" y="1000" z="1000" lunit="mm"/>
+  <tessellated name="Tess_Part">
+      <triangular vertex1="Tess_Part_32" vertex2="Tess_Part_3" vertex3="Tess_Part_35" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_33" vertex2="Tess_Part_32" vertex3="Tess_Part_226" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_34" vertex2="Tess_Part_33" vertex3="Tess_Part_227" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_33" vertex2="Tess_Part_226" vertex3="Tess_Part_227" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_2" vertex2="Tess_Part_34" vertex3="Tess_Part_39" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_39" vertex2="Tess_Part_34" vertex3="Tess_Part_227" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_35" vertex2="Tess_Part_36" vertex3="Tess_Part_228" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_36" vertex2="Tess_Part_1" vertex3="Tess_Part_229" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_228" vertex2="Tess_Part_36" vertex3="Tess_Part_229" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_1" vertex2="Tess_Part_37" vertex3="Tess_Part_229" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_37" vertex2="Tess_Part_38" vertex3="Tess_Part_230" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_37" vertex2="Tess_Part_230" vertex3="Tess_Part_229" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_38" vertex2="Tess_Part_0" vertex3="Tess_Part_40" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_38" vertex2="Tess_Part_40" vertex3="Tess_Part_230" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_35" vertex2="Tess_Part_228" vertex3="Tess_Part_226" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_35" vertex2="Tess_Part_226" vertex3="Tess_Part_32" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_40" vertex2="Tess_Part_39" vertex3="Tess_Part_231" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_230" vertex2="Tess_Part_40" vertex3="Tess_Part_231" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_231" vertex2="Tess_Part_39" vertex3="Tess_Part_227" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_226" vertex2="Tess_Part_228" vertex3="Tess_Part_232" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_226" vertex2="Tess_Part_232" vertex3="Tess_Part_227" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_228" vertex2="Tess_Part_229" vertex3="Tess_Part_232" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_229" vertex2="Tess_Part_230" vertex3="Tess_Part_232" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_230" vertex2="Tess_Part_231" vertex3="Tess_Part_232" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_231" vertex2="Tess_Part_227" vertex3="Tess_Part_232" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_41" vertex2="Tess_Part_5" vertex3="Tess_Part_49" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_42" vertex2="Tess_Part_41" vertex3="Tess_Part_233" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_4" vertex2="Tess_Part_42" vertex3="Tess_Part_56" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_43" vertex2="Tess_Part_3" vertex3="Tess_Part_32" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_44" vertex2="Tess_Part_43" vertex3="Tess_Part_234" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_45" vertex2="Tess_Part_44" vertex3="Tess_Part_235" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_44" vertex2="Tess_Part_234" vertex3="Tess_Part_235" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_47" vertex2="Tess_Part_46" vertex3="Tess_Part_236" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_32" vertex2="Tess_Part_33" vertex3="Tess_Part_237" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_33" vertex2="Tess_Part_34" vertex3="Tess_Part_238" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_33" vertex2="Tess_Part_238" vertex3="Tess_Part_237" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_34" vertex2="Tess_Part_2" vertex3="Tess_Part_50" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_50" vertex2="Tess_Part_51" vertex3="Tess_Part_239" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_51" vertex2="Tess_Part_52" vertex3="Tess_Part_240" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_51" vertex2="Tess_Part_240" vertex3="Tess_Part_239" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_53" vertex2="Tess_Part_54" vertex3="Tess_Part_236" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_43" vertex2="Tess_Part_32" vertex3="Tess_Part_234" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_41" vertex2="Tess_Part_49" vertex3="Tess_Part_233" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_56" vertex2="Tess_Part_42" vertex3="Tess_Part_233" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_56" vertex2="Tess_Part_233" vertex3="Tess_Part_241" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_56" vertex2="Tess_Part_241" vertex3="Tess_Part_55" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_233" vertex2="Tess_Part_49" vertex3="Tess_Part_241" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_236" vertex2="Tess_Part_46" vertex3="Tess_Part_242" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_53" vertex2="Tess_Part_236" vertex3="Tess_Part_242" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_46" vertex2="Tess_Part_45" vertex3="Tess_Part_242" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_32" vertex2="Tess_Part_237" vertex3="Tess_Part_234" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_48" vertex2="Tess_Part_47" vertex3="Tess_Part_243" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_49" vertex2="Tess_Part_48" vertex3="Tess_Part_241" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_55" vertex2="Tess_Part_241" vertex3="Tess_Part_54" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_47" vertex2="Tess_Part_236" vertex3="Tess_Part_243" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_52" vertex2="Tess_Part_53" vertex3="Tess_Part_242" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_34" vertex2="Tess_Part_50" vertex3="Tess_Part_238" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_238" vertex2="Tess_Part_50" vertex3="Tess_Part_239" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_235" vertex2="Tess_Part_234" vertex3="Tess_Part_244" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_234" vertex2="Tess_Part_237" vertex3="Tess_Part_244" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_241" vertex2="Tess_Part_48" vertex3="Tess_Part_243" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_237" vertex2="Tess_Part_238" vertex3="Tess_Part_244" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_236" vertex2="Tess_Part_54" vertex3="Tess_Part_243" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_238" vertex2="Tess_Part_239" vertex3="Tess_Part_244" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_243" vertex2="Tess_Part_54" vertex3="Tess_Part_241" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_242" vertex2="Tess_Part_45" vertex3="Tess_Part_240" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_52" vertex2="Tess_Part_242" vertex3="Tess_Part_240" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_239" vertex2="Tess_Part_240" vertex3="Tess_Part_244" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_244" vertex2="Tess_Part_240" vertex3="Tess_Part_235" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_45" vertex2="Tess_Part_235" vertex3="Tess_Part_240" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_3" vertex2="Tess_Part_43" vertex3="Tess_Part_245" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_43" vertex2="Tess_Part_44" vertex3="Tess_Part_246" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_43" vertex2="Tess_Part_246" vertex3="Tess_Part_245" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_45" vertex2="Tess_Part_46" vertex3="Tess_Part_102" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_46" vertex2="Tess_Part_47" vertex3="Tess_Part_103" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_47" vertex2="Tess_Part_48" vertex3="Tess_Part_104" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_49" vertex2="Tess_Part_5" vertex3="Tess_Part_247" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_57" vertex2="Tess_Part_18" vertex3="Tess_Part_248" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_58" vertex2="Tess_Part_57" vertex3="Tess_Part_248" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_5" vertex2="Tess_Part_58" vertex3="Tess_Part_249" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_247" vertex2="Tess_Part_5" vertex3="Tess_Part_249" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_58" vertex2="Tess_Part_248" vertex3="Tess_Part_249" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_59" vertex2="Tess_Part_60" vertex3="Tess_Part_250" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_61" vertex2="Tess_Part_17" vertex3="Tess_Part_251" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_62" vertex2="Tess_Part_16" vertex3="Tess_Part_252" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_17" vertex2="Tess_Part_63" vertex3="Tess_Part_253" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_251" vertex2="Tess_Part_17" vertex3="Tess_Part_253" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_63" vertex2="Tess_Part_62" vertex3="Tess_Part_253" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_65" vertex2="Tess_Part_66" vertex3="Tess_Part_87" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_66" vertex2="Tess_Part_67" vertex3="Tess_Part_88" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_67" vertex2="Tess_Part_68" vertex3="Tess_Part_89" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_69" vertex2="Tess_Part_15" vertex3="Tess_Part_254" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_70" vertex2="Tess_Part_14" vertex3="Tess_Part_255" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_71" vertex2="Tess_Part_70" vertex3="Tess_Part_256" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_15" vertex2="Tess_Part_71" vertex3="Tess_Part_256" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_70" vertex2="Tess_Part_255" vertex3="Tess_Part_256" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_14" vertex2="Tess_Part_72" vertex3="Tess_Part_257" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_14" vertex2="Tess_Part_257" vertex3="Tess_Part_255" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_73" vertex2="Tess_Part_74" vertex3="Tess_Part_258" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_74" vertex2="Tess_Part_1" vertex3="Tess_Part_259" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_74" vertex2="Tess_Part_259" vertex3="Tess_Part_258" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_35" vertex2="Tess_Part_3" vertex3="Tess_Part_260" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_3" vertex2="Tess_Part_245" vertex3="Tess_Part_260" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_36" vertex2="Tess_Part_35" vertex3="Tess_Part_260" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_1" vertex2="Tess_Part_36" vertex3="Tess_Part_261" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_259" vertex2="Tess_Part_1" vertex3="Tess_Part_261" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_36" vertex2="Tess_Part_260" vertex3="Tess_Part_261" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_262" vertex2="Tess_Part_288" vertex3="Tess_Part_75" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_75" vertex2="Tess_Part_76" vertex3="Tess_Part_263" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_76" vertex2="Tess_Part_12" vertex3="Tess_Part_264" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_77" vertex2="Tess_Part_11" vertex3="Tess_Part_265" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_78" vertex2="Tess_Part_77" vertex3="Tess_Part_266" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_77" vertex2="Tess_Part_265" vertex3="Tess_Part_266" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_79" vertex2="Tess_Part_78" vertex3="Tess_Part_267" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_78" vertex2="Tess_Part_266" vertex3="Tess_Part_267" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_81" vertex2="Tess_Part_80" vertex3="Tess_Part_268" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_12" vertex2="Tess_Part_81" vertex3="Tess_Part_269" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_12" vertex2="Tess_Part_269" vertex3="Tess_Part_264" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_11" vertex2="Tess_Part_82" vertex3="Tess_Part_270" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_82" vertex2="Tess_Part_83" vertex3="Tess_Part_271" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_83" vertex2="Tess_Part_10" vertex3="Tess_Part_272" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_84" vertex2="Tess_Part_9" vertex3="Tess_Part_273" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_85" vertex2="Tess_Part_84" vertex3="Tess_Part_274" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_84" vertex2="Tess_Part_273" vertex3="Tess_Part_274" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_87" vertex2="Tess_Part_86" vertex3="Tess_Part_65" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_88" vertex2="Tess_Part_87" vertex3="Tess_Part_66" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_89" vertex2="Tess_Part_88" vertex3="Tess_Part_67" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_91" vertex2="Tess_Part_90" vertex3="Tess_Part_275" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_10" vertex2="Tess_Part_91" vertex3="Tess_Part_276" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_10" vertex2="Tess_Part_276" vertex3="Tess_Part_272" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_9" vertex2="Tess_Part_92" vertex3="Tess_Part_277" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_92" vertex2="Tess_Part_93" vertex3="Tess_Part_278" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_93" vertex2="Tess_Part_8" vertex3="Tess_Part_279" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_94" vertex2="Tess_Part_7" vertex3="Tess_Part_280" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_95" vertex2="Tess_Part_94" vertex3="Tess_Part_281" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_94" vertex2="Tess_Part_280" vertex3="Tess_Part_281" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_96" vertex2="Tess_Part_95" vertex3="Tess_Part_282" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_97" vertex2="Tess_Part_96" vertex3="Tess_Part_283" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_96" vertex2="Tess_Part_282" vertex3="Tess_Part_283" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_8" vertex2="Tess_Part_97" vertex3="Tess_Part_284" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_7" vertex2="Tess_Part_98" vertex3="Tess_Part_285" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_98" vertex2="Tess_Part_99" vertex3="Tess_Part_286" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_99" vertex2="Tess_Part_6" vertex3="Tess_Part_287" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_100" vertex2="Tess_Part_13" vertex3="Tess_Part_288" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_102" vertex2="Tess_Part_101" vertex3="Tess_Part_45" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_103" vertex2="Tess_Part_102" vertex3="Tess_Part_46" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_104" vertex2="Tess_Part_103" vertex3="Tess_Part_47" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_105" vertex2="Tess_Part_104" vertex3="Tess_Part_48" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_6" vertex2="Tess_Part_106" vertex3="Tess_Part_289" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_59" vertex2="Tess_Part_250" vertex3="Tess_Part_290" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_279" vertex2="Tess_Part_8" vertex3="Tess_Part_284" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_18" vertex2="Tess_Part_59" vertex3="Tess_Part_290" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_62" vertex2="Tess_Part_252" vertex3="Tess_Part_253" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_279" vertex2="Tess_Part_304" vertex3="Tess_Part_93" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_91" vertex2="Tess_Part_275" vertex3="Tess_Part_276" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_69" vertex2="Tess_Part_254" vertex3="Tess_Part_291" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_68" vertex2="Tess_Part_69" vertex3="Tess_Part_291" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_15" vertex2="Tess_Part_256" vertex3="Tess_Part_254" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_262" vertex2="Tess_Part_75" vertex3="Tess_Part_263" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_11" vertex2="Tess_Part_270" vertex3="Tess_Part_265" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_263" vertex2="Tess_Part_76" vertex3="Tess_Part_264" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_81" vertex2="Tess_Part_268" vertex3="Tess_Part_269" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_80" vertex2="Tess_Part_79" vertex3="Tess_Part_292" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_270" vertex2="Tess_Part_82" vertex3="Tess_Part_271" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_83" vertex2="Tess_Part_272" vertex3="Tess_Part_271" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_285" vertex2="Tess_Part_98" vertex3="Tess_Part_286" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_86" vertex2="Tess_Part_85" vertex3="Tess_Part_293" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_280" vertex2="Tess_Part_7" vertex3="Tess_Part_285" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_90" vertex2="Tess_Part_89" vertex3="Tess_Part_68" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_278" vertex2="Tess_Part_306" vertex3="Tess_Part_92" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_18" vertex2="Tess_Part_290" vertex3="Tess_Part_248" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_95" vertex2="Tess_Part_281" vertex3="Tess_Part_282" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_97" vertex2="Tess_Part_283" vertex3="Tess_Part_284" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_99" vertex2="Tess_Part_287" vertex3="Tess_Part_286" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_101" vertex2="Tess_Part_100" vertex3="Tess_Part_294" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_106" vertex2="Tess_Part_105" vertex3="Tess_Part_295" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_13" vertex2="Tess_Part_75" vertex3="Tess_Part_288" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_6" vertex2="Tess_Part_289" vertex3="Tess_Part_287" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_80" vertex2="Tess_Part_292" vertex3="Tess_Part_268" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_9" vertex2="Tess_Part_277" vertex3="Tess_Part_273" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_106" vertex2="Tess_Part_295" vertex3="Tess_Part_289" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_245" vertex2="Tess_Part_246" vertex3="Tess_Part_262" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_48" vertex2="Tess_Part_49" vertex3="Tess_Part_295" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_279" vertex2="Tess_Part_284" vertex3="Tess_Part_251" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_61" vertex2="Tess_Part_251" vertex3="Tess_Part_296" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_60" vertex2="Tess_Part_61" vertex3="Tess_Part_296" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_64" vertex2="Tess_Part_65" vertex3="Tess_Part_293" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_255" vertex2="Tess_Part_257" vertex3="Tess_Part_270" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_257" vertex2="Tess_Part_72" vertex3="Tess_Part_297" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_72" vertex2="Tess_Part_73" vertex3="Tess_Part_297" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_260" vertex2="Tess_Part_245" vertex3="Tess_Part_262" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_269" vertex2="Tess_Part_268" vertex3="Tess_Part_259" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_79" vertex2="Tess_Part_267" vertex3="Tess_Part_292" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_267" vertex2="Tess_Part_266" vertex3="Tess_Part_297" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_273" vertex2="Tess_Part_277" vertex3="Tess_Part_298" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_259" vertex2="Tess_Part_302" vertex3="Tess_Part_269" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_271" vertex2="Tess_Part_272" vertex3="Tess_Part_299" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_65" vertex2="Tess_Part_86" vertex3="Tess_Part_293" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_85" vertex2="Tess_Part_274" vertex3="Tess_Part_293" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_280" vertex2="Tess_Part_285" vertex3="Tess_Part_290" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_272" vertex2="Tess_Part_276" vertex3="Tess_Part_300" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_248" vertex2="Tess_Part_290" vertex3="Tess_Part_285" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_284" vertex2="Tess_Part_283" vertex3="Tess_Part_296" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_286" vertex2="Tess_Part_287" vertex3="Tess_Part_249" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_294" vertex2="Tess_Part_100" vertex3="Tess_Part_288" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_253" vertex2="Tess_Part_252" vertex3="Tess_Part_278" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_246" vertex2="Tess_Part_44" vertex3="Tess_Part_294" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_290" vertex2="Tess_Part_250" vertex3="Tess_Part_280" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_296" vertex2="Tess_Part_251" vertex3="Tess_Part_284" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_250" vertex2="Tess_Part_60" vertex3="Tess_Part_296" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_252" vertex2="Tess_Part_16" vertex3="Tess_Part_301" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_73" vertex2="Tess_Part_258" vertex3="Tess_Part_297" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_263" vertex2="Tess_Part_264" vertex3="Tess_Part_302" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_301" vertex2="Tess_Part_16" vertex3="Tess_Part_64" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_252" vertex2="Tess_Part_301" vertex3="Tess_Part_298" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_257" vertex2="Tess_Part_297" vertex3="Tess_Part_266" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_248" vertex2="Tess_Part_285" vertex3="Tess_Part_286" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_301" vertex2="Tess_Part_64" vertex3="Tess_Part_303" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_301" vertex2="Tess_Part_303" vertex3="Tess_Part_298" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_295" vertex2="Tess_Part_49" vertex3="Tess_Part_247" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_268" vertex2="Tess_Part_292" vertex3="Tess_Part_258" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_268" vertex2="Tess_Part_258" vertex3="Tess_Part_259" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_248" vertex2="Tess_Part_286" vertex3="Tess_Part_249" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_105" vertex2="Tess_Part_48" vertex3="Tess_Part_295" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_279" vertex2="Tess_Part_251" vertex3="Tess_Part_304" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_247" vertex2="Tess_Part_249" vertex3="Tess_Part_287" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_64" vertex2="Tess_Part_293" vertex3="Tess_Part_303" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_257" vertex2="Tess_Part_266" vertex3="Tess_Part_265" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_293" vertex2="Tess_Part_274" vertex3="Tess_Part_303" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_281" vertex2="Tess_Part_280" vertex3="Tess_Part_250" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_255" vertex2="Tess_Part_270" vertex3="Tess_Part_305" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_265" vertex2="Tess_Part_270" vertex3="Tess_Part_257" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_292" vertex2="Tess_Part_267" vertex3="Tess_Part_297" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_264" vertex2="Tess_Part_269" vertex3="Tess_Part_302" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_299" vertex2="Tess_Part_272" vertex3="Tess_Part_300" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_303" vertex2="Tess_Part_274" vertex3="Tess_Part_273" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_247" vertex2="Tess_Part_287" vertex3="Tess_Part_289" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_281" vertex2="Tess_Part_250" vertex3="Tess_Part_282" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_303" vertex2="Tess_Part_273" vertex3="Tess_Part_298" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_276" vertex2="Tess_Part_275" vertex3="Tess_Part_300" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_260" vertex2="Tess_Part_262" vertex3="Tess_Part_261" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_294" vertex2="Tess_Part_288" vertex3="Tess_Part_246" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_90" vertex2="Tess_Part_68" vertex3="Tess_Part_275" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_271" vertex2="Tess_Part_299" vertex3="Tess_Part_305" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_255" vertex2="Tess_Part_305" vertex3="Tess_Part_256" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_277" vertex2="Tess_Part_92" vertex3="Tess_Part_306" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_277" vertex2="Tess_Part_306" vertex3="Tess_Part_298" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_596" vertex2="Tess_Part_595" vertex3="Tess_Part_600" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_251" vertex2="Tess_Part_253" vertex3="Tess_Part_304" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_305" vertex2="Tess_Part_270" vertex3="Tess_Part_271" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_291" vertex2="Tess_Part_254" vertex3="Tess_Part_300" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_68" vertex2="Tess_Part_291" vertex3="Tess_Part_275" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_44" vertex2="Tess_Part_45" vertex3="Tess_Part_294" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_291" vertex2="Tess_Part_300" vertex3="Tess_Part_275" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_246" vertex2="Tess_Part_288" vertex3="Tess_Part_262" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_300" vertex2="Tess_Part_254" vertex3="Tess_Part_299" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_254" vertex2="Tess_Part_256" vertex3="Tess_Part_299" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_294" vertex2="Tess_Part_45" vertex3="Tess_Part_101" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_278" vertex2="Tess_Part_93" vertex3="Tess_Part_304" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_289" vertex2="Tess_Part_295" vertex3="Tess_Part_247" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_304" vertex2="Tess_Part_253" vertex3="Tess_Part_278" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_250" vertex2="Tess_Part_296" vertex3="Tess_Part_283" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_292" vertex2="Tess_Part_297" vertex3="Tess_Part_258" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_278" vertex2="Tess_Part_252" vertex3="Tess_Part_306" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_256" vertex2="Tess_Part_305" vertex3="Tess_Part_299" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_306" vertex2="Tess_Part_252" vertex3="Tess_Part_298" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_259" vertex2="Tess_Part_261" vertex3="Tess_Part_302" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_592" vertex2="Tess_Part_600" vertex3="Tess_Part_595" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_283" vertex2="Tess_Part_282" vertex3="Tess_Part_250" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_261" vertex2="Tess_Part_262" vertex3="Tess_Part_263" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_263" vertex2="Tess_Part_302" vertex3="Tess_Part_261" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_37" vertex2="Tess_Part_1" vertex3="Tess_Part_74" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_38" vertex2="Tess_Part_37" vertex3="Tess_Part_307" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_0" vertex2="Tess_Part_38" vertex3="Tess_Part_308" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_111" vertex2="Tess_Part_0" vertex3="Tess_Part_308" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_38" vertex2="Tess_Part_307" vertex3="Tess_Part_308" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_72" vertex2="Tess_Part_14" vertex3="Tess_Part_107" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_73" vertex2="Tess_Part_72" vertex3="Tess_Part_309" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_72" vertex2="Tess_Part_107" vertex3="Tess_Part_309" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_107" vertex2="Tess_Part_108" vertex3="Tess_Part_309" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_108" vertex2="Tess_Part_19" vertex3="Tess_Part_109" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_589" vertex2="Tess_Part_574" vertex3="Tess_Part_598" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_111" vertex2="Tess_Part_308" vertex3="Tess_Part_110" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_37" vertex2="Tess_Part_74" vertex3="Tess_Part_307" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_108" vertex2="Tess_Part_109" vertex3="Tess_Part_309" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_74" vertex2="Tess_Part_73" vertex3="Tess_Part_310" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_73" vertex2="Tess_Part_309" vertex3="Tess_Part_310" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_109" vertex2="Tess_Part_110" vertex3="Tess_Part_309" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_307" vertex2="Tess_Part_74" vertex3="Tess_Part_310" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_308" vertex2="Tess_Part_307" vertex3="Tess_Part_311" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_110" vertex2="Tess_Part_308" vertex3="Tess_Part_311" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_307" vertex2="Tess_Part_310" vertex3="Tess_Part_311" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_310" vertex2="Tess_Part_309" vertex3="Tess_Part_311" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_311" vertex2="Tess_Part_309" vertex3="Tess_Part_110" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_599" vertex2="Tess_Part_598" vertex3="Tess_Part_594" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_2" vertex2="Tess_Part_39" vertex3="Tess_Part_312" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_39" vertex2="Tess_Part_40" vertex3="Tess_Part_313" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_39" vertex2="Tess_Part_313" vertex3="Tess_Part_312" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_40" vertex2="Tess_Part_0" vertex3="Tess_Part_313" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_109" vertex2="Tess_Part_19" vertex3="Tess_Part_314" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_111" vertex2="Tess_Part_110" vertex3="Tess_Part_315" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_0" vertex2="Tess_Part_111" vertex3="Tess_Part_316" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_313" vertex2="Tess_Part_0" vertex3="Tess_Part_316" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_111" vertex2="Tess_Part_315" vertex3="Tess_Part_316" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_19" vertex2="Tess_Part_112" vertex3="Tess_Part_317" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_314" vertex2="Tess_Part_19" vertex3="Tess_Part_317" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_112" vertex2="Tess_Part_113" vertex3="Tess_Part_317" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_116" vertex2="Tess_Part_115" vertex3="Tess_Part_145" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_117" vertex2="Tess_Part_116" vertex3="Tess_Part_146" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_118" vertex2="Tess_Part_117" vertex3="Tess_Part_147" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_31" vertex2="Tess_Part_119" vertex3="Tess_Part_318" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_30" vertex2="Tess_Part_120" vertex3="Tess_Part_319" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_121" vertex2="Tess_Part_29" vertex3="Tess_Part_320" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_122" vertex2="Tess_Part_28" vertex3="Tess_Part_321" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_28" vertex2="Tess_Part_125" vertex3="Tess_Part_322" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_28" vertex2="Tess_Part_322" vertex3="Tess_Part_321" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_125" vertex2="Tess_Part_126" vertex3="Tess_Part_322" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_126" vertex2="Tess_Part_4" vertex3="Tess_Part_323" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_322" vertex2="Tess_Part_126" vertex3="Tess_Part_323" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_4" vertex2="Tess_Part_56" vertex3="Tess_Part_323" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_50" vertex2="Tess_Part_2" vertex3="Tess_Part_324" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_2" vertex2="Tess_Part_312" vertex3="Tess_Part_324" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_51" vertex2="Tess_Part_50" vertex3="Tess_Part_325" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_50" vertex2="Tess_Part_324" vertex3="Tess_Part_325" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_52" vertex2="Tess_Part_51" vertex3="Tess_Part_326" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_51" vertex2="Tess_Part_325" vertex3="Tess_Part_326" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_54" vertex2="Tess_Part_53" vertex3="Tess_Part_130" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_55" vertex2="Tess_Part_54" vertex3="Tess_Part_131" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_27" vertex2="Tess_Part_127" vertex3="Tess_Part_327" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_127" vertex2="Tess_Part_128" vertex3="Tess_Part_325" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_128" vertex2="Tess_Part_129" vertex3="Tess_Part_326" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_129" vertex2="Tess_Part_130" vertex3="Tess_Part_53" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_130" vertex2="Tess_Part_131" vertex3="Tess_Part_54" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_131" vertex2="Tess_Part_132" vertex3="Tess_Part_55" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_133" vertex2="Tess_Part_26" vertex3="Tess_Part_328" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_134" vertex2="Tess_Part_25" vertex3="Tess_Part_329" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_135" vertex2="Tess_Part_134" vertex3="Tess_Part_330" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_26" vertex2="Tess_Part_135" vertex3="Tess_Part_331" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_25" vertex2="Tess_Part_136" vertex3="Tess_Part_332" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_136" vertex2="Tess_Part_137" vertex3="Tess_Part_333" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_136" vertex2="Tess_Part_333" vertex3="Tess_Part_332" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_138" vertex2="Tess_Part_139" vertex3="Tess_Part_334" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_139" vertex2="Tess_Part_24" vertex3="Tess_Part_335" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_140" vertex2="Tess_Part_23" vertex3="Tess_Part_336" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_141" vertex2="Tess_Part_140" vertex3="Tess_Part_337" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_24" vertex2="Tess_Part_141" vertex3="Tess_Part_338" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_23" vertex2="Tess_Part_142" vertex3="Tess_Part_339" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_142" vertex2="Tess_Part_143" vertex3="Tess_Part_340" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_142" vertex2="Tess_Part_340" vertex3="Tess_Part_339" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_144" vertex2="Tess_Part_145" vertex3="Tess_Part_115" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_145" vertex2="Tess_Part_146" vertex3="Tess_Part_116" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_146" vertex2="Tess_Part_147" vertex3="Tess_Part_117" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_148" vertex2="Tess_Part_149" vertex3="Tess_Part_362" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_150" vertex2="Tess_Part_21" vertex3="Tess_Part_341" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_151" vertex2="Tess_Part_150" vertex3="Tess_Part_342" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_22" vertex2="Tess_Part_151" vertex3="Tess_Part_343" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_21" vertex2="Tess_Part_152" vertex3="Tess_Part_344" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_152" vertex2="Tess_Part_153" vertex3="Tess_Part_345" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_152" vertex2="Tess_Part_345" vertex3="Tess_Part_344" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_153" vertex2="Tess_Part_154" vertex3="Tess_Part_346" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_153" vertex2="Tess_Part_346" vertex3="Tess_Part_345" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_155" vertex2="Tess_Part_156" vertex3="Tess_Part_347" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_156" vertex2="Tess_Part_20" vertex3="Tess_Part_348" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_156" vertex2="Tess_Part_348" vertex3="Tess_Part_347" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_157" vertex2="Tess_Part_27" vertex3="Tess_Part_349" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_158" vertex2="Tess_Part_157" vertex3="Tess_Part_350" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_20" vertex2="Tess_Part_158" vertex3="Tess_Part_351" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_110" vertex2="Tess_Part_109" vertex3="Tess_Part_352" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_315" vertex2="Tess_Part_110" vertex3="Tess_Part_352" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_109" vertex2="Tess_Part_314" vertex3="Tess_Part_352" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_362" vertex2="Tess_Part_149" vertex3="Tess_Part_353" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_343" vertex2="Tess_Part_151" vertex3="Tess_Part_342" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_342" vertex2="Tess_Part_150" vertex3="Tess_Part_341" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_113" vertex2="Tess_Part_31" vertex3="Tess_Part_354" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_118" vertex2="Tess_Part_147" vertex3="Tess_Part_148" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_31" vertex2="Tess_Part_318" vertex3="Tess_Part_354" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_122" vertex2="Tess_Part_321" vertex3="Tess_Part_355" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_123" vertex2="Tess_Part_122" vertex3="Tess_Part_355" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_29" vertex2="Tess_Part_124" vertex3="Tess_Part_356" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_329" vertex2="Tess_Part_25" vertex3="Tess_Part_332" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_331" vertex2="Tess_Part_135" vertex3="Tess_Part_330" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_27" vertex2="Tess_Part_327" vertex3="Tess_Part_349" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_128" vertex2="Tess_Part_326" vertex3="Tess_Part_325" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_129" vertex2="Tess_Part_53" vertex3="Tess_Part_326" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_330" vertex2="Tess_Part_134" vertex3="Tess_Part_329" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_328" vertex2="Tess_Part_26" vertex3="Tess_Part_331" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_132" vertex2="Tess_Part_133" vertex3="Tess_Part_357" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_334" vertex2="Tess_Part_139" vertex3="Tess_Part_335" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_137" vertex2="Tess_Part_138" vertex3="Tess_Part_358" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_140" vertex2="Tess_Part_336" vertex3="Tess_Part_337" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_141" vertex2="Tess_Part_337" vertex3="Tess_Part_338" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_24" vertex2="Tess_Part_338" vertex3="Tess_Part_335" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_23" vertex2="Tess_Part_339" vertex3="Tess_Part_336" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_350" vertex2="Tess_Part_157" vertex3="Tess_Part_349" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_143" vertex2="Tess_Part_144" vertex3="Tess_Part_359" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_348" vertex2="Tess_Part_20" vertex3="Tess_Part_351" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_341" vertex2="Tess_Part_21" vertex3="Tess_Part_344" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_113" vertex2="Tess_Part_354" vertex3="Tess_Part_317" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_149" vertex2="Tess_Part_22" vertex3="Tess_Part_353" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_22" vertex2="Tess_Part_343" vertex3="Tess_Part_353" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_154" vertex2="Tess_Part_155" vertex3="Tess_Part_360" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_158" vertex2="Tess_Part_350" vertex3="Tess_Part_351" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_320" vertex2="Tess_Part_29" vertex3="Tess_Part_356" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_357" vertex2="Tess_Part_133" vertex3="Tess_Part_328" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_358" vertex2="Tess_Part_138" vertex3="Tess_Part_334" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_360" vertex2="Tess_Part_155" vertex3="Tess_Part_347" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_312" vertex2="Tess_Part_313" vertex3="Tess_Part_350" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_353" vertex2="Tess_Part_343" vertex3="Tess_Part_318" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_312" vertex2="Tess_Part_350" vertex3="Tess_Part_349" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_343" vertex2="Tess_Part_342" vertex3="Tess_Part_361" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_357" vertex2="Tess_Part_328" vertex3="Tess_Part_56" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_115" vertex2="Tess_Part_114" vertex3="Tess_Part_359" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_355" vertex2="Tess_Part_321" vertex3="Tess_Part_332" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_119" vertex2="Tess_Part_118" vertex3="Tess_Part_362" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_30" vertex2="Tess_Part_319" vertex3="Tess_Part_363" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_120" vertex2="Tess_Part_121" vertex3="Tess_Part_364" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_123" vertex2="Tess_Part_355" vertex3="Tess_Part_358" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_356" vertex2="Tess_Part_124" vertex3="Tess_Part_365" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_124" vertex2="Tess_Part_123" vertex3="Tess_Part_365" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_329" vertex2="Tess_Part_332" vertex3="Tess_Part_321" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_600" vertex2="Tess_Part_571" vertex3="Tess_Part_597" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_53" vertex2="Tess_Part_52" vertex3="Tess_Part_326" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_597" vertex2="Tess_Part_596" vertex3="Tess_Part_600" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_56" vertex2="Tess_Part_328" vertex3="Tess_Part_323" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_334" vertex2="Tess_Part_335" vertex3="Tess_Part_365" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_349" vertex2="Tess_Part_327" vertex3="Tess_Part_366" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_331" vertex2="Tess_Part_330" vertex3="Tess_Part_323" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_332" vertex2="Tess_Part_333" vertex3="Tess_Part_355" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_337" vertex2="Tess_Part_336" vertex3="Tess_Part_367" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_137" vertex2="Tess_Part_358" vertex3="Tess_Part_333" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_329" vertex2="Tess_Part_321" vertex3="Tess_Part_322" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_339" vertex2="Tess_Part_340" vertex3="Tess_Part_368" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_348" vertex2="Tess_Part_351" vertex3="Tess_Part_369" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_358" vertex2="Tess_Part_355" vertex3="Tess_Part_333" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_345" vertex2="Tess_Part_346" vertex3="Tess_Part_352" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_30" vertex2="Tess_Part_363" vertex3="Tess_Part_114" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_119" vertex2="Tess_Part_362" vertex3="Tess_Part_318" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_123" vertex2="Tess_Part_358" vertex3="Tess_Part_334" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_356" vertex2="Tess_Part_365" vertex3="Tess_Part_335" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_323" vertex2="Tess_Part_328" vertex3="Tess_Part_331" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_356" vertex2="Tess_Part_335" vertex3="Tess_Part_338" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_356" vertex2="Tess_Part_338" vertex3="Tess_Part_320" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_114" vertex2="Tess_Part_363" vertex3="Tess_Part_368" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_363" vertex2="Tess_Part_319" vertex3="Tess_Part_367" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_342" vertex2="Tess_Part_341" vertex3="Tess_Part_370" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_350" vertex2="Tess_Part_313" vertex3="Tess_Part_351" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_346" vertex2="Tess_Part_154" vertex3="Tess_Part_360" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_143" vertex2="Tess_Part_359" vertex3="Tess_Part_340" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_347" vertex2="Tess_Part_348" vertex3="Tess_Part_371" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_348" vertex2="Tess_Part_369" vertex3="Tess_Part_371" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_341" vertex2="Tess_Part_344" vertex3="Tess_Part_372" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_340" vertex2="Tess_Part_359" vertex3="Tess_Part_368" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_114" vertex2="Tess_Part_368" vertex3="Tess_Part_359" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_339" vertex2="Tess_Part_368" vertex3="Tess_Part_363" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_56" vertex2="Tess_Part_55" vertex3="Tess_Part_357" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_144" vertex2="Tess_Part_115" vertex3="Tess_Part_359" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_361" vertex2="Tess_Part_342" vertex3="Tess_Part_370" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_314" vertex2="Tess_Part_317" vertex3="Tess_Part_370" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_337" vertex2="Tess_Part_367" vertex3="Tess_Part_373" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_120" vertex2="Tess_Part_364" vertex3="Tess_Part_319" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_121" vertex2="Tess_Part_320" vertex3="Tess_Part_364" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_327" vertex2="Tess_Part_127" vertex3="Tess_Part_325" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_367" vertex2="Tess_Part_319" vertex3="Tess_Part_373" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_373" vertex2="Tess_Part_319" vertex3="Tess_Part_364" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_360" vertex2="Tess_Part_347" vertex3="Tess_Part_315" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_574" vertex2="Tess_Part_594" vertex3="Tess_Part_598" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_318" vertex2="Tess_Part_343" vertex3="Tess_Part_361" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_364" vertex2="Tess_Part_320" vertex3="Tess_Part_373" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_315" vertex2="Tess_Part_347" vertex3="Tess_Part_371" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_327" vertex2="Tess_Part_325" vertex3="Tess_Part_366" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_354" vertex2="Tess_Part_318" vertex3="Tess_Part_361" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_351" vertex2="Tess_Part_313" vertex3="Tess_Part_369" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_317" vertex2="Tess_Part_354" vertex3="Tess_Part_370" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_346" vertex2="Tess_Part_360" vertex3="Tess_Part_352" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_55" vertex2="Tess_Part_132" vertex3="Tess_Part_357" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_339" vertex2="Tess_Part_363" vertex3="Tess_Part_336" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_330" vertex2="Tess_Part_329" vertex3="Tess_Part_322" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_336" vertex2="Tess_Part_363" vertex3="Tess_Part_367" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_330" vertex2="Tess_Part_322" vertex3="Tess_Part_323" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_320" vertex2="Tess_Part_338" vertex3="Tess_Part_373" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_353" vertex2="Tess_Part_318" vertex3="Tess_Part_362" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_312" vertex2="Tess_Part_349" vertex3="Tess_Part_366" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_337" vertex2="Tess_Part_373" vertex3="Tess_Part_338" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_365" vertex2="Tess_Part_123" vertex3="Tess_Part_334" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_370" vertex2="Tess_Part_341" vertex3="Tess_Part_372" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_325" vertex2="Tess_Part_324" vertex3="Tess_Part_366" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_345" vertex2="Tess_Part_352" vertex3="Tess_Part_314" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_314" vertex2="Tess_Part_372" vertex3="Tess_Part_345" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_371" vertex2="Tess_Part_369" vertex3="Tess_Part_316" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_100" vertex2="Tess_Part_592" vertex3="Tess_Part_575" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_118" vertex2="Tess_Part_148" vertex3="Tess_Part_362" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_360" vertex2="Tess_Part_315" vertex3="Tess_Part_352" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_354" vertex2="Tess_Part_361" vertex3="Tess_Part_370" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_313" vertex2="Tess_Part_316" vertex3="Tess_Part_369" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_315" vertex2="Tess_Part_371" vertex3="Tess_Part_316" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_591" vertex2="Tess_Part_600" vertex3="Tess_Part_582" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_592" vertex2="Tess_Part_582" vertex3="Tess_Part_600" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_324" vertex2="Tess_Part_312" vertex3="Tess_Part_366" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_344" vertex2="Tess_Part_345" vertex3="Tess_Part_372" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_372" vertex2="Tess_Part_314" vertex3="Tess_Part_370" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_159" vertex2="Tess_Part_18" vertex3="Tess_Part_57" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_160" vertex2="Tess_Part_159" vertex3="Tess_Part_374" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_28" vertex2="Tess_Part_160" vertex3="Tess_Part_125" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_57" vertex2="Tess_Part_58" vertex3="Tess_Part_375" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_58" vertex2="Tess_Part_5" vertex3="Tess_Part_41" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_41" vertex2="Tess_Part_42" vertex3="Tess_Part_376" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_42" vertex2="Tess_Part_4" vertex3="Tess_Part_126" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_126" vertex2="Tess_Part_125" vertex3="Tess_Part_377" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_374" vertex2="Tess_Part_159" vertex3="Tess_Part_375" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_125" vertex2="Tess_Part_160" vertex3="Tess_Part_377" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_160" vertex2="Tess_Part_374" vertex3="Tess_Part_377" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_58" vertex2="Tess_Part_41" vertex3="Tess_Part_375" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_42" vertex2="Tess_Part_126" vertex3="Tess_Part_377" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_57" vertex2="Tess_Part_375" vertex3="Tess_Part_159" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_375" vertex2="Tess_Part_41" vertex3="Tess_Part_376" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_42" vertex2="Tess_Part_377" vertex3="Tess_Part_376" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_376" vertex2="Tess_Part_377" vertex3="Tess_Part_374" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_374" vertex2="Tess_Part_375" vertex3="Tess_Part_376" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_161" vertex2="Tess_Part_17" vertex3="Tess_Part_61" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_162" vertex2="Tess_Part_161" vertex3="Tess_Part_378" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_29" vertex2="Tess_Part_162" vertex3="Tess_Part_124" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_59" vertex2="Tess_Part_18" vertex3="Tess_Part_159" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_60" vertex2="Tess_Part_59" vertex3="Tess_Part_379" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_159" vertex2="Tess_Part_160" vertex3="Tess_Part_380" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_160" vertex2="Tess_Part_28" vertex3="Tess_Part_122" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_122" vertex2="Tess_Part_123" vertex3="Tess_Part_381" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_161" vertex2="Tess_Part_61" vertex3="Tess_Part_378" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_124" vertex2="Tess_Part_162" vertex3="Tess_Part_378" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_124" vertex2="Tess_Part_378" vertex3="Tess_Part_123" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_379" vertex2="Tess_Part_59" vertex3="Tess_Part_380" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_159" vertex2="Tess_Part_380" vertex3="Tess_Part_59" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_61" vertex2="Tess_Part_60" vertex3="Tess_Part_382" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_60" vertex2="Tess_Part_379" vertex3="Tess_Part_382" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_160" vertex2="Tess_Part_122" vertex3="Tess_Part_380" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_122" vertex2="Tess_Part_381" vertex3="Tess_Part_380" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_380" vertex2="Tess_Part_381" vertex3="Tess_Part_379" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_382" vertex2="Tess_Part_379" vertex3="Tess_Part_381" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_123" vertex2="Tess_Part_378" vertex3="Tess_Part_381" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_378" vertex2="Tess_Part_61" vertex3="Tess_Part_382" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_381" vertex2="Tess_Part_378" vertex3="Tess_Part_382" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_163" vertex2="Tess_Part_16" vertex3="Tess_Part_62" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_164" vertex2="Tess_Part_163" vertex3="Tess_Part_383" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_30" vertex2="Tess_Part_164" vertex3="Tess_Part_120" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_62" vertex2="Tess_Part_63" vertex3="Tess_Part_384" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_63" vertex2="Tess_Part_17" vertex3="Tess_Part_161" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_161" vertex2="Tess_Part_162" vertex3="Tess_Part_385" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_162" vertex2="Tess_Part_29" vertex3="Tess_Part_121" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_121" vertex2="Tess_Part_120" vertex3="Tess_Part_386" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_120" vertex2="Tess_Part_164" vertex3="Tess_Part_386" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_164" vertex2="Tess_Part_383" vertex3="Tess_Part_386" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_63" vertex2="Tess_Part_161" vertex3="Tess_Part_384" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_161" vertex2="Tess_Part_385" vertex3="Tess_Part_384" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_162" vertex2="Tess_Part_121" vertex3="Tess_Part_386" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_163" vertex2="Tess_Part_62" vertex3="Tess_Part_384" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_383" vertex2="Tess_Part_163" vertex3="Tess_Part_384" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_384" vertex2="Tess_Part_385" vertex3="Tess_Part_383" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_385" vertex2="Tess_Part_162" vertex3="Tess_Part_386" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_386" vertex2="Tess_Part_383" vertex3="Tess_Part_385" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_165" vertex2="Tess_Part_15" vertex3="Tess_Part_69" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_166" vertex2="Tess_Part_165" vertex3="Tess_Part_387" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_31" vertex2="Tess_Part_166" vertex3="Tess_Part_119" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_64" vertex2="Tess_Part_16" vertex3="Tess_Part_163" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_65" vertex2="Tess_Part_64" vertex3="Tess_Part_388" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_66" vertex2="Tess_Part_65" vertex3="Tess_Part_389" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_65" vertex2="Tess_Part_388" vertex3="Tess_Part_389" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_67" vertex2="Tess_Part_66" vertex3="Tess_Part_390" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_66" vertex2="Tess_Part_389" vertex3="Tess_Part_390" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_68" vertex2="Tess_Part_67" vertex3="Tess_Part_391" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_67" vertex2="Tess_Part_390" vertex3="Tess_Part_391" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_163" vertex2="Tess_Part_164" vertex3="Tess_Part_392" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_164" vertex2="Tess_Part_30" vertex3="Tess_Part_393" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_392" vertex2="Tess_Part_164" vertex3="Tess_Part_393" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_30" vertex2="Tess_Part_114" vertex3="Tess_Part_393" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_114" vertex2="Tess_Part_115" vertex3="Tess_Part_388" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_115" vertex2="Tess_Part_116" vertex3="Tess_Part_389" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_116" vertex2="Tess_Part_117" vertex3="Tess_Part_390" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_117" vertex2="Tess_Part_118" vertex3="Tess_Part_391" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_64" vertex2="Tess_Part_163" vertex3="Tess_Part_392" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_165" vertex2="Tess_Part_69" vertex3="Tess_Part_387" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_119" vertex2="Tess_Part_166" vertex3="Tess_Part_387" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_388" vertex2="Tess_Part_64" vertex3="Tess_Part_392" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_388" vertex2="Tess_Part_115" vertex3="Tess_Part_389" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_69" vertex2="Tess_Part_68" vertex3="Tess_Part_394" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_389" vertex2="Tess_Part_116" vertex3="Tess_Part_390" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_394" vertex2="Tess_Part_68" vertex3="Tess_Part_391" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_117" vertex2="Tess_Part_391" vertex3="Tess_Part_390" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_118" vertex2="Tess_Part_119" vertex3="Tess_Part_395" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_119" vertex2="Tess_Part_387" vertex3="Tess_Part_395" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_69" vertex2="Tess_Part_394" vertex3="Tess_Part_387" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_387" vertex2="Tess_Part_394" vertex3="Tess_Part_395" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_118" vertex2="Tess_Part_395" vertex3="Tess_Part_391" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_391" vertex2="Tess_Part_395" vertex3="Tess_Part_394" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_388" vertex2="Tess_Part_392" vertex3="Tess_Part_393" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_114" vertex2="Tess_Part_388" vertex3="Tess_Part_393" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_107" vertex2="Tess_Part_14" vertex3="Tess_Part_70" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_108" vertex2="Tess_Part_107" vertex3="Tess_Part_399" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_19" vertex2="Tess_Part_108" vertex3="Tess_Part_112" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_70" vertex2="Tess_Part_71" vertex3="Tess_Part_396" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_71" vertex2="Tess_Part_15" vertex3="Tess_Part_397" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_396" vertex2="Tess_Part_71" vertex3="Tess_Part_397" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_15" vertex2="Tess_Part_165" vertex3="Tess_Part_397" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_165" vertex2="Tess_Part_166" vertex3="Tess_Part_398" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_165" vertex2="Tess_Part_398" vertex3="Tess_Part_397" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_166" vertex2="Tess_Part_31" vertex3="Tess_Part_113" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_113" vertex2="Tess_Part_112" vertex3="Tess_Part_399" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_107" vertex2="Tess_Part_70" vertex3="Tess_Part_396" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_399" vertex2="Tess_Part_107" vertex3="Tess_Part_396" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_112" vertex2="Tess_Part_108" vertex3="Tess_Part_399" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_585" vertex2="Tess_Part_599" vertex3="Tess_Part_594" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_166" vertex2="Tess_Part_113" vertex3="Tess_Part_398" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_398" vertex2="Tess_Part_113" vertex3="Tess_Part_399" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_398" vertex2="Tess_Part_399" vertex3="Tess_Part_396" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_396" vertex2="Tess_Part_397" vertex3="Tess_Part_398" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_589" vertex2="Tess_Part_590" vertex3="Tess_Part_574" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_13" vertex2="Tess_Part_167" vertex3="Tess_Part_75" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_167" vertex2="Tess_Part_168" vertex3="Tess_Part_400" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_168" vertex2="Tess_Part_169" vertex3="Tess_Part_401" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_168" vertex2="Tess_Part_401" vertex3="Tess_Part_400" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_169" vertex2="Tess_Part_170" vertex3="Tess_Part_402" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_169" vertex2="Tess_Part_402" vertex3="Tess_Part_401" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_170" vertex2="Tess_Part_171" vertex3="Tess_Part_403" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_170" vertex2="Tess_Part_403" vertex3="Tess_Part_402" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_171" vertex2="Tess_Part_172" vertex3="Tess_Part_404" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_171" vertex2="Tess_Part_404" vertex3="Tess_Part_403" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_172" vertex2="Tess_Part_173" vertex3="Tess_Part_405" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_172" vertex2="Tess_Part_405" vertex3="Tess_Part_404" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_173" vertex2="Tess_Part_174" vertex3="Tess_Part_406" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_173" vertex2="Tess_Part_406" vertex3="Tess_Part_405" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_174" vertex2="Tess_Part_27" vertex3="Tess_Part_407" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_406" vertex2="Tess_Part_174" vertex3="Tess_Part_407" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_27" vertex2="Tess_Part_157" vertex3="Tess_Part_407" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_76" vertex2="Tess_Part_75" vertex3="Tess_Part_408" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_12" vertex2="Tess_Part_76" vertex3="Tess_Part_175" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_176" vertex2="Tess_Part_175" vertex3="Tess_Part_409" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_177" vertex2="Tess_Part_176" vertex3="Tess_Part_410" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_176" vertex2="Tess_Part_409" vertex3="Tess_Part_410" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_178" vertex2="Tess_Part_177" vertex3="Tess_Part_411" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_177" vertex2="Tess_Part_410" vertex3="Tess_Part_411" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_179" vertex2="Tess_Part_178" vertex3="Tess_Part_412" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_178" vertex2="Tess_Part_411" vertex3="Tess_Part_412" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_180" vertex2="Tess_Part_179" vertex3="Tess_Part_413" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_179" vertex2="Tess_Part_412" vertex3="Tess_Part_413" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_181" vertex2="Tess_Part_180" vertex3="Tess_Part_414" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_180" vertex2="Tess_Part_413" vertex3="Tess_Part_414" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_20" vertex2="Tess_Part_181" vertex3="Tess_Part_158" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_175" vertex2="Tess_Part_76" vertex3="Tess_Part_408" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_409" vertex2="Tess_Part_175" vertex3="Tess_Part_408" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_158" vertex2="Tess_Part_181" vertex3="Tess_Part_415" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_157" vertex2="Tess_Part_158" vertex3="Tess_Part_415" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_75" vertex2="Tess_Part_167" vertex3="Tess_Part_408" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_401" vertex2="Tess_Part_402" vertex3="Tess_Part_410" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_403" vertex2="Tess_Part_404" vertex3="Tess_Part_412" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_404" vertex2="Tess_Part_405" vertex3="Tess_Part_413" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_401" vertex2="Tess_Part_410" vertex3="Tess_Part_409" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_413" vertex2="Tess_Part_405" vertex3="Tess_Part_414" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_411" vertex2="Tess_Part_410" vertex3="Tess_Part_402" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_412" vertex2="Tess_Part_411" vertex3="Tess_Part_403" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_413" vertex2="Tess_Part_412" vertex3="Tess_Part_404" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_411" vertex2="Tess_Part_402" vertex3="Tess_Part_403" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_400" vertex2="Tess_Part_401" vertex3="Tess_Part_409" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_405" vertex2="Tess_Part_406" vertex3="Tess_Part_414" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_406" vertex2="Tess_Part_407" vertex3="Tess_Part_415" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_407" vertex2="Tess_Part_157" vertex3="Tess_Part_415" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_400" vertex2="Tess_Part_409" vertex3="Tess_Part_408" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_400" vertex2="Tess_Part_408" vertex3="Tess_Part_167" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_415" vertex2="Tess_Part_181" vertex3="Tess_Part_414" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_414" vertex2="Tess_Part_406" vertex3="Tess_Part_415" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_152" vertex2="Tess_Part_21" vertex3="Tess_Part_189" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_153" vertex2="Tess_Part_152" vertex3="Tess_Part_416" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_154" vertex2="Tess_Part_153" vertex3="Tess_Part_417" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_153" vertex2="Tess_Part_416" vertex3="Tess_Part_417" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_155" vertex2="Tess_Part_154" vertex3="Tess_Part_418" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_154" vertex2="Tess_Part_417" vertex3="Tess_Part_418" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_156" vertex2="Tess_Part_155" vertex3="Tess_Part_419" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_155" vertex2="Tess_Part_418" vertex3="Tess_Part_419" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_156" vertex2="Tess_Part_446" vertex3="Tess_Part_20" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_182" vertex2="Tess_Part_11" vertex3="Tess_Part_77" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_183" vertex2="Tess_Part_182" vertex3="Tess_Part_420" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_184" vertex2="Tess_Part_183" vertex3="Tess_Part_421" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_183" vertex2="Tess_Part_420" vertex3="Tess_Part_421" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_185" vertex2="Tess_Part_184" vertex3="Tess_Part_422" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_184" vertex2="Tess_Part_421" vertex3="Tess_Part_422" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_186" vertex2="Tess_Part_185" vertex3="Tess_Part_423" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_185" vertex2="Tess_Part_422" vertex3="Tess_Part_423" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_187" vertex2="Tess_Part_186" vertex3="Tess_Part_424" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_186" vertex2="Tess_Part_423" vertex3="Tess_Part_424" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_188" vertex2="Tess_Part_187" vertex3="Tess_Part_425" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_187" vertex2="Tess_Part_424" vertex3="Tess_Part_425" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_77" vertex2="Tess_Part_78" vertex3="Tess_Part_426" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_78" vertex2="Tess_Part_79" vertex3="Tess_Part_427" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_78" vertex2="Tess_Part_427" vertex3="Tess_Part_426" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_79" vertex2="Tess_Part_80" vertex3="Tess_Part_428" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_79" vertex2="Tess_Part_428" vertex3="Tess_Part_427" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_80" vertex2="Tess_Part_81" vertex3="Tess_Part_429" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_80" vertex2="Tess_Part_429" vertex3="Tess_Part_428" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_81" vertex2="Tess_Part_12" vertex3="Tess_Part_175" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_175" vertex2="Tess_Part_176" vertex3="Tess_Part_430" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_176" vertex2="Tess_Part_177" vertex3="Tess_Part_431" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_176" vertex2="Tess_Part_431" vertex3="Tess_Part_430" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_177" vertex2="Tess_Part_178" vertex3="Tess_Part_432" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_177" vertex2="Tess_Part_432" vertex3="Tess_Part_431" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_178" vertex2="Tess_Part_179" vertex3="Tess_Part_433" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_178" vertex2="Tess_Part_433" vertex3="Tess_Part_432" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_179" vertex2="Tess_Part_180" vertex3="Tess_Part_434" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_179" vertex2="Tess_Part_434" vertex3="Tess_Part_433" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_182" vertex2="Tess_Part_77" vertex3="Tess_Part_420" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_189" vertex2="Tess_Part_188" vertex3="Tess_Part_435" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_77" vertex2="Tess_Part_426" vertex3="Tess_Part_420" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_429" vertex2="Tess_Part_81" vertex3="Tess_Part_430" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_175" vertex2="Tess_Part_430" vertex3="Tess_Part_81" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_180" vertex2="Tess_Part_181" vertex3="Tess_Part_436" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_435" vertex2="Tess_Part_188" vertex3="Tess_Part_425" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_152" vertex2="Tess_Part_189" vertex3="Tess_Part_435" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_152" vertex2="Tess_Part_435" vertex3="Tess_Part_416" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_180" vertex2="Tess_Part_436" vertex3="Tess_Part_434" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_434" vertex2="Tess_Part_436" vertex3="Tess_Part_437" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_418" vertex2="Tess_Part_417" vertex3="Tess_Part_438" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_421" vertex2="Tess_Part_420" vertex3="Tess_Part_439" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_420" vertex2="Tess_Part_426" vertex3="Tess_Part_439" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_416" vertex2="Tess_Part_435" vertex3="Tess_Part_440" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_435" vertex2="Tess_Part_425" vertex3="Tess_Part_440" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_422" vertex2="Tess_Part_421" vertex3="Tess_Part_441" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_421" vertex2="Tess_Part_439" vertex3="Tess_Part_441" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_423" vertex2="Tess_Part_422" vertex3="Tess_Part_442" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_422" vertex2="Tess_Part_441" vertex3="Tess_Part_442" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_424" vertex2="Tess_Part_423" vertex3="Tess_Part_443" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_423" vertex2="Tess_Part_442" vertex3="Tess_Part_443" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_425" vertex2="Tess_Part_424" vertex3="Tess_Part_444" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_440" vertex2="Tess_Part_425" vertex3="Tess_Part_444" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_424" vertex2="Tess_Part_443" vertex3="Tess_Part_444" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_427" vertex2="Tess_Part_428" vertex3="Tess_Part_445" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_181" vertex2="Tess_Part_20" vertex3="Tess_Part_446" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_432" vertex2="Tess_Part_433" vertex3="Tess_Part_447" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_431" vertex2="Tess_Part_432" vertex3="Tess_Part_448" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_432" vertex2="Tess_Part_447" vertex3="Tess_Part_448" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_430" vertex2="Tess_Part_431" vertex3="Tess_Part_449" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_429" vertex2="Tess_Part_430" vertex3="Tess_Part_449" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_431" vertex2="Tess_Part_448" vertex3="Tess_Part_449" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_433" vertex2="Tess_Part_434" vertex3="Tess_Part_450" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_447" vertex2="Tess_Part_433" vertex3="Tess_Part_450" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_434" vertex2="Tess_Part_437" vertex3="Tess_Part_450" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_156" vertex2="Tess_Part_419" vertex3="Tess_Part_446" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_419" vertex2="Tess_Part_418" vertex3="Tess_Part_437" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_428" vertex2="Tess_Part_429" vertex3="Tess_Part_449" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_445" vertex2="Tess_Part_428" vertex3="Tess_Part_449" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_181" vertex2="Tess_Part_446" vertex3="Tess_Part_436" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_437" vertex2="Tess_Part_418" vertex3="Tess_Part_438" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_436" vertex2="Tess_Part_446" vertex3="Tess_Part_437" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_446" vertex2="Tess_Part_419" vertex3="Tess_Part_437" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_441" vertex2="Tess_Part_439" vertex3="Tess_Part_451" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_438" vertex2="Tess_Part_417" vertex3="Tess_Part_452" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_442" vertex2="Tess_Part_441" vertex3="Tess_Part_453" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_441" vertex2="Tess_Part_451" vertex3="Tess_Part_453" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_426" vertex2="Tess_Part_427" vertex3="Tess_Part_451" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_451" vertex2="Tess_Part_427" vertex3="Tess_Part_445" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_452" vertex2="Tess_Part_417" vertex3="Tess_Part_416" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_426" vertex2="Tess_Part_451" vertex3="Tess_Part_439" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_438" vertex2="Tess_Part_452" vertex3="Tess_Part_453" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_444" vertex2="Tess_Part_443" vertex3="Tess_Part_452" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_451" vertex2="Tess_Part_445" vertex3="Tess_Part_453" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_448" vertex2="Tess_Part_447" vertex3="Tess_Part_445" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_438" vertex2="Tess_Part_453" vertex3="Tess_Part_445" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_452" vertex2="Tess_Part_443" vertex3="Tess_Part_453" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_443" vertex2="Tess_Part_442" vertex3="Tess_Part_453" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_416" vertex2="Tess_Part_440" vertex3="Tess_Part_452" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_445" vertex2="Tess_Part_449" vertex3="Tess_Part_448" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_437" vertex2="Tess_Part_438" vertex3="Tess_Part_450" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_447" vertex2="Tess_Part_450" vertex3="Tess_Part_438" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_452" vertex2="Tess_Part_440" vertex3="Tess_Part_444" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_447" vertex2="Tess_Part_438" vertex3="Tess_Part_445" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_593" vertex2="Tess_Part_599" vertex3="Tess_Part_585" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_588" vertex2="Tess_Part_589" vertex3="Tess_Part_598" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_11" vertex2="Tess_Part_182" vertex3="Tess_Part_82" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_182" vertex2="Tess_Part_183" vertex3="Tess_Part_454" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_183" vertex2="Tess_Part_184" vertex3="Tess_Part_455" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_183" vertex2="Tess_Part_455" vertex3="Tess_Part_454" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_184" vertex2="Tess_Part_185" vertex3="Tess_Part_456" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_184" vertex2="Tess_Part_456" vertex3="Tess_Part_455" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_185" vertex2="Tess_Part_186" vertex3="Tess_Part_457" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_185" vertex2="Tess_Part_457" vertex3="Tess_Part_456" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_186" vertex2="Tess_Part_187" vertex3="Tess_Part_458" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_186" vertex2="Tess_Part_458" vertex3="Tess_Part_457" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_187" vertex2="Tess_Part_188" vertex3="Tess_Part_459" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_187" vertex2="Tess_Part_459" vertex3="Tess_Part_458" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_188" vertex2="Tess_Part_189" vertex3="Tess_Part_460" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_188" vertex2="Tess_Part_460" vertex3="Tess_Part_459" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_189" vertex2="Tess_Part_21" vertex3="Tess_Part_461" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_460" vertex2="Tess_Part_189" vertex3="Tess_Part_461" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_21" vertex2="Tess_Part_150" vertex3="Tess_Part_461" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_83" vertex2="Tess_Part_82" vertex3="Tess_Part_462" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_10" vertex2="Tess_Part_83" vertex3="Tess_Part_463" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_190" vertex2="Tess_Part_10" vertex3="Tess_Part_463" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_83" vertex2="Tess_Part_462" vertex3="Tess_Part_463" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_191" vertex2="Tess_Part_190" vertex3="Tess_Part_464" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_190" vertex2="Tess_Part_463" vertex3="Tess_Part_464" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_192" vertex2="Tess_Part_191" vertex3="Tess_Part_465" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_191" vertex2="Tess_Part_464" vertex3="Tess_Part_465" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_193" vertex2="Tess_Part_192" vertex3="Tess_Part_466" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_192" vertex2="Tess_Part_465" vertex3="Tess_Part_466" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_194" vertex2="Tess_Part_193" vertex3="Tess_Part_467" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_193" vertex2="Tess_Part_466" vertex3="Tess_Part_467" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_195" vertex2="Tess_Part_194" vertex3="Tess_Part_468" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_194" vertex2="Tess_Part_467" vertex3="Tess_Part_468" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_196" vertex2="Tess_Part_195" vertex3="Tess_Part_469" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_195" vertex2="Tess_Part_468" vertex3="Tess_Part_469" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_22" vertex2="Tess_Part_196" vertex3="Tess_Part_151" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_461" vertex2="Tess_Part_150" vertex3="Tess_Part_151" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_151" vertex2="Tess_Part_196" vertex3="Tess_Part_469" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_151" vertex2="Tess_Part_469" vertex3="Tess_Part_461" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_82" vertex2="Tess_Part_182" vertex3="Tess_Part_462" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_455" vertex2="Tess_Part_456" vertex3="Tess_Part_465" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_454" vertex2="Tess_Part_455" vertex3="Tess_Part_464" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_455" vertex2="Tess_Part_465" vertex3="Tess_Part_464" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_182" vertex2="Tess_Part_454" vertex3="Tess_Part_462" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_466" vertex2="Tess_Part_465" vertex3="Tess_Part_456" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_466" vertex2="Tess_Part_456" vertex3="Tess_Part_457" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_454" vertex2="Tess_Part_464" vertex3="Tess_Part_463" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_457" vertex2="Tess_Part_458" vertex3="Tess_Part_470" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_458" vertex2="Tess_Part_459" vertex3="Tess_Part_471" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_459" vertex2="Tess_Part_460" vertex3="Tess_Part_472" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_460" vertex2="Tess_Part_461" vertex3="Tess_Part_469" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_467" vertex2="Tess_Part_466" vertex3="Tess_Part_470" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_468" vertex2="Tess_Part_467" vertex3="Tess_Part_471" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_469" vertex2="Tess_Part_468" vertex3="Tess_Part_472" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_466" vertex2="Tess_Part_457" vertex3="Tess_Part_470" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_460" vertex2="Tess_Part_469" vertex3="Tess_Part_472" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_471" vertex2="Tess_Part_467" vertex3="Tess_Part_470" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_470" vertex2="Tess_Part_458" vertex3="Tess_Part_471" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_459" vertex2="Tess_Part_472" vertex3="Tess_Part_471" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_472" vertex2="Tess_Part_468" vertex3="Tess_Part_471" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_463" vertex2="Tess_Part_462" vertex3="Tess_Part_454" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_142" vertex2="Tess_Part_23" vertex3="Tess_Part_204" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_143" vertex2="Tess_Part_142" vertex3="Tess_Part_473" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_144" vertex2="Tess_Part_143" vertex3="Tess_Part_474" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_143" vertex2="Tess_Part_473" vertex3="Tess_Part_474" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_146" vertex2="Tess_Part_145" vertex3="Tess_Part_475" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_148" vertex2="Tess_Part_147" vertex3="Tess_Part_476" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_149" vertex2="Tess_Part_148" vertex3="Tess_Part_477" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_148" vertex2="Tess_Part_476" vertex3="Tess_Part_477" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_22" vertex2="Tess_Part_149" vertex3="Tess_Part_196" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_197" vertex2="Tess_Part_9" vertex3="Tess_Part_84" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_198" vertex2="Tess_Part_197" vertex3="Tess_Part_478" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_199" vertex2="Tess_Part_198" vertex3="Tess_Part_479" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_198" vertex2="Tess_Part_478" vertex3="Tess_Part_479" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_200" vertex2="Tess_Part_199" vertex3="Tess_Part_480" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_199" vertex2="Tess_Part_479" vertex3="Tess_Part_480" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_201" vertex2="Tess_Part_200" vertex3="Tess_Part_481" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_200" vertex2="Tess_Part_480" vertex3="Tess_Part_481" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_202" vertex2="Tess_Part_201" vertex3="Tess_Part_482" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_201" vertex2="Tess_Part_481" vertex3="Tess_Part_482" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_203" vertex2="Tess_Part_202" vertex3="Tess_Part_483" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_202" vertex2="Tess_Part_482" vertex3="Tess_Part_483" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_84" vertex2="Tess_Part_85" vertex3="Tess_Part_484" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_85" vertex2="Tess_Part_86" vertex3="Tess_Part_485" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_85" vertex2="Tess_Part_485" vertex3="Tess_Part_484" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_87" vertex2="Tess_Part_88" vertex3="Tess_Part_475" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_88" vertex2="Tess_Part_89" vertex3="Tess_Part_486" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_91" vertex2="Tess_Part_10" vertex3="Tess_Part_190" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_190" vertex2="Tess_Part_191" vertex3="Tess_Part_487" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_191" vertex2="Tess_Part_192" vertex3="Tess_Part_488" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_192" vertex2="Tess_Part_193" vertex3="Tess_Part_489" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_193" vertex2="Tess_Part_194" vertex3="Tess_Part_490" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_193" vertex2="Tess_Part_490" vertex3="Tess_Part_489" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_194" vertex2="Tess_Part_195" vertex3="Tess_Part_491" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_194" vertex2="Tess_Part_491" vertex3="Tess_Part_490" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_195" vertex2="Tess_Part_196" vertex3="Tess_Part_492" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_475" vertex2="Tess_Part_145" vertex3="Tess_Part_493" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_87" vertex2="Tess_Part_475" vertex3="Tess_Part_493" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_145" vertex2="Tess_Part_144" vertex3="Tess_Part_493" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_196" vertex2="Tess_Part_149" vertex3="Tess_Part_492" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_147" vertex2="Tess_Part_146" vertex3="Tess_Part_494" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_204" vertex2="Tess_Part_203" vertex3="Tess_Part_495" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_146" vertex2="Tess_Part_475" vertex3="Tess_Part_494" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_86" vertex2="Tess_Part_87" vertex3="Tess_Part_493" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_91" vertex2="Tess_Part_190" vertex3="Tess_Part_496" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_89" vertex2="Tess_Part_90" vertex3="Tess_Part_497" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_90" vertex2="Tess_Part_91" vertex3="Tess_Part_496" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_487" vertex2="Tess_Part_191" vertex3="Tess_Part_488" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_192" vertex2="Tess_Part_489" vertex3="Tess_Part_488" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_491" vertex2="Tess_Part_195" vertex3="Tess_Part_492" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_147" vertex2="Tess_Part_494" vertex3="Tess_Part_476" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_197" vertex2="Tess_Part_84" vertex3="Tess_Part_478" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_142" vertex2="Tess_Part_204" vertex3="Tess_Part_495" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_478" vertex2="Tess_Part_84" vertex3="Tess_Part_484" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_486" vertex2="Tess_Part_89" vertex3="Tess_Part_497" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_142" vertex2="Tess_Part_495" vertex3="Tess_Part_473" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_495" vertex2="Tess_Part_203" vertex3="Tess_Part_483" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_495" vertex2="Tess_Part_483" vertex3="Tess_Part_498" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_495" vertex2="Tess_Part_498" vertex3="Tess_Part_473" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_478" vertex2="Tess_Part_484" vertex3="Tess_Part_499" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_478" vertex2="Tess_Part_499" vertex3="Tess_Part_479" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_149" vertex2="Tess_Part_477" vertex3="Tess_Part_492" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_492" vertex2="Tess_Part_477" vertex3="Tess_Part_491" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_480" vertex2="Tess_Part_479" vertex3="Tess_Part_500" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_479" vertex2="Tess_Part_499" vertex3="Tess_Part_500" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_481" vertex2="Tess_Part_480" vertex3="Tess_Part_501" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_480" vertex2="Tess_Part_500" vertex3="Tess_Part_501" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_482" vertex2="Tess_Part_481" vertex3="Tess_Part_502" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_481" vertex2="Tess_Part_501" vertex3="Tess_Part_502" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_483" vertex2="Tess_Part_482" vertex3="Tess_Part_503" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_498" vertex2="Tess_Part_483" vertex3="Tess_Part_503" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_482" vertex2="Tess_Part_502" vertex3="Tess_Part_503" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_497" vertex2="Tess_Part_90" vertex3="Tess_Part_504" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_90" vertex2="Tess_Part_496" vertex3="Tess_Part_504" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_489" vertex2="Tess_Part_490" vertex3="Tess_Part_505" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_490" vertex2="Tess_Part_491" vertex3="Tess_Part_506" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_505" vertex2="Tess_Part_490" vertex3="Tess_Part_506" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_491" vertex2="Tess_Part_477" vertex3="Tess_Part_506" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_506" vertex2="Tess_Part_477" vertex3="Tess_Part_476" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_591" vertex2="Tess_Part_571" vertex3="Tess_Part_600" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_489" vertex2="Tess_Part_505" vertex3="Tess_Part_504" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_504" vertex2="Tess_Part_496" vertex3="Tess_Part_487" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_486" vertex2="Tess_Part_497" vertex3="Tess_Part_476" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_484" vertex2="Tess_Part_485" vertex3="Tess_Part_507" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_475" vertex2="Tess_Part_88" vertex3="Tess_Part_486" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_496" vertex2="Tess_Part_190" vertex3="Tess_Part_487" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_487" vertex2="Tess_Part_488" vertex3="Tess_Part_504" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_474" vertex2="Tess_Part_473" vertex3="Tess_Part_508" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_504" vertex2="Tess_Part_505" vertex3="Tess_Part_497" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_144" vertex2="Tess_Part_474" vertex3="Tess_Part_493" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_507" vertex2="Tess_Part_485" vertex3="Tess_Part_509" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_476" vertex2="Tess_Part_497" vertex3="Tess_Part_506" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_485" vertex2="Tess_Part_86" vertex3="Tess_Part_509" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_488" vertex2="Tess_Part_489" vertex3="Tess_Part_504" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_493" vertex2="Tess_Part_474" vertex3="Tess_Part_510" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_507" vertex2="Tess_Part_509" vertex3="Tess_Part_510" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_509" vertex2="Tess_Part_86" vertex3="Tess_Part_493" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_500" vertex2="Tess_Part_499" vertex3="Tess_Part_507" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_501" vertex2="Tess_Part_500" vertex3="Tess_Part_507" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_502" vertex2="Tess_Part_501" vertex3="Tess_Part_510" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_494" vertex2="Tess_Part_475" vertex3="Tess_Part_486" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_510" vertex2="Tess_Part_509" vertex3="Tess_Part_493" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_476" vertex2="Tess_Part_494" vertex3="Tess_Part_486" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_499" vertex2="Tess_Part_484" vertex3="Tess_Part_507" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_502" vertex2="Tess_Part_510" vertex3="Tess_Part_508" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_501" vertex2="Tess_Part_507" vertex3="Tess_Part_510" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_503" vertex2="Tess_Part_502" vertex3="Tess_Part_508" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_508" vertex2="Tess_Part_510" vertex3="Tess_Part_474" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_506" vertex2="Tess_Part_497" vertex3="Tess_Part_505" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_473" vertex2="Tess_Part_498" vertex3="Tess_Part_508" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_498" vertex2="Tess_Part_503" vertex3="Tess_Part_508" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_106" vertex2="Tess_Part_593" vertex3="Tess_Part_585" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_576" vertex2="Tess_Part_575" vertex3="Tess_Part_595" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_592" vertex2="Tess_Part_595" vertex3="Tess_Part_575" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_9" vertex2="Tess_Part_197" vertex3="Tess_Part_92" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_197" vertex2="Tess_Part_198" vertex3="Tess_Part_511" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_198" vertex2="Tess_Part_199" vertex3="Tess_Part_512" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_198" vertex2="Tess_Part_512" vertex3="Tess_Part_511" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_199" vertex2="Tess_Part_200" vertex3="Tess_Part_513" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_199" vertex2="Tess_Part_513" vertex3="Tess_Part_512" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_200" vertex2="Tess_Part_201" vertex3="Tess_Part_514" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_200" vertex2="Tess_Part_514" vertex3="Tess_Part_513" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_201" vertex2="Tess_Part_202" vertex3="Tess_Part_515" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_201" vertex2="Tess_Part_515" vertex3="Tess_Part_514" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_202" vertex2="Tess_Part_203" vertex3="Tess_Part_516" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_202" vertex2="Tess_Part_516" vertex3="Tess_Part_515" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_203" vertex2="Tess_Part_204" vertex3="Tess_Part_517" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_203" vertex2="Tess_Part_517" vertex3="Tess_Part_516" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_204" vertex2="Tess_Part_23" vertex3="Tess_Part_140" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_93" vertex2="Tess_Part_92" vertex3="Tess_Part_518" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_8" vertex2="Tess_Part_93" vertex3="Tess_Part_205" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_572" vertex2="Tess_Part_591" vertex3="Tess_Part_582" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_93" vertex2="Tess_Part_518" vertex3="Tess_Part_205" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_206" vertex2="Tess_Part_205" vertex3="Tess_Part_519" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_587" vertex2="Tess_Part_598" vertex3="Tess_Part_599" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_207" vertex2="Tess_Part_206" vertex3="Tess_Part_520" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_206" vertex2="Tess_Part_519" vertex3="Tess_Part_520" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_208" vertex2="Tess_Part_207" vertex3="Tess_Part_521" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_207" vertex2="Tess_Part_520" vertex3="Tess_Part_521" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_209" vertex2="Tess_Part_208" vertex3="Tess_Part_522" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_208" vertex2="Tess_Part_521" vertex3="Tess_Part_522" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_210" vertex2="Tess_Part_209" vertex3="Tess_Part_523" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_209" vertex2="Tess_Part_522" vertex3="Tess_Part_523" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_593" vertex2="Tess_Part_586" vertex3="Tess_Part_599" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_210" vertex2="Tess_Part_523" vertex3="Tess_Part_211" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_586" vertex2="Tess_Part_587" vertex3="Tess_Part_599" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_140" vertex2="Tess_Part_141" vertex3="Tess_Part_524" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_204" vertex2="Tess_Part_140" vertex3="Tess_Part_517" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_141" vertex2="Tess_Part_24" vertex3="Tess_Part_211" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_92" vertex2="Tess_Part_197" vertex3="Tess_Part_511" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_141" vertex2="Tess_Part_211" vertex3="Tess_Part_524" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_512" vertex2="Tess_Part_513" vertex3="Tess_Part_520" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_511" vertex2="Tess_Part_512" vertex3="Tess_Part_519" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_515" vertex2="Tess_Part_516" vertex3="Tess_Part_522" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_516" vertex2="Tess_Part_517" vertex3="Tess_Part_523" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_520" vertex2="Tess_Part_513" vertex3="Tess_Part_521" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_205" vertex2="Tess_Part_518" vertex3="Tess_Part_519" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_518" vertex2="Tess_Part_92" vertex3="Tess_Part_511" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_520" vertex2="Tess_Part_519" vertex3="Tess_Part_512" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_523" vertex2="Tess_Part_522" vertex3="Tess_Part_516" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_517" vertex2="Tess_Part_140" vertex3="Tess_Part_524" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_513" vertex2="Tess_Part_514" vertex3="Tess_Part_521" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_511" vertex2="Tess_Part_519" vertex3="Tess_Part_518" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_515" vertex2="Tess_Part_522" vertex3="Tess_Part_521" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_514" vertex2="Tess_Part_515" vertex3="Tess_Part_521" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_517" vertex2="Tess_Part_524" vertex3="Tess_Part_523" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_524" vertex2="Tess_Part_211" vertex3="Tess_Part_523" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_136" vertex2="Tess_Part_25" vertex3="Tess_Part_218" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_137" vertex2="Tess_Part_136" vertex3="Tess_Part_525" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_138" vertex2="Tess_Part_137" vertex3="Tess_Part_526" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_137" vertex2="Tess_Part_525" vertex3="Tess_Part_526" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_139" vertex2="Tess_Part_138" vertex3="Tess_Part_527" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_138" vertex2="Tess_Part_526" vertex3="Tess_Part_527" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_24" vertex2="Tess_Part_139" vertex3="Tess_Part_211" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_213" vertex2="Tess_Part_212" vertex3="Tess_Part_528" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_214" vertex2="Tess_Part_213" vertex3="Tess_Part_529" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_213" vertex2="Tess_Part_528" vertex3="Tess_Part_529" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_215" vertex2="Tess_Part_214" vertex3="Tess_Part_530" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_214" vertex2="Tess_Part_529" vertex3="Tess_Part_530" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_216" vertex2="Tess_Part_215" vertex3="Tess_Part_531" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_215" vertex2="Tess_Part_530" vertex3="Tess_Part_531" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_217" vertex2="Tess_Part_216" vertex3="Tess_Part_532" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_216" vertex2="Tess_Part_531" vertex3="Tess_Part_532" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_218" vertex2="Tess_Part_217" vertex3="Tess_Part_533" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_217" vertex2="Tess_Part_532" vertex3="Tess_Part_533" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_94" vertex2="Tess_Part_95" vertex3="Tess_Part_534" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_95" vertex2="Tess_Part_96" vertex3="Tess_Part_535" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_95" vertex2="Tess_Part_535" vertex3="Tess_Part_534" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_96" vertex2="Tess_Part_97" vertex3="Tess_Part_536" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_96" vertex2="Tess_Part_536" vertex3="Tess_Part_535" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_97" vertex2="Tess_Part_8" vertex3="Tess_Part_205" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_206" vertex2="Tess_Part_207" vertex3="Tess_Part_537" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_207" vertex2="Tess_Part_208" vertex3="Tess_Part_538" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_207" vertex2="Tess_Part_538" vertex3="Tess_Part_537" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_208" vertex2="Tess_Part_209" vertex3="Tess_Part_539" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_208" vertex2="Tess_Part_539" vertex3="Tess_Part_538" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_209" vertex2="Tess_Part_210" vertex3="Tess_Part_540" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_209" vertex2="Tess_Part_540" vertex3="Tess_Part_539" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_210" vertex2="Tess_Part_211" vertex3="Tess_Part_541" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_210" vertex2="Tess_Part_541" vertex3="Tess_Part_540" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_136" vertex2="Tess_Part_218" vertex3="Tess_Part_533" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_97" vertex2="Tess_Part_205" vertex3="Tess_Part_542" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_536" vertex2="Tess_Part_97" vertex3="Tess_Part_542" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_205" vertex2="Tess_Part_206" vertex3="Tess_Part_542" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_211" vertex2="Tess_Part_139" vertex3="Tess_Part_541" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_525" vertex2="Tess_Part_136" vertex3="Tess_Part_533" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_94" vertex2="Tess_Part_543" vertex3="Tess_Part_7" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_139" vertex2="Tess_Part_527" vertex3="Tess_Part_541" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_206" vertex2="Tess_Part_537" vertex3="Tess_Part_542" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_212" vertex2="Tess_Part_7" vertex3="Tess_Part_543" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_527" vertex2="Tess_Part_526" vertex3="Tess_Part_544" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_529" vertex2="Tess_Part_528" vertex3="Tess_Part_545" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_536" vertex2="Tess_Part_542" vertex3="Tess_Part_546" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_542" vertex2="Tess_Part_537" vertex3="Tess_Part_546" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_530" vertex2="Tess_Part_529" vertex3="Tess_Part_547" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_529" vertex2="Tess_Part_545" vertex3="Tess_Part_547" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_531" vertex2="Tess_Part_530" vertex3="Tess_Part_548" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_530" vertex2="Tess_Part_547" vertex3="Tess_Part_548" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_532" vertex2="Tess_Part_531" vertex3="Tess_Part_549" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_531" vertex2="Tess_Part_548" vertex3="Tess_Part_549" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_533" vertex2="Tess_Part_532" vertex3="Tess_Part_550" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_525" vertex2="Tess_Part_533" vertex3="Tess_Part_550" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_532" vertex2="Tess_Part_549" vertex3="Tess_Part_550" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_541" vertex2="Tess_Part_527" vertex3="Tess_Part_540" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_538" vertex2="Tess_Part_539" vertex3="Tess_Part_551" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_543" vertex2="Tess_Part_94" vertex3="Tess_Part_534" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_540" vertex2="Tess_Part_527" vertex3="Tess_Part_544" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_537" vertex2="Tess_Part_538" vertex3="Tess_Part_552" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_546" vertex2="Tess_Part_537" vertex3="Tess_Part_552" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_538" vertex2="Tess_Part_551" vertex3="Tess_Part_552" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_528" vertex2="Tess_Part_212" vertex3="Tess_Part_543" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_535" vertex2="Tess_Part_536" vertex3="Tess_Part_553" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_534" vertex2="Tess_Part_535" vertex3="Tess_Part_554" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_543" vertex2="Tess_Part_534" vertex3="Tess_Part_545" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_554" vertex2="Tess_Part_535" vertex3="Tess_Part_553" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_528" vertex2="Tess_Part_543" vertex3="Tess_Part_545" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_526" vertex2="Tess_Part_525" vertex3="Tess_Part_555" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_526" vertex2="Tess_Part_555" vertex3="Tess_Part_544" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_539" vertex2="Tess_Part_540" vertex3="Tess_Part_551" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_554" vertex2="Tess_Part_553" vertex3="Tess_Part_555" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_540" vertex2="Tess_Part_544" vertex3="Tess_Part_551" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_544" vertex2="Tess_Part_555" vertex3="Tess_Part_553" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_544" vertex2="Tess_Part_553" vertex3="Tess_Part_551" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_554" vertex2="Tess_Part_555" vertex3="Tess_Part_548" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_554" vertex2="Tess_Part_548" vertex3="Tess_Part_547" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_548" vertex2="Tess_Part_555" vertex3="Tess_Part_549" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_547" vertex2="Tess_Part_545" vertex3="Tess_Part_554" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_549" vertex2="Tess_Part_555" vertex3="Tess_Part_550" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_551" vertex2="Tess_Part_553" vertex3="Tess_Part_552" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_525" vertex2="Tess_Part_550" vertex3="Tess_Part_555" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_536" vertex2="Tess_Part_546" vertex3="Tess_Part_553" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_552" vertex2="Tess_Part_553" vertex3="Tess_Part_546" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_534" vertex2="Tess_Part_554" vertex3="Tess_Part_545" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_7" vertex2="Tess_Part_212" vertex3="Tess_Part_98" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_212" vertex2="Tess_Part_213" vertex3="Tess_Part_556" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_213" vertex2="Tess_Part_214" vertex3="Tess_Part_557" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_213" vertex2="Tess_Part_557" vertex3="Tess_Part_556" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_214" vertex2="Tess_Part_215" vertex3="Tess_Part_558" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_214" vertex2="Tess_Part_558" vertex3="Tess_Part_557" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_215" vertex2="Tess_Part_216" vertex3="Tess_Part_559" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_215" vertex2="Tess_Part_559" vertex3="Tess_Part_558" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_216" vertex2="Tess_Part_217" vertex3="Tess_Part_560" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_216" vertex2="Tess_Part_560" vertex3="Tess_Part_559" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_217" vertex2="Tess_Part_218" vertex3="Tess_Part_561" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_217" vertex2="Tess_Part_561" vertex3="Tess_Part_560" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_218" vertex2="Tess_Part_25" vertex3="Tess_Part_562" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_561" vertex2="Tess_Part_218" vertex3="Tess_Part_562" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_25" vertex2="Tess_Part_134" vertex3="Tess_Part_562" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_99" vertex2="Tess_Part_98" vertex3="Tess_Part_563" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_6" vertex2="Tess_Part_99" vertex3="Tess_Part_564" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_219" vertex2="Tess_Part_6" vertex3="Tess_Part_564" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_99" vertex2="Tess_Part_563" vertex3="Tess_Part_564" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_220" vertex2="Tess_Part_219" vertex3="Tess_Part_565" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_219" vertex2="Tess_Part_564" vertex3="Tess_Part_565" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_221" vertex2="Tess_Part_220" vertex3="Tess_Part_566" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_220" vertex2="Tess_Part_565" vertex3="Tess_Part_566" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_222" vertex2="Tess_Part_221" vertex3="Tess_Part_567" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_221" vertex2="Tess_Part_566" vertex3="Tess_Part_567" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_223" vertex2="Tess_Part_222" vertex3="Tess_Part_568" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_222" vertex2="Tess_Part_567" vertex3="Tess_Part_568" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_224" vertex2="Tess_Part_223" vertex3="Tess_Part_569" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_223" vertex2="Tess_Part_568" vertex3="Tess_Part_569" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_225" vertex2="Tess_Part_224" vertex3="Tess_Part_570" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_224" vertex2="Tess_Part_569" vertex3="Tess_Part_570" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_570" vertex2="Tess_Part_135" vertex3="Tess_Part_225" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_134" vertex2="Tess_Part_135" vertex3="Tess_Part_562" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_98" vertex2="Tess_Part_212" vertex3="Tess_Part_563" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_563" vertex2="Tess_Part_212" vertex3="Tess_Part_556" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_557" vertex2="Tess_Part_558" vertex3="Tess_Part_566" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_556" vertex2="Tess_Part_557" vertex3="Tess_Part_565" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_559" vertex2="Tess_Part_560" vertex3="Tess_Part_568" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_560" vertex2="Tess_Part_561" vertex3="Tess_Part_569" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_561" vertex2="Tess_Part_562" vertex3="Tess_Part_570" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_566" vertex2="Tess_Part_558" vertex3="Tess_Part_567" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_557" vertex2="Tess_Part_566" vertex3="Tess_Part_565" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_26" vertex2="Tess_Part_225" vertex3="Tess_Part_135" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_568" vertex2="Tess_Part_567" vertex3="Tess_Part_559" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_569" vertex2="Tess_Part_568" vertex3="Tess_Part_560" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_570" vertex2="Tess_Part_569" vertex3="Tess_Part_561" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_570" vertex2="Tess_Part_562" vertex3="Tess_Part_135" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_559" vertex2="Tess_Part_567" vertex3="Tess_Part_558" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_556" vertex2="Tess_Part_565" vertex3="Tess_Part_564" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_563" vertex2="Tess_Part_556" vertex3="Tess_Part_564" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_127" vertex2="Tess_Part_27" vertex3="Tess_Part_174" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_128" vertex2="Tess_Part_127" vertex3="Tess_Part_571" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_130" vertex2="Tess_Part_129" vertex3="Tess_Part_572" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_132" vertex2="Tess_Part_131" vertex3="Tess_Part_573" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_133" vertex2="Tess_Part_132" vertex3="Tess_Part_574" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_132" vertex2="Tess_Part_573" vertex3="Tess_Part_574" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_26" vertex2="Tess_Part_133" vertex3="Tess_Part_225" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_168" vertex2="Tess_Part_167" vertex3="Tess_Part_575" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_169" vertex2="Tess_Part_168" vertex3="Tess_Part_576" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_168" vertex2="Tess_Part_575" vertex3="Tess_Part_576" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_170" vertex2="Tess_Part_169" vertex3="Tess_Part_577" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_169" vertex2="Tess_Part_576" vertex3="Tess_Part_577" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_171" vertex2="Tess_Part_170" vertex3="Tess_Part_578" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_170" vertex2="Tess_Part_577" vertex3="Tess_Part_578" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_172" vertex2="Tess_Part_171" vertex3="Tess_Part_579" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_171" vertex2="Tess_Part_578" vertex3="Tess_Part_579" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_173" vertex2="Tess_Part_172" vertex3="Tess_Part_580" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_172" vertex2="Tess_Part_579" vertex3="Tess_Part_580" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_174" vertex2="Tess_Part_173" vertex3="Tess_Part_581" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_173" vertex2="Tess_Part_580" vertex3="Tess_Part_581" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_101" vertex2="Tess_Part_102" vertex3="Tess_Part_582" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_102" vertex2="Tess_Part_103" vertex3="Tess_Part_572" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_103" vertex2="Tess_Part_104" vertex3="Tess_Part_583" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_103" vertex2="Tess_Part_583" vertex3="Tess_Part_572" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_104" vertex2="Tess_Part_105" vertex3="Tess_Part_584" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_105" vertex2="Tess_Part_106" vertex3="Tess_Part_585" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_105" vertex2="Tess_Part_585" vertex3="Tess_Part_584" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_106" vertex2="Tess_Part_6" vertex3="Tess_Part_219" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_220" vertex2="Tess_Part_221" vertex3="Tess_Part_586" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_221" vertex2="Tess_Part_222" vertex3="Tess_Part_587" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_221" vertex2="Tess_Part_587" vertex3="Tess_Part_586" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_222" vertex2="Tess_Part_223" vertex3="Tess_Part_588" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_222" vertex2="Tess_Part_588" vertex3="Tess_Part_587" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_223" vertex2="Tess_Part_224" vertex3="Tess_Part_589" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_223" vertex2="Tess_Part_589" vertex3="Tess_Part_588" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_224" vertex2="Tess_Part_225" vertex3="Tess_Part_590" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_224" vertex2="Tess_Part_590" vertex3="Tess_Part_589" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_127" vertex2="Tess_Part_174" vertex3="Tess_Part_581" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_225" vertex2="Tess_Part_133" vertex3="Tess_Part_590" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_571" vertex2="Tess_Part_127" vertex3="Tess_Part_581" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_130" vertex2="Tess_Part_572" vertex3="Tess_Part_583" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_129" vertex2="Tess_Part_128" vertex3="Tess_Part_591" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_131" vertex2="Tess_Part_130" vertex3="Tess_Part_583" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_133" vertex2="Tess_Part_574" vertex3="Tess_Part_590" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_167" vertex2="Tess_Part_13" vertex3="Tess_Part_100" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_575" vertex2="Tess_Part_167" vertex3="Tess_Part_100" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_587" vertex2="Tess_Part_588" vertex3="Tess_Part_598" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_582" vertex2="Tess_Part_102" vertex3="Tess_Part_572" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_128" vertex2="Tess_Part_571" vertex3="Tess_Part_591" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_100" vertex2="Tess_Part_101" vertex3="Tess_Part_592" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_106" vertex2="Tess_Part_219" vertex3="Tess_Part_593" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_220" vertex2="Tess_Part_586" vertex3="Tess_Part_593" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_219" vertex2="Tess_Part_220" vertex3="Tess_Part_593" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_573" vertex2="Tess_Part_131" vertex3="Tess_Part_583" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_104" vertex2="Tess_Part_584" vertex3="Tess_Part_583" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_592" vertex2="Tess_Part_101" vertex3="Tess_Part_582" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_583" vertex2="Tess_Part_584" vertex3="Tess_Part_573" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_573" vertex2="Tess_Part_584" vertex3="Tess_Part_594" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_574" vertex2="Tess_Part_573" vertex3="Tess_Part_594" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_584" vertex2="Tess_Part_585" vertex3="Tess_Part_594" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_577" vertex2="Tess_Part_576" vertex3="Tess_Part_595" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_578" vertex2="Tess_Part_577" vertex3="Tess_Part_596" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_577" vertex2="Tess_Part_595" vertex3="Tess_Part_596" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_579" vertex2="Tess_Part_578" vertex3="Tess_Part_597" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_578" vertex2="Tess_Part_596" vertex3="Tess_Part_597" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_580" vertex2="Tess_Part_579" vertex3="Tess_Part_597" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_571" vertex2="Tess_Part_580" vertex3="Tess_Part_597" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_581" vertex2="Tess_Part_580" vertex3="Tess_Part_571" type="ABSOLUTE"/>
+    <triangular vertex1="Tess_Part_129" vertex2="Tess_Part_591" vertex3="Tess_Part_572" type="ABSOLUTE"/>
+    </tessellated>
+  </solids>
+<structure>
+    <volume name="Part">
+      <materialref ref="G4_Galactic"/>
+      <solidref ref="Tess_Part"/>
+    </volume>
+    <volume name="TOP">
+      <materialref ref="G4_Galactic"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="Part_phys">
+        <volumeref ref="Part"/>
+      </physvol>
+    </volume>
+</structure>
+ <setup name="Default" version="1.0">
+    <world ref="TOP"/>
+ </setup>
+</gdml>

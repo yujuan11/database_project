@@ -1,0 +1,23 @@
+# Run-dependent NA62MC datacards.
+# They are executed after the standard datacards but before the user datacards.
+
+# Standard NA62MC settings for the beam-dump configuration (run 11071 to be used).
+/control/echo [NA62MC] Applying run-dependent settings from CDB
+
+/beam/SetBeam exotic
+/exoticBeam/origin 1
+/exoticBeam/ALPYukawa 0
+/exoticBeam/setZmin 102000
+/exoticBeam/setZmax 182000
+/kine/zMinBeamForKineParts 0.
+/decay/force 0
+/Simulation/ExoticParticle/FlatThreeBodyDecay 1
+/Simulation/ExoticParticle/MassScale Log
+/Simulation/ExoticParticle/Mass 10
+/Simulation/ExoticParticle/MassStep 0.0247
+
+# Clear the creator process vector, and add a new entry
+/kine/ClearCreatorProcessToSave
+/kine/CreatorProcessToSave Decay
+
+/kine/MaximumInteractionLevel 2

@@ -1,0 +1,20 @@
+# Bad burst ranges for the determination of bad bursts.
+# Produced for 2017A, v1.0.2.
+# The ranges are read by NumberOfHitsMonitor.
+# The line format: RunNumber Detector NHits_min NHits_max NCandidates_min NCandidates_max
+# -1.000 means that the default value obtained in the fit is used.
+# Any number different from -1.000 is the hand-made correction.
+#
+ 8147           MUV0   0.010   0.050  -1.000  -1.000
+ 8147            SAV  -1.000  -1.000   0.200   0.400
+ 8181            SAV   0.400   0.600   0.300   0.400
+ 8187            HAC   0.050   0.200  -1.000  -1.000
+ 8187            SAV   0.400   0.600   0.200   0.400
+ 8194            IRC   0.300   0.500  -1.000  -1.000
+ 8194           MUV2   1.000   3.000   0.500   1.000
+ 8211           MUV0   0.020   0.050  -1.000  -1.000
+ 8211            SAV   0.400   0.600   0.200   0.400
+ 8240            IRC   0.300   0.500  -1.000  -1.000
+ 8248            SAV   0.300   0.600   0.100   0.400
+ 8268            SAV   0.300   0.550   0.200   0.350
+ 8270            SAV  -1.000  -1.000   0.100   0.400

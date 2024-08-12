@@ -1,0 +1,6 @@
+# "Database" for CHOD spatial alignment offsets, measured by tracks using central cracks
+#
+# Format of the line with offsets:
+#  OffsetX[V-plane] OffsetY[V-plane] OffsetX[H-plane] OffsetY[H-plane]
+#
+0.0 0.0 0.0 0.0

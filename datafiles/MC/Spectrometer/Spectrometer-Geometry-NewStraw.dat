@@ -1,0 +1,33 @@
+##############################################################
+# Spectrometer geometry parameters database for New Straws
+# All values are in mm unless stated otherwise
+# Created by Jack Sanders 2022-05-17
+# Modified by Zdenko Hives 2022-07-29
+fNStraws                    = 160
+fStrawSpacing               = 12.5
+fStrawInnerRadius           = 2.48775
+fCopperThickness            = 0.00005
+fMylarThickness             = 0.012
+fGoldThickness              = 0.00002
+fStrawLength                = 2100.
+fWireRadius                 = 0.015
+fWireGoldThickness          = 0.0005
+fNStrawsPCB                 = 16
+fStrawPCBXSpacing           = 5.0
+fNPlanes                    = 8
+fPlaneZSpacing              = 10.38
+#######################previously kHalfViewSpacing
+fHalfViewZSpacing           = 12.72
+fHalfViewPlaneDisplacementSlope = 0.46
+########################previously kHalfViewDisplacement
+fHalfViewXSpacing           = 19.25
+fNViews                     = 4
+fViewSpacing1               = 85.
+fViewSpacing2               = 145.25036
+########################previously fViewSpacing2 = 205.
+fViewRotationAngle[0]       = -0.25
+fViewRotationAngle[1]       = 0.25
+fViewRotationAngle[2]       = 0.00
+fViewRotationAngle[3]       = 0.50
+# fSpacerWire 0 is off, 1 is on
+fSpacerWire                 = 0

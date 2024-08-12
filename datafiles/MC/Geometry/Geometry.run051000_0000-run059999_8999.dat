@@ -1,0 +1,85 @@
+# Layout of the SHADOWS detector 
+# Detector 		 		    Position   Angle
+# Z - BackFace of Detector		     X Y   Z    X Y Z
+# 					    (mm mm   mm   degrees)
+
+UpstreamVeto                                2325 0 37800 0 0 0
+GreenTube(0.015,0.0,3.32, 0.0,2.47)         2325 0 38215 0 0 0
+GreenTube(11.8,3.32,3.35,2.47,2.50)         2325 0 50000 0 0 0
+GreenTube(0.015,0.0, .83, 0.0,2.47)         1083 0 50000 0 0 0
+GreenTube(7.1 ,2.47,2.50,2.47,2.50)         2750 0 57100 0 0 0
+Tracker("STRAW0", 0, 0, 0)                  2750 0 57500 0 0 0
+GreenTube(0.800 ,2.47,2.50,2.47,2.50)       2750 0 58300 0 0 0
+Tracker("STRAW1", 1, 0, 0)                  2750 0 58700 0 0 0
+TrackerMagnet                               2750 0 60700 0 0 0 
+Tracker("STRAW2", 2, 0, 0)                  2750 0 61700 0 0 0
+Tracker("STRAW3", 3, 0, 0)                  2750 0 62700 0 0 0
+Timing                                      2750 0 65700 0 0 0
+ECAL                                        2750 0 67200 0 0 0 
+Muon("Muon0", 0)                            2750 0 69200 0 0 0 
+Muon("Muon1", 1)                            2750 0 70200 0 0 0 
+Muon("Muon2", 2)                            2750 0 71200 0 0 0 
+Muon("Muon3", 3)                            2750 0 72200 0 0 0 
+
+
+#Cedar                                       0 0 74440 0 0 0 
+#GigaTracker                                 0 0 102420 0 0 0
+#VetoCounter                                 0 0 0 0 0 0  
+#CHANTI                                      0 0 104458 0 0 0 
+#ANTI0                                       0 0 104910 0 0 0
+#
+#BlueTubeEndCap                              0 0 105655 0 0 0 
+#BlueTube(14.939, .96, .974, true, false)    0 0 120595 0 0 0 
+#LAV("LAV1",1)                               0 0 122145 0 0 0 
+#BlueTube(6.06, .96, .974, true, false)      0 0 128205 0 0 0 
+#LAV("LAV2",2)                               0 0 129755 0 0 0 
+#BlueTube(6.06, .96, .974, true, false)      0 0 135815 0 0 0 
+#LAV("LAV3",3)                               0 0 137365 0 0 0 
+#BlueTube(6.06, .96, .974, true, false)      0 0 143425 0 0 0 
+#LAV("LAV4",4)                               0 0 144975 0 0 0 
+#BlueTube(6.06, .96, .974, true, false)      0 0 151035 0 0 0 
+#LAV("LAV5",5)                               0 0 152585 0 0 0 
+#BlueTube(5.975, .96, .974, true, false)     0 0 158560 0 0 0 
+#BlueTube(5.985, 1.2, 1.216)                 0 0 164545 0 0 0 
+#LAV("LAV6",6)                               0 0 166095 0 0 0 
+#BlueTube(5.96, 1.2, 1.216)                  0 0 172055 0 0 0 
+#LAV("LAV7",7)                               0 0 173605 0 0 0 
+#BlueTube(5.96, 1.2, 1.216)                  0 0 179565 0 0 0 
+#LAV("LAV8",8)                               0 0 181115 0 0 0 
+#BlueTube(1.06, 1.2, 1.216)                  0 0 182175 0 0 0 
+#BlueTube(1.135, 1.4, 1.415)                 0 0 183310 0 0 0 
+#Spectrometer("STRAW0", 0)                   0 0 183705.525 0 0 0
+#BlueTube(8.235, 1.4, 1.415)                 0 0 191941 0 0 0 
+#LAV("LAV9",9)                               0 0 193371 0 0 0 
+#BlueTube(.4939, 1.4, 1.415, false, true)    0 0 193865 0 0 0 
+#Spectrometer("STRAW1", 1)                   0 0 194260.525 0 0 0
+#BlueTube(1.6744, 1.4, 1.415, false, true)   0 0 195935 0 0 0 
+#BlueTube(.015, 1.1955, 1.415, false, true)  0 0 195950 0 0 0 
+#BlueTube(.395, 1.1845, 1.1955, false, true)  0 0 196345 0 0 0 
+#SpectrometerMagnet                          0 0 197645 0 0 0 
+#BlueTube(1.3, 1.1845, 1.1955, false, true) 0 0 197645 0 0 0 This is the grey tube inside the mnp33 magnet. It is already created with the magnet's geometry
+#BlueTube(.42, 1.1845, 1.1955, false, true)  0 0 198065 0 0 0 
+#BlueTube(4.269, 1.4, 1.415, false, true)    0 0 202334 0 0 0 
+#LAV("LAV10",10)                             0 0 203764 0 0 0 
+#BlueTube(.4879, 1.4, 1.415, false, true)    0 0 204252 0 0 0 
+#Spectrometer("STRAW2", 2)                   0 0 204647.525 0 0 0
+#BlueTube(12.104, 1.4, 1.415, false, true)   0 0 216760 0 0 0 
+#LAV("LAV11",11)                             0 0 218190 0 0 0
+#BlueTube(.488, 1.4, 1.415, false, true)     0 0 218678 0 0 0 
+#Spectrometer("STRAW3", 3)                   0 0 219073325 0 0 0
+#BlueTube(.471675, 1.4, 1.415, false, true)  0 0 219545 0 0 0 
+#MUV0                                        2245 0 237380 0 0 0 
+##Angle (in deg) of RICH determined by fAngleWRTXaxis (0.10254) in RICHGeometryParameters
+#RICH                                        17.6358 0 237578 0 0.10254 0  
+#NewCHOD                                     0 0 238198 0 0 0 
+#LAV("LAV12",12)                              0 0 238898 0 0 0 
+#CHOD                                        0 0 239540 0 0 0 
+#IRC                                         0 0 240388 0 0 0
+## The physical center of LKr is defined by the cental cathod and has a shift of half cell wrt to our reference frame origin.
+## However, we shift it by ~ 5 mm, as it seems to be enough to match the data [to be understood better!]
+#LKr                                         4.934545 0 243222 0 0 0  
+#MUV1                                        0 0 244385 0 0 0 
+#MUV2                                        0 0 245350 0 0 0 
+#MUV3                                        0 0 247800 0 0 0 
+#HAC                                         0 0 255059 0 0 0
+#SAC                                         0 0 261186 0 0 0 

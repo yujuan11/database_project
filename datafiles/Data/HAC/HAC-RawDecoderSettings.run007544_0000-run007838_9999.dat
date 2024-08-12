@@ -1,0 +1,64 @@
+# Total number of channels
+NChannels= 384
+
+# Total number of ROBoards
+NROBoards= 1
+
+# Number of mezzanines for a full board
+NROMezzaninesPerFullBoard= 4
+
+# Number of readout boards for each station [one value for each station]
+NROBoardsPerStation= 1
+
+# Mezzanine masks to indicate the enabled mezzanines in each board [one value for each ROBoard]
+ROMezzanineMasksPerBoard= 7
+
+# FPGA map: number of FPGA per readout (DAQ) board (i.e number of TDCs per Tel62) - from run 1423 - December 2014
+# "NFPGAs" has to be specified for how many readout boards the sub-detector is using   
+NFPGAs= 3
+
+# Number of 25ns-long slots read [one value for each mezzanine]
+NSlots= 12 12 12 12
+
+# Index of last 25ns-long slot [one value for each mezzanine]
+LastSlotID= 6 6 6 6
+
+# Flag to define the treatment of warning printouts
+#0: no warnings
+#1: general information event-related 
+#2: general information detector-related
+#3: maximum detail level
+WarningsLevel= 1
+
+# Total number of channels of the readout board (used by RecoBase/src/TDCBRawDecoder.cc)
+NROChannels= 384
+
+# Channel map: "position ID" as a function of "readout ID",
+# starting from readout ID 0, grouped by 16
+
+ChRemap_0000=    0 1000 2000 3000    1 1001 2001 3001    2 1002 2002 3002    3 1003 2003 3003
+ChRemap_0001=    4 1004 2004 3004    5 1005 2005 3005    6 1006 2006 3006    7 1007 2007 3007
+ChRemap_0002=    8 1008 2008 3008    9 1009 2009 3009   10 1010 2010 3010   11 1011 2011 3011
+ChRemap_0003=   12 1012 2012 3012   13 1013 2013 3013   14 1014 2014 3014   15 1015 2015 3015
+ChRemap_0004=   -1   -1   -1   -1   17 1017 2017 3017   18 1018 2018 3018   19 1019 2019 3019
+ChRemap_0005=   20 1020 2020 3020   21 1021 2021 3021   22 1022 2022 3022   23 1023 2023 3023
+ChRemap_0006=   24 1024 2024 3024   25 1025 2025 3025   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0007=   28 1028 2028 3028   29 1029 2029 3029   30 1030 2030 3030   31 1031 2031 3031
+
+ChRemap_0008=   32 1032 2032 3032   33 1033 2033 3033   34 1034 2034 3034   35 1035 2035 3035
+ChRemap_0009=   -1   -1   -1   -1   37 1037 2037 3037   -1   -1   -1   -1   39 1039 2039 3039
+ChRemap_0010=   40 1040 2040 3040   41 1041 2041 3041   42 1042 2042 3042   43 1043 2043 3043
+ChRemap_0011=   44 1044 2044 3044   45 1045 2045 3045   46 1046 2046 3046   47 1047 2047 3047
+ChRemap_0012=   48 1048 2048 3048   49 1049 2049 3049   50 1050 2050 3050   51 1051 2051 3051
+ChRemap_0013=   52 1052 2052 3052   53 1053 2053 3053   54 1054 2054 3054   55 1055 2055 3055
+ChRemap_0014=   56 1056 2056 3056   57 1057 2057 3057   58 1058 2058 3058   59 1059 2059 3059
+ChRemap_0015=   60 1060 2060 3060   61 1061 2061 3061   62 1062 2062 3062   63 1063 2063 3063
+
+ChRemap_0016=   64 1064 2064 3064   65 1065 2065 3065   66 1066 2066 3066   67 1067 2067 3067
+ChRemap_0017=   68 1068 2068 3068   69 1069 2069 3069   70 1070 2070 3070   71 1071 2071 3071
+ChRemap_0018=   72 1072 2072 3072   73 1073 2073 3073   74 1074 2074 3074   75 1075 2075 3075
+ChRemap_0019=   76 1076 2076 3076   77 1077 2077 3077   78 1078 2078 3078   79 1079 2079 3079
+ChRemap_0020=   80 1080 2080 3080   81 1081 2081 3081   -1   82 1082 2082   -1   83 1083 2083
+ChRemap_0021=   84 1084 2084 3084   85 1085 2085 3085   86 1086 2086 3086   87 1087 2087 3087
+ChRemap_0022=   88 1088   -1 2088   89 1089 2089 3089   16 1016 2016 3016   26 1026 2026 3026
+ChRemap_0023=   27 1027 2027 3027   36 1036 2036 3036   38 1038 2038 3038   -1   -1   -1   -1

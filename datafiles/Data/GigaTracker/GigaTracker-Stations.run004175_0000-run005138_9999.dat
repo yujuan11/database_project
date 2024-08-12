@@ -1,0 +1,5 @@
+#GTKID IsIn SensUpstr x y z beampipeZlength (symmetric, l = 0.0 means no pipe!)
+0 0 0 0.0 0.0 79600.0 160.0
+1 1 0 0.0 0.0 79600.0 160.0
+2 0 0 0.0 -60.0 92800.0 160.0
+3 0 0 0.0 0.0 102400.0 0.0

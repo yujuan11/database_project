@@ -1,0 +1,8 @@
+### Cedar-WEST-N2 simulation configuration ###
+
+CedarType WEST
+RadiatorGas N2
+RadiatorGasPressure 1.71
+DiaphragmApertureR 2.0
+OctantsEnabled 1 1 1 1 1 1 1 1
+LightGuideType 48

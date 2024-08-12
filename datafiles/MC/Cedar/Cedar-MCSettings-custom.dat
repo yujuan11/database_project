@@ -1,0 +1,104 @@
+### Cedar custom simulation configuration
+### This file includes all the configurable options available.
+
+# Cedar type (WEST, NORTH or H). Default: WEST
+#CedarType WEST
+#CedarType NORTH
+CedarType H
+
+# Radiator gas (N2, H2, He, Air). Default: N2
+RadiatorGas H2
+
+# Radiator gas pressure [bar]
+# Standard values:
+# CEDAR-W:   p(N2)=1.71 bar, p(H2)=3.67 bar
+# CEDAR-N:   p(He)=10.74 bar
+# CEDAR-H:   p(H2)=3.70 bar
+# Alignment: p(Air)=1 bar
+RadiatorGasPressure 3.80
+
+# DiaphramApeture [mm]
+# Standard values: 2mm (all types) or 3mm (WEST-H2). Default: 2mm.
+DiaphragmApertureR 2.0
+
+###############################################################
+#
+# The octants are numbered 1-8,
+# ordered clockwise looking in the K beam direction.
+# Therefore the Saleve (Jura) octants are numbered 1-4 (5-8).
+# Octant 1 is top Saleve (=top right looking along the K beam).
+# The following option allows disabling the octants.
+# By default, all octants are enabled.
+
+# Test beam 2011
+#OctantsEnabled 1 0 0 0 0 0 0 0
+# Technical Run 2012
+#OctantsEnabled 1 0 0 1 0 1 1 0
+# Final configuration 2014+
+OctantsEnabled 1 1 1 1 1 1 1 1
+
+###############################################################
+#
+# Lightguide type (default=48). 
+#
+# Valid types:
+# 0: no cones
+# 1: the pre-2011 PMTs
+# 3: cylinder with 3 PMTs, used for beam test in 2011
+# 32: 32-PMT (R=77.52mm spherical mirrors), used for the techincal run 2012
+# 48: 47-PMT (R=51.58mm spherical mirrors), used from 2014 onwards
+# 64: 64-PMT (R=51.58mm spherical mirrors), for future use
+#
+# MCP-PMT arrays for potential post-LS3 use:
+# 100: 2x2 grid
+# 101: 1x2 grid (experimental)
+# 102: 2x2 grid Hi-QE Blue PMT
+#
+# 103: Light Spot Test
+#
+# PMT arrangements for types 32, 48, 64 are described in the KTAG mapping guide:
+# http://goudzovs.web.cern.ch/goudzovs/ktag-mapping-guide.pdf
+
+LightGuideType 100
+
+# Simulation of the test mirror (needed for Mangin mirror alignment mode):
+# 0=off (default); 1=simulated [if simulated then gas changed to be air at 1 bar]
+TestMirrorSimulation 0
+
+# Cedar misalignment parameters [mm]
+MisalignmentX 0.0
+MisalignmentY 0.0
+
+# Alignment parameters of the 8 spherical mirrors.
+# Longitudinal: dZ [mm].
+# Transverse (in clockwise direction, looking downstream): dX [mm].
+SphericalMirrordZ 0 0 0 0 0 0 0 0
+SphericalMirrordX 0 0 0 0 0 0 0 0
+
+# Tilt of the optical components [mrad]
+ManginMirrorTiltX 0.0
+ManginMirrorTiltY 0.0
+ChromaticCorrectorTiltX 0.0
+ChromaticCorrectorTiltY 0.0
+TestMirrorTiltX 0.0
+TestMirrorTiltY 0.0
+
+# Radii of curvature of the lenses
+# Default parameters are used for if negative values are provided
+ManginMirrorReflectiveSurfaceRadius -1
+ManginMirrorRefractiveSurfaceRadius -1
+ChromaticCorrectorRearSurfaceRadius -1
+
+# Position and centre of curvature of the mangin mirror
+ManginMirrorXPos 0.0
+ManginMirrorYPos 0.0
+ManginMirrorCoCReflectXPos 0.0
+ManginMirrorCoCReflectYPos 0.0
+ManginMirrorCoCRefractXPos 0.0
+ManginMirrorCoCRefractYPos 0.0
+
+# Position and centre of curvature of the chromatic corrector
+ChromaticCorrectorXPos 0.0
+ChromaticCorrectorYPos 0.0
+ChromaticCorrectorCoCXPos 0.0
+ChromaticCorrectorCoCYPos 0.0

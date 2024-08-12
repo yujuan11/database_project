@@ -1,0 +1,11 @@
+#
+# "Database" for CHOD spatial alignment offsets, measured by tracks using central cracks
+# Created by Viacheslav Duk (Viacheslav.Duk@cern.ch) 23.08.2018
+# Lines beginning with "#" are treated as comment lines 
+#
+# Format of the line with offsets:
+#  OffsetX[V-plane] OffsetY[V-plane] OffsetX[H-plane] OffsetY[H-plane]
+#
+# 2017 data (calculated from run 8252), see Slava's talk on 05.09.2018
+-4.1 -1.9 -6.4 -1.3
+#

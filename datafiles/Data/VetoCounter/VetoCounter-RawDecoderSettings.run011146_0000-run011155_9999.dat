@@ -1,0 +1,66 @@
+# Total number of channels
+NChannels= 512
+
+# Total number of ROBoards
+NROBoards= 1
+
+# Number of links for a full board
+NROMezzaninesPerFullBoard= 12
+
+# Number of readout boards for each station [one value for each station]
+NROBoardsPerStation= 1
+
+# Mezzanine masks to indicate the enabled mezzanines in each board [one value for each ROBoard]
+ROMezzanineMasksPerBoard= f
+
+# Number of 25ns-long slots read [one value for each mezzanine]
+NSlots= 101 101 101 101 101 101 101 101 101 101 101 101
+
+# Index of last 25ns-long slot [one value for each mezzanine]
+LastSlotID= 50 50 50 50 50 50 50 50 50 50 50 50
+
+# Offset used for matching trigger in the Felix soft
+Latency= 605
+
+# Hit structure version to use
+HitVersion= 2
+
+# Flag to define the treatment of warning printouts
+#0: no warnings
+#1: general information event-related
+#2: general information detector-related
+#3: maximum detail level
+WarningsLevel= 3
+
+# Total number of channels of the readout board (used by RecoBase/src/TDCBRawDecoder.cc)
+NROChannels= 384
+
+# Felix links 0x01 0x11 0x21 0x31
+FelixLink= -1 -1 -1 -1
+
+# Channel map: "position ID" as a function of "readout ID",
+# starting from readout ID 0, grouped by 16
+ChRemap_0000=  100  101  102  103  104  105  106  107  108  109  110  200  201  202  203  204
+ChRemap_0001=  150  151  152  153  154  155  156  157  158  159  160  250  251  252  253  254
+ChRemap_0002=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0003=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0004=  205  206  207  208  209  210  308  309  255  256  257  258  259  260  358  359
+ChRemap_0005=  350  351  352  353  354  355  356  357  300  301  302  303  304  305  306  307
+ChRemap_0006=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0007=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0008=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0009=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0010=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0011=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0012=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0013=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0014=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0015=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0016=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0017=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0018=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0019=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0020=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0021=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0022=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0023=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1

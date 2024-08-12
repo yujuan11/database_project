@@ -1,0 +1,13 @@
+BEATCH Files downloaded from https://doble.web.cern.ch/doble/
+
+moved to different file names:
+k12hika+.txt  --> K12hika_Plus.dat
+k12hika+T.txt --> K12hika_PlusT.dat 
+k12hika+D.txt --> K12hika_PlusD.dat
+
+Info from https://doble.web.cern.ch/doble/:
+K12HIKA+ (dated 28/05/19) represents the beam and detector layout for experiment NA62 to measure the ultra-rare decay: K+ -> pi+ nu nubar. The beam is described in Chapter 2 of the NA62 Technical Design Report, NA62-10-07. The principal beam-line and detector components are listed here as installed and used for data-taking in 2016, 2017 and the beginning of 2018. 
+
+K12HIKA+T (dated 28/05/19) describes the beam as used for data-taking after TS1 (18.-21.June), 2018. The previous, adjustable, 4-jaw final collimator(XCHV101101) was replaced by a fixed steel collimator (TCX 101101), 1.2m in length, of outer dimensions (1700mm x 1800mm) and central, race-track shaped (76mm x 40mm) aperture, designed to absorb all pi+ from upstream K+ decays, which could pass outside the aperture. 
+
+K12HIKA+D (dated 17/05/2021) describes the beam layout as modified during LS2 for renewed data-taking in 2021.

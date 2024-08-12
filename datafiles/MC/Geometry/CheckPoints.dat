@@ -1,0 +1,91 @@
+#name zpos zmax prestepVol postStepVol
+#
+# MCB magnet exits are at different z compared to beatch file
+# due to the extension of coils in z by 320mm that are not
+# included in beatch
+#
+# z values evaluated on xx.03.2020 with revison
+#
+CedarEntry 69200.0 0.0 World CedarRespReg
+#CedarQFS1Entry 76305.0 0.0 CedarRespReg CedarQuadMagnetField0
+CedarQFS1Exit 77105.0 0.0 CedarQuadMagnetField0 CedarRespReg
+#CedarQFS2Entry 78305.0 0.0 CedarRespReg CedarQuadMagnetField1
+#CedarQFS2Exit 79105.0 0.0 CedarQuadMagnetField1 CedarRespReg
+GTKEntry 79440.0 0.0 CedarRespReg GigaTracker
+#GTK1Entry 79595.47 0.0 GigaTracker GigaTrackerStation1
+#GTK1Exit 79605.47 0.0 GigaTrackerStation1 GigaTracker
+#GTKBEND4AEntry 80160.0 0.0 GigaTracker GigaTrackerMCBMagnet_0
+GTKBEND4AExit 83300.0 0.0 GigaTrackerMCBMagnet_0 GigaTracker
+#GTKBEND4BEntry 83760.0 0.0 GigaTracker GigaTrackerMCBMagnet_1
+GTKBEND4BExit 86900.0 0.0 GigaTrackerMCBMagnet_1 GigaTracker
+#GTKScraperEntry 87310.0 0.0 GigaTracker GigaTrackerScraper
+#GTKScraperExit 92310.0 0.0 GigaTrackerScraper GigaTracker
+#GTK2Entry 92795.39 0.0 GigaTracker GigaTrackerStation2
+#GTK2Exit 92805.39 0.0 GigaTrackerStation2 GigaTracker
+#GTKBEND5Entry 93040.0 0.0 GigaTracker GigaTrackerMCBMagnet_2
+GTKBEND5Exit 96180.0 0.0 GigaTrackerMCBMagnet_2 GigaTracker
+#GTKBEND6Entry 96640.0 0.0 GigaTracker GigaTrackerMCBMagnet_3
+GTKBEND6Exit 99780.0 0.0 GigaTrackerMCBMagnet_3 GigaTracker
+#GTKFastValveEntry 99920.0 0.0 GigaTracker GigaTrackerFastValve
+#GTKFastValveExit 100208.0 0.0 GigaTrackerFastValve GigaTracker
+#GTKCollimatorEntry 100210.0 0.0 GigaTracker GigaTrackerCollimator_TCX
+GTKCollimatorExit 101410.0 0.0 GigaTrackerCollimator_TCX GigaTracker
+#GTKTRIM5Entry : should not be used for now, please use GTKCollimatorExit instead
+GTKTRIM5Exit 102150.0 0.0 GigaTrackerMDXMagnet GigaTracker
+#GTK3Entry 102395.39 0.0 GigaTracker GigaTrackerStation3
+#GTK3Exit 102405.39 0.0 GigaTrackerStation3 GigaTracker
+GTKExit 102420.0 0.0 GigaTracker CHANTI
+CHANTIExit 104458.0 0.0 CHANTI ANTI0
+#ANTI0Exit 105000.0 0.0 ANTI0 LAV_RR0
+#LAV1Entry 120595.0 0.0 LAV1 LAV_Banana
+#LAV1Exit 122145.0 0.0 LAV_Banana, LAV1
+#LAV2Entry 128205.0 0.0 LAV2 LAV_Banana
+#LAV2Exit 129755.0 0.0 LAV_Banana LAV2
+#LAV3Entry 135815.0 0.0 LAV3 LAV_Banana
+#LAV3Exit 137365.0 0.0 LAV_Banana LAV3
+#LAV4Entry 143425.0 0.0 LAV4 LAV_Banana
+#LAV4Exit 144975.0 0.0 LAV_Banana LAV4
+#LAV5Entry 151035.0 0.0 LAV5 LAV_Banana
+#LAV5Exit 152585.0 0.0 LAV_Banana LAV5
+#LAV6Entry 164545.0 0.0 LAV6 LAV_Banana
+#LAV6Exit 166095.0 0.0 LAV_Banana LAV6
+#LAV7Entry 172055.0 0.0 LAV7 LAV_Banana
+#LAV7Exit 173605.0 0.0 LAV_Banana LAV7
+#LAV8Entry 179565.0 0.0 LAV8 LAV_Banana
+#LAV8Exit 181115.0 0.0 LAV_Banana LAV8
+STRAWCH0Entry 160000.0 200000.0 VesselEnvelope STRAW0
+STRAWCH0Exit 160000.0 200000.0 STRAW0 VesselEnvelope
+#LAV9Entry 191941.0 0.0 LAV9 LAV_Banana
+#LAV9Exit 193371.0 0.0 LAV_Banana LAV9
+#STRAWCH1Entry 160000.0 200000 VesselEnvelope STRAW1
+STRAWCH1Exit 160000.0 200000.0 STRAW1 VesselEnvelope
+#MNP33MagnetEntry 196345.0 0.0 World BoxInsideMNP33
+#MNP33MagnetExit 197645.0 0.0 BoxInsideMNP33 World
+#LAV10Entry 202334.0 0.0 LAV10 LAV_Banana
+#LAV10Exit 203764.0 0.0 LAV_LAV10
+STRAWCH2Entry 180000.0 220000.0 VesselEnvelope STRAW2
+#STRAWCH2Exit 180000.0 220000.0 STRAW2 VesselEnvelope
+#LAV11Entry 216760.0 0.0 LAV11 LAV_Banana
+#LAV11Exit 218190.0 0.0 LAV_Banana LAV11
+#STRAWCH3Entry 180000.0 220000.0 VesselEnvelope STRAW3
+STRAWCH3Exit 180000.0 220000.0 STRAW3 VesselEnvelope
+#RICHEntry 219602.95 0.0 World RICHRR
+#RICHBeamWindow 219658.82 0.0 RICHRR RICHBeamWindow
+#RICHPMTExit 220249.96 0.0 RICHPMTsWindow RICHRadiator
+RICHMirrorEntry 236790.0 236880.0 RICHRadiator RICHMirror
+#RICHMirrorExit 237530.83 0.0 RICHMirrorWindow RICHRR
+NewCHODEntry 237588.0 0.0 World NewCHODRespReg
+NewCHODExit 238198.0 0.0 NewCHODRespReg LAV12
+CHODEntry 238898.0 0.0 LAV12 CHODRespReg
+IRCEntry 239540.0 0.0 CHODRespReg IRC
+LKrEntry 240388.0 0.0 IRC LKr
+#LKrExit 243222.0 0.0 LKr World
+MUV1Entry 243224.0 0.0 World MUV1
+MUV2Entry 244385.0 0.0 MUV1 MUV2
+MUV2Exit 245350.0 0.0 MUV2 MUV3
+#FISC5Entry 245392.0 0.0 MUV3 FISC5
+MUV3Entry 246700.0 0.0 MUV3FeWall MUV3 # not produced in R=101mm inner hole of the iron wall
+HACEntry 247800.0 0.0 MUV3 HACUpstream
+HACCentre 253345.0 0.0 HACUpstream HACDownstream
+SACEntry 255059.0 0.0 HACDownstream SAC
+#SACExit 264325.0 0.0 SAC World

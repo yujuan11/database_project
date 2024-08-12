@@ -1,0 +1,11 @@
+# An example of "external mode" NA62MC input file.
+# One primary particle per event must be specified. Each line encodes one event.
+# If fewer events are simulated than the number of lines, lines are taken at random.
+# If more events than lines are requested, the number of events is capped at the number of lines.
+# Format: PDG code, x y z [mm], Px Py Pz [MeV].
+#
+321 0 0 69000 0 0 73000
+321 0 0 69000 0 0 74000
+321 0 0 69000 0 0 75000
+321 0 0 69000 0 0 76000
+321 0 0 69000 0 0 77000

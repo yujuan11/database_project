@@ -1,0 +1,17 @@
+##############################################################
+# Tracker chamber offsets and hole positions for current straw chamber 0
+# All values are in mm unless stated otherwise
+# Created by Zdenko Hives 2022-07-28
+fChamberHoleXCentre      = 0.
+fChamberXRmaxUV          = 0.
+fChamberXRminUV          = 0.
+fChamberXORminUV         = -5000.
+fChamberXORmaxUV         = +5000.
+fChamberXRmaxX           = 0.
+fChamberXRminX           = 0.
+fChamberXORminX          = -5000.
+fChamberXORmaxX          = +5000.
+fChamberXRminY           = 0.
+fChamberXRmaxY           = 0.
+fChamberXORminY          = -5000.
+fChamberXORmaxY          = +5000.

@@ -1,0 +1,26 @@
+# Checkpoint configuration for HIKE Phase 2 geometry
+# Run 30000 to be used for simulations
+#
+#name zpos zmax prestepVol postStepVol
+#
+STRAWCH0Entry 212500.0 213500.0 VesselEnvelope STRAW0
+STRAWCH0Exit 212500.0 213500.0 STRAW0 VesselEnvelope
+STRAWCH1Exit 219000.0 220000.0 STRAW1 VesselEnvelope
+#MNP33MagnetEntry 196345.0 0.0 World BoxInsideMNP33
+#MNP33MagnetExit 197645.0 0.0 BoxInsideMNP33 World
+STRAWCH2Entry 229500.0 230500.0 VesselEnvelope STRAW2
+#STRAWCH2Exit 180000.0 220000.0 STRAW2 VesselEnvelope
+#STRAWCH3Entry 180000.0 220000.0 VesselEnvelope STRAW3
+STRAWCH3Exit 236000.0 237000.0 STRAW3 VesselEnvelope
+NewCHODEntry 237588.0 0.0 World NewCHODRespReg
+NewCHODExit 238198.0 0.0 NewCHODRespReg LAV12
+CHODEntry 238898.0 0.0 LAV12 CHODRespReg
+IRCEntry 239540.0 0.0 CHODRespReg IRC
+LKrEntry 240388.0 0.0 IRC LKr
+#LKrExit 243222.0 0.0 LKr World
+MUV1Entry 243224.0 0.0 World MUV1
+MUV2Entry 244385.0 0.0 MUV1 MUV2
+MUV2Exit 245350.0 0.0 MUV2 MUV3
+MUV3Entry 246700.0 0.0 MUV3FeWall MUV3 # not produced in R=101mm inner hole of the iron wall
+HACEntry 247800.0 0.0 MUV3 HACUpstream
+HACCentre 253345.0 0.0 HACUpstream HACDownstream

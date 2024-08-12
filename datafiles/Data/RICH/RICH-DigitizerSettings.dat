@@ -1,0 +1,3 @@
+# ------------------------------- Digitizer configuration ------------------------------- #
+# Station MC ToF (ns) [one value for each station]
+StationsMCToF= 846.89 846.89

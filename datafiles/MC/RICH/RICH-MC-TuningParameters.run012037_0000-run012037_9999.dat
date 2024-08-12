@@ -1,0 +1,10 @@
+# Parameters for RICH MC effective tuning
+# F. Brizioli (francesco.brizioli@cern.ch) - November 2021
+# Obtained comparing MC reco t0.78.x with Data Run 9001 v2.0.4
+#
+# Format:
+# NeonPressure_scaling QE_scaling MylarReflectivity_scaling TimeResolutionSmearing RingRadius NHits
+#
+# Identity values: 1.0 1.0 1.0 0.0 190.0 13.00
+#
+0.9844 0.8533 1.0 0.0 191.369 12.9893

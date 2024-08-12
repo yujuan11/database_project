@@ -1,0 +1,22 @@
+#Cooling plate dimensions
+#Length GTK X Y Z
+Length 0 80.0 70.0 0.547
+Length 1 80.0 70.0 0.707
+Length 2 80.0 70.0 0.707
+Length 3 80.0 70.0 0.707
+# ShoulderX HollowX ShoulderY HollowY
+TopLength 65.08 64.87 41.5 41.29
+BottomLength 65.08 64.27 32.0 31.19
+#Per station GTK1 GTK2 GTK3
+TopDepth 0.0 0.0 0.0 0.0
+#
+#BottomDepth=Acceptance-Length
+#Acceptance 0.260 0.371 0.0
+#Per station fake-GTK0 GTK1 GTK2 GTK3
+BottomDepth 0.0 0.287 0.336 0.0
+#Length X Y Z
+Envelope 61.6 41.29 0.07
+#in Z 
+GlueLayer 0.03
+#Channel XOffset Depth CoolantXLength HalfWallXLength
+Channel 1.63 0.2 0.2 0.1

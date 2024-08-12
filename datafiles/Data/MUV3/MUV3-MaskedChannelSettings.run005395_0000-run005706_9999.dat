@@ -1,0 +1,3 @@
+# Position IDs of the masked channels (multiple lines & multiple arguments per line allowed).
+# This instructs the reconstruction to build loose candidates in the corresponding tiles.
+MaskedChannels= 334 335

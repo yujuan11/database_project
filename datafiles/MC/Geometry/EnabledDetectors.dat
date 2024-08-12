@@ -1,0 +1,39 @@
+# This file is used for visualisation only.
+# It contains the list of enabled subdetectors (names refer to all stations).
+# The detectors are constructed according to the configuration file on CDB:
+# NA62Tools/Conditions/MC/Geometry/Geometry.dat (or similar).
+# The subset of detectors to be visualised must be listed in the configuration file.
+# A detector must be speficifed both in Geometry.dat and here to be visualised.
+#
+# Please uncomment the names of the detectors to be visualised.
+# Visualisation of a large number of subdetectors is typically slow.
+#
+# Example of running visualisation:
+# NA62MC --vis EnabledDetectors.dat --vis-macro macros/vis.mac -r 11000
+#
+#################################
+ANTI0
+#Cedar
+#CHANTI
+#CHOD
+#GigaTracker
+#HAC
+#IRC
+#LAV
+#LKr
+#RICH
+#MUV0
+#MUV1
+#MUV2
+#MUV3
+#NewCHOD
+#SAC
+#Spectrometer
+#VetoCounter
+
+# Other beam elements of this type to be dis-/enabled (refers to all parts of the same type):
+#QFSMagnet
+#BlueTubeEndCap
+#BlueTube
+#SpectrometerMagnet
+

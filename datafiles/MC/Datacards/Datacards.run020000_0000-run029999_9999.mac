@@ -1,0 +1,4 @@
+# Standard NA62MC settings for HIKE Phase 1 configuration (run 20000 to be used)
+/control/echo [NA62MC] Applying run-dependent settings from CDB
+
+/Detector/Cedar/Settings H

@@ -1,0 +1,4 @@
+### List of empty chips for run 11100, burst 1
+# Format: RunID BurstID NMissingChips StationID ChipID qChipMask
+# with BurstID = -1 the same set of missing chips is used for all bursts of the given run. Applied only in MC
+011100 -1 0

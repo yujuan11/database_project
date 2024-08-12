@@ -1,0 +1,2 @@
+DiscriminatorThresholdLow = 40 # mV
+DiscriminatorThresholdHigh = 80 # mV

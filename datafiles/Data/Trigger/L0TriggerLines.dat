@@ -1,0 +1,132 @@
+# This file contains the high-level definition of the trigger lines.
+# For each high-level section, the list of trigger names that are
+# considered valid at different data-taking periods is provided.
+
+[NonMu]
+# Non-muon trigger
+# On Mask 0
+#  RICH-Q1-nMUV: 2016A, 2017[A-D], 2018[A-H], 2021[A-E]
+#  RICH3-Q1-nMUV: 2021A
+RICH-Q1-nMUV
+RICH3-Q1-nMUV
+
+[Mu]
+# Muon trigger (muon run)
+# On Mask 2
+#  Q1-MUV: 2022
+Q1-MUV
+
+[Dump]
+# Dump mode triggers
+# On Mask 0
+#  Q1: 2018-2019
+Q1
+# On Mask 1
+#  Q2: 2018
+#  H2: 2021
+Q2
+H2
+# On  Mask 2
+#  Q1-E1: 2021
+Q1-E1
+
+[PNN]
+# Pinunu trigger
+# On Mask 1
+#  RICH-nQX-UTMC-nMUV-nLAV-nLKr20: 2016A, 2017D
+#  RICH-nQX-UTMC-nMUV-nLAV-nLKr30: 2017[B-D]
+#  RICH-nQX-UTMC-nMUV-nLKr30: 2017[AB], 2018[A-H]
+#  RICH3-nQX-UTMC-nMUV-nE40: 2021A
+#  RICH-nQX-UTMC-nMUV-nE40: 2021A
+#  RICH-nQX-UTMC-nMUV-nLKr40: 2021[B-E]
+#  RICH3-nQX-UTMC-nMUV-nLKr40: 2022
+RICH-nQX-UTMC-nMUV-nLAV-nLKr20
+RICH-nQX-UTMC-nMUV-nLAV-nLKr30
+RICH-nQX-UTMC-nMUV-nLKr30
+RICH3-nQX-UTMC-nMUV-nE40
+RICH-nQX-UTMC-nMUV-nE40
+RICH-nQX-UTMC-nMUV-nLKr40
+RICH3-nQX-UTMC-nMUV-nLKr40
+
+[MinBias]
+# Minimum-bias trigger
+# On Mask 2
+#  RICH-Q1: Run 2 (from 2021 onwards)
+#  Q1 condition is used in the low intensity run of 2024 as the main minimum bias trigger
+RICH-Q1
+Q1
+
+[DV2mu]
+# Displaced vertex di-muon
+# On Mask 2
+#  RICH-Q2-MO2-nLKr20: 2016A
+#  RICH-Q2-MO2: 2018B
+#  RICH-Q2-MO2-nLKr10: 2018[B-H]
+RICH-Q2-MO2-nLKr20
+RICH-Q2-MO2
+RICH-Q2-MO2-nLKr10
+
+[muMT]
+# Muon MultiTrack
+# On Mask 3
+#  RICH-QX-M1: 2016-early
+#  RICH-QX-MO1: 2016A
+#  RICH-QX-MO1-LKr10: 2017[A-D], 2018[A-H]
+RICH-QX-M1
+RICH-QX-MO1
+RICH-QX-MO1-LKr10
+
+[2muMT]
+# Di-muon MultiTrack
+# On Mask 6
+#  RICH-QX-MO2: 2016A, 2017[A-D], 2018[A-H]
+#  RICH-Q2-MO2: 2017D (runs 7615-7647 only)
+#  RICH8-QX-H3-MO2: 2021[A-E], 2022
+RICH-QX-MO2
+RICH-Q2-MO2
+RICH8-QX-H3-MO2
+
+[eMT]
+# Electron MultiTrack
+# On Mask 4
+#  RICH-QX-LKr20: 2016A, 2017[A-D], 2018[A-H]
+#  RICH8-QX-H3-C2D2-LKr20: 2021[A-C], 2022
+#  RICH8-QX-H3-LKr20: 2021[C-E]
+RICH-QX-LKr20
+RICH8-QX-H3-C2D2-LKr20
+RICH8-QX-H3-C2D5-LKr20
+RICH8-QX-H3-LKr20
+
+[MT]
+# MultiTrack
+# On Mask 5
+#  RICH-QX: 2016A, 2017[A-D], 2018[A-H]
+#  RICH8-QX-H3: 2021[A-E], 2022
+RICH-QX
+RICH8-QX-H3
+
+[DVmu]
+# Displaced vertex muon
+# On Mask 7
+# RICH-Q2-MO1-LKr10: 2017[A-D], 2018[A-H]
+RICH-Q2-MO1-LKr10
+
+[Neutrino]
+# On Mask 10
+#  RICH-MOQX-nQ2: 2017[AB], 2018[A-H]
+#  RICH-nQ2-MO2: 2017C
+#  RICH-nQ2-nQX-MO2: 2017D
+#  RICH-MOQX-E10-nQ2-UTMC: 2021[AB]
+#  RICH-MOQX-E5-nQ2-UTMC: 2021E
+#  RICH-MOQX-LKr10-nQ2-UTMC: 2021[BC]
+#  MOQX-E10-nRICH16-nQ2-UTMC: 2022
+#  MOQX-E5-nRICH16-nQ2-UTMC: 2022
+RICH-MOQX-nQ2
+RICH-nQ2-MO2
+RICH-nQ2-nQX-MO2
+RICH-MOQX-E10-nQ2-UTMC
+RICH-MOQX-E5-nQ2-UTMC
+RICH-MOQX-LKr10-nQ2-UTMC
+MOQX-E10-nRICH16-nQ2-UTMC
+MOQX-E5-nRICH16-nQ2-UTMC
+MOQX-LKr5-nRICH16-nQ2-UTMC

@@ -1,0 +1,8 @@
+### Cedar-H simulation configuration ###
+
+CedarType H
+RadiatorGas H2
+RadiatorGasPressure 3.80
+DiaphragmApertureR 2.0
+OctantsEnabled 1 1 1 1 1 1 1 1
+LightGuideType 48

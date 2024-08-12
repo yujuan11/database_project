@@ -1,0 +1,5 @@
+#Station time resolution per run
+#GTK1 GKT2 GTK3 GTK4
+SingleHit 0.200 0.200 0.200 0.200
+MultiHit 0.200 0.200 0.200 0.200
+PileUp 0.200 0.200 0.200 0.200

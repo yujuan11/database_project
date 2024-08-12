@@ -1,0 +1,7 @@
+# 2D Pi0-based calibration parameters
+# Central correction 4 parameters:
+0.997366 2.72946e-08 5.02232e-12 -8.49479e-17
+# Systematics parameters:
+0.000270603 -4.63866e-08 5.4002e-12 -4.50087e-16 2.28101e-20 -6.25921e-25 8.53016e-30 -4.49865e-35
+# Central correction 8 parameters:
+0.99075 2.90563e-06 -4.60615e-10 3.72225e-14 -1.63595e-18 3.99653e-23 -5.10287e-28 2.65246e-33

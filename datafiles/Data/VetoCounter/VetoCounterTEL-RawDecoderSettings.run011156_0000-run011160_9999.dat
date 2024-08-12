@@ -1,0 +1,76 @@
+# Total number of channels
+NChannels= 512
+
+# Total number of ROBoards
+NROBoards= 1
+
+# Number of mezzanines for a full board
+NROMezzaninesPerFullBoard= 4
+
+# Number of readout mezzanines for each station [one value for each station]
+NROBoardsPerStation= 1
+
+# Mezzanine masks to indicate the enabled mezzanines in each board [one value for each ROBoard]
+#ROMezzanineMasksPerBoard= e
+ROMezzanineMasksPerBoard= 4
+
+# FPGA map: number of FPGA per readout (DAQ) board (i.e number of TDCs per Tel62)
+# "NFPGAs" has to be specified for all RO boards used
+NFPGAs= 4
+
+# Number of 25ns-long slots read [one value for each mezzanine]
+NSlots= 8 8 8 8
+
+# Index of last 25ns-long slot [one value for each mezzanine]
+LastSlotID= 4 4 4 4
+
+# Flag to define the treatment of warning printouts
+#0: no warnings
+#1: general information event-related
+#2: general information detector-related
+#3: maximum detail level
+WarningsLevel= 2
+
+# Total number of channels of the readout board (used by RecoBase/src/TDCBRawDecoder.cc)
+NROChannels= 512
+
+# Channel map: "position ID" as a function of "readout ID",
+# starting from readout ID 0, grouped by 16
+ChRemap_0000= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0001= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0002= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0003= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0004= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0005= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0006= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0007= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+
+ChRemap_0008= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0009= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0010= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0011= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0012= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0013= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0014= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0015= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+
+# Station1: 100 -- 110 on left (Jura) side, 150 -- 160 on right (Saleve) side
+# Station2: 200 -- 210 on left (Jura) size, 250 -- 260 on right (Saleve) side
+# Station3: 300 -- 310 on left (Jura) size, 350 -- 360 on right (Saleve) side
+ChRemap_0016= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0017= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0018= 107 106 105 104 -1  -1 101 100  -1  -1  -1 201 200 110 109 108
+ChRemap_0019= 353 153 303 103 352 152 302 102 255 253 205 203 254 252 204 202
+ChRemap_0020= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0021= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0022= -1 256 257 258 259 260 358 359  -1 206 207 208 209 210 308 309
+ChRemap_0023= 300 301 -1  -1 304 305 306 307 357 356 355 354  -1  -1 351 350
+
+ChRemap_0024= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0025= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0026= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0027= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0028= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0029= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0030= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ChRemap_0031= -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1

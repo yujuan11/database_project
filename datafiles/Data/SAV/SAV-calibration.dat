@@ -1,0 +1,9 @@
+# SAV calibration factor.
+# channel p0 p1
+# channel=0 SAC
+# channel=1 IRC
+0 257.598 181.112
+1 -2.92331 66.0297
+2 108.316 69.4999
+3 97.1346 41.9672
+4 3.06663 50.0144

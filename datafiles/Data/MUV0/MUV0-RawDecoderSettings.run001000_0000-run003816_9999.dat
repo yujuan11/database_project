@@ -1,0 +1,68 @@
+# Total number of channels
+NChannels= 512
+
+# Total number of ROBoards
+NROBoards= 1
+
+# Number of mezzanines for a full board
+NROMezzaninesPerFullBoard= 4
+
+# Number of readout boards for each station [one value for each station]
+NROBoardsPerStation= 1
+
+# Mezzanine masks to indicate the enabled mezzanines in each board [one value for each ROBoard]
+ROMezzanineMasksPerBoard= 1
+
+# FPGA map: number of FPGA per readout (DAQ) board (i.e number of TDCs per Tel62) - from run 1423 - December 2014
+# "NFPGAs" has to be specified for how many readout boards the sub-detector is using   
+NFPGAs= 4
+
+# Number of 25ns-long slots read [one value for each mezzanine]
+NSlots= 11 5 16 16
+
+# Index of last 25ns-long slot [one value for each mezzanine]
+LastSlotID= 5 2 8 8
+
+# Flag to define the treatment of warning printouts
+#0: no warnings
+#1: general information event-related 
+#2: general information detector-related
+#3: maximum detail level
+WarningsLevel= 1
+
+# Total number of channels of the readout board (used by RecoBase/src/TDCBRawDecoder.cc)
+NROChannels= 512
+
+#Channel remapping (starting from 0, grouping by 16)
+ChRemap_0000=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0001=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0002=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0003=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0004=   -1   -1    1   11    2   12    3   13    4   14    5   15    6   16    7   17
+ChRemap_0005=    8   18    9   19   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0006=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0007=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0008=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0009=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0010=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0011=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0012=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0013=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0014=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0015=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0016=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0017=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0018=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0019=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0020=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0021=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0022=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0023=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0024=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0025=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0026=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0027=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0028=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0029=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0030=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+ChRemap_0031=   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
