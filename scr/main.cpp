@@ -102,13 +102,26 @@ int main() {
     });
     //verify login route, POST method
     CROW_ROUTE(app,"/login").methods(crow::HTTPMethod::POST)([](const crow::request& req){
-	auto full_param=crow::query_string(req.body);
-	string username= full_param.get("username");
-	string pwd= full_param.get("password");
-	auto uri= mongocxx::uri("mongodb://"+username + ":" +pwd+ "@localhost:27017");
+	cout << "Request Body: " << req.body << endl;
+	auto full_param= req.get_body_params();
+	cout<<"full_param:"<<full_param<<endl;
+	const char* username= full_param.get("username");
+	cout<<"username:"<<username<<endl;
+	const char* pwd= full_param.get("password");
+	cout<<"pwd:"<<pwd<<endl;
+	
+	if ( !username || !pwd ) {
+           // 
+           cout << "Username or password not provided" << endl;
+           return crow::response(400, "Username or password missing");
+	}
+	
+	auto uri= mongocxx::uri("mongodb://" + string(username) + ":" + string(pwd) + "@localhost:27017");
 	
 	try{
 	    mongocxx::client client(uri);
+	    search_db("data","LKr","LKr-RawDecoderSettings","NChannels" );
+	    
 	    return crow::response(302,crow::json::wvalue({{"Location", "/selectoperation"}}));
 
 	} catch (const std::exception & e){
