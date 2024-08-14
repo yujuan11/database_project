@@ -1,6 +1,7 @@
 #include "crow.h"
 #include <iostream>
 #include <string>
+#include <list>
 #include <vector>
 
 
@@ -17,9 +18,9 @@ using bsoncxx::builder::basic::kvp;
 using bsoncxx::builder::basic::make_document;
 
 // search a specific field from a document
-int search_db( string database, string collection_name,string document, string search_field)
+int search_db( string uri, string database, string collection_name,string document, string search_field)
 {
-    mongocxx::client conn{mongocxx::uri{}};
+    mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection collection=conn[database][collection_name];
     mongocxx::options::find options{};
     options.projection(make_document(kvp("_id",1),kvp(search_field,1)));
@@ -33,9 +34,9 @@ int search_db( string database, string collection_name,string document, string s
 }
 
 // insert one document into a specific collection
-int insert_one_document(string database,string collection_name)
+int insert_one_document(string uri, string database,string collection_name)
 {
-    mongocxx::client conn{mongocxx::uri{}};
+    mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection coll=conn[database][collection_name];
     auto insert_one_result = coll.insert_one(make_document(kvp("_id","insertone"),kvp("field","field_one")));
     
@@ -44,9 +45,9 @@ int insert_one_document(string database,string collection_name)
 }
 
 // insert many document into a specific collection
-int insert_many_document(string database, string collection_name)
+int insert_many_document(string uri, string database, string collection_name)
 {
-    mongocxx::client conn{mongocxx::uri{}};
+    mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection coll=conn[database][collection_name];
     vector<bsoncxx::document::value> documents;
     documents.push_back(make_document(kvp("_id","first"),kvp("field","field_one")));
@@ -59,9 +60,9 @@ int insert_many_document(string database, string collection_name)
 }
 //16834
 // modify one field in a specific document
-int update_db(string database, string collection_name, string document, string modify_field, string modify_field_value)
+int update_db(string uri, string database, string collection_name, string document, string modify_field, string modify_field_value)
 {
-    mongocxx::client conn{mongocxx::uri{}};
+    mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection coll=conn[database][collection_name];
     auto update_one_result= coll.update_one(make_document(kvp("_id",document)),
                                             make_document(kvp("$set",make_document(kvp(modify_field,modify_field_value)))));
@@ -116,13 +117,15 @@ int main() {
            return crow::response(400, "Username or password missing");
 	}
 	
-	auto uri= mongocxx::uri("mongodb://" + string(username) + ":" + string(pwd) + "@localhost:27017");
+	string uri= "mongodb://" + string(username) + ":" + string(pwd) + "@localhost:27017";
 	
 	try{
-	    mongocxx::client client(uri);
-	    search_db("data","LKr","LKr-RawDecoderSettings","NChannels" );
-	    
+	    //mongocxx::client client(uri);
+	    search_db(uri,"data","LKr","LKr-RawDecoderSettings","NChannels" );
+	    update_db(uri,"data","LKr","LKr-RawDecoderSettings","NChannels","16839");
+	    search_db(uri,"data","LKr","LKr-RawDecoderSettings","NChannels" );
 	    return crow::response(302,crow::json::wvalue({{"Location", "/selectoperation"}}));
+	   
 
 	} catch (const exception & e){
  		cerr<<"Login failed: " << e.what()<<endl;
