@@ -6,7 +6,7 @@ from pymongo import MongoClient
 # Configuration
 directory_data='../datafiles/Data/'
 directory_mc='../datafiles/MC/'
-mongodb_uri = 'mongodb://localhost:27017/'  # MongoDB URI
+mongodb_uri = 'mongodb://admin:admin_123@localhost:27017/'  # MongoDB URI
 database_name_data = 'data'  # Database name
 collection_name_data =['ANTI0','BEATCHFiles','CHANTI','CHOD','Cedar','GigaTracker','HAC','HLT','IRC','LAV','LKr','MUV0','MUV1',
                   'MUV2','MUV3','MagnetFields','NewCHOD','RICH','SAC','SAV','Trigger','VetoCounter']  # Collection name
