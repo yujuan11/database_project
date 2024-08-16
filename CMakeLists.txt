@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(my_project)
+project(db_project)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -9,7 +9,7 @@ find_package(mongocxx REQUIRED)
 find_package(bsoncxx REQUIRED)
 
 
-add_executable(my_project scr/main.cpp)
+add_executable(db_project scr/main.cpp)
 
 # add crow.h route
 include_directories("/home/user1/Crow/include" "/home/user1/asio/asio/include")

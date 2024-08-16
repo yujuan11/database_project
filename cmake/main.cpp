@@ -1,8 +1,8 @@
 
 #include "crow.h"
 
-// 编译: g++ main.cpp -o main -lpthread
-// 运行: ./main
+// compile: g++ main.cpp -o main -lpthread
+// execute: ./main
 int main()
 {
     crow::SimpleApp app;

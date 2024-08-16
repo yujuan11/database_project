@@ -4,10 +4,10 @@ project(example)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# 添加 crow.h 路径
+# add crow.h 
 include_directories("/home/user1/Crow/include" "/home/user1/asio/asio/include")
 
 add_executable(main main.cpp)
 
-# 链接 pthread 库
+# link to pthread 
 target_link_libraries(main pthread)
