@@ -117,7 +117,7 @@ int main() {
            return crow::response(400, "Username or password missing");
 	}
 	
-	string uri= "mongodb://" + string(username) + ":" + string(pwd) + "@localhost:27017";
+	string uri= "mongodb://" + string(username) + ":" + string(pwd) + "@localhost:27017/data";
 	
 	try{
 	    //mongocxx::client client(uri);
