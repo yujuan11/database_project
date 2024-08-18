@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/my_project.dir/scr/main.cpp.o -o my_project  -Wl,-rpath,/usr/local/lib64 /usr/local/lib64/libbsoncxx.so /usr/local/lib64/libmongocxx.so 

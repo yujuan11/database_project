@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectoperation</title>
+    <script>
+        function setFormAction() {
+            // get the element from form
+            var form = document.getElementById('select_Form');
+            
+            // get the operation value
+            var userInput = document.getElementById('operation').value;
+            
+            // according to the operation value, set the next action
+            if (userInput === 'query') {
+                form.action = '/query';
+            } else if (userInput === 'update') {
+                form.action = '/update';
+            } else if(userInput === 'insert'){
+                form.action = '/insert';
+            } else if(userInput==='delete'){
+                form.action = '/delete';
+            } else {
+                alert('Invalid input, please input again');
+                form.action = '/selecoperation';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Please input the operation, query, update, insert or delete</h1>
+    <form id="select_Form" method="POST" onsubmit="setFormAction()">
+        operation: <input type="text" id="operation" name="opeartion"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

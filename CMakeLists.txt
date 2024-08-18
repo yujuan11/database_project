@@ -15,9 +15,9 @@ add_executable(db_project scr/main.cpp)
 include_directories("/home/user1/Crow/include" "/home/user1/asio/asio/include")
 
 # Include directories for bsoncxx and mongocxx
-target_include_directories(my_project PRIVATE /usr/local/include/bsoncxx/v_noabi /usr/local/include/mongocxx/v_noabi /usr/local/include/bsoncxx/v_noabi/bsoncxx/third_party/mnmlstc)
+target_include_directories(db_project PRIVATE /usr/local/include/bsoncxx/v_noabi /usr/local/include/mongocxx/v_noabi /usr/local/include/bsoncxx/v_noabi/bsoncxx/third_party/mnmlstc)
 
 
 # Link the MongoDB C++ driver libraries and specify the library directories
-target_link_libraries(my_project PRIVATE /usr/local/lib64/libbsoncxx.so /usr/local/lib64/libmongocxx.so )
+target_link_libraries(db_project PRIVATE /usr/local/lib64/libbsoncxx.so /usr/local/lib64/libmongocxx.so )
 

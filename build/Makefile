@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named my_project
+# Target rules for targets named db_project
 
 # Build rule for target.
-my_project: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_project
-.PHONY : my_project
+db_project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 db_project
+.PHONY : db_project
 
 # fast build rule for target.
-my_project/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/build
-.PHONY : my_project/fast
+db_project/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/db_project.dir/build.make CMakeFiles/db_project.dir/build
+.PHONY : db_project/fast
 
 scr/main.o: scr/main.cpp.o
 .PHONY : scr/main.o
 
 # target to build an object file
 scr/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/scr/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/db_project.dir/build.make CMakeFiles/db_project.dir/scr/main.cpp.o
 .PHONY : scr/main.cpp.o
 
 scr/main.i: scr/main.cpp.i
@@ -142,7 +142,7 @@ scr/main.i: scr/main.cpp.i
 
 # target to preprocess a source file
 scr/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/scr/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/db_project.dir/build.make CMakeFiles/db_project.dir/scr/main.cpp.i
 .PHONY : scr/main.cpp.i
 
 scr/main.s: scr/main.cpp.s
@@ -150,7 +150,7 @@ scr/main.s: scr/main.cpp.s
 
 # target to generate assembly for a file
 scr/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/scr/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/db_project.dir/build.make CMakeFiles/db_project.dir/scr/main.cpp.s
 .PHONY : scr/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... my_project"
+	@echo "... db_project"
 	@echo "... scr/main.o"
 	@echo "... scr/main.i"
 	@echo "... scr/main.s"

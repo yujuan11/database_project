@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=my_project
+CMAKE_PROJECT_NAME:STATIC=db_project
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -233,20 +233,20 @@ bson-1.0_DIR:PATH=/usr/local/lib64/cmake/bson-1.0
 //The directory containing a CMake configuration file for bsoncxx.
 bsoncxx_DIR:PATH=/usr/local/lib64/cmake/bsoncxx-3.10.1
 
+//Value Computed by CMake
+db_project_BINARY_DIR:STATIC=/home/user1/cern_na62/database_project/database_project/build
+
+//Value Computed by CMake
+db_project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+db_project_SOURCE_DIR:STATIC=/home/user1/cern_na62/database_project/database_project
+
 //The directory containing a CMake configuration file for mongoc-1.0.
 mongoc-1.0_DIR:PATH=/usr/local/lib64/cmake/mongoc-1.0
 
 //The directory containing a CMake configuration file for mongocxx.
 mongocxx_DIR:PATH=/usr/local/lib64/cmake/mongocxx-3.10.1
-
-//Value Computed by CMake
-my_project_BINARY_DIR:STATIC=/home/user1/cern_na62/database_project/database_project/build
-
-//Value Computed by CMake
-my_project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-my_project_SOURCE_DIR:STATIC=/home/user1/cern_na62/database_project/database_project
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib64/libcrypto.so
