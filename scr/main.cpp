@@ -19,14 +19,14 @@ using bsoncxx::builder::basic::kvp;
 using bsoncxx::builder::basic::make_document;
 
 // search a specific field from a document
-string search_db( string uri, string database, string collection_name,string document, string search_field)
+string search_db( string uri, string database, string collection_name,string documentid, string search_field)
 {
     mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection collection=conn[database][collection_name];
     mongocxx::options::find options{};
     options.projection(make_document(kvp("_id",1),kvp(search_field,1)));
 
-    auto cursor = collection.find(make_document(kvp("_id",document)),options);
+    auto cursor = collection.find(make_document(kvp("_id",documentid)),options);
     string search_results;
     for(auto && doc : cursor)
     {
@@ -37,16 +37,26 @@ string search_db( string uri, string database, string collection_name,string doc
 }
 
 // insert one document into a specific collection
-int insert_one_document(string uri, string database,string collection_name, string documentid, string fieldname, string fieldvalue)
+string insert_one_document(string uri, string database,string collection_name, string documentid, string fieldname, string fieldvalue)
 {
     mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection coll=conn[database][collection_name];
     auto insert_one_result = coll.insert_one(make_document(kvp("_id",documentid),kvp(fieldname,fieldvalue)));
-    //cout<<insert_one_result<<endl;
+    //
+    string insert_result;
+    if (insert_one_result) {
+    // 
+    //auto inserted_id = insert_one_result->inserted_id().get_oid().value.to_string();
+    insert_result= "Insert document ID: " + documentid;
+    } else {
+    // 
+        insert_result = "Insert operation failed." ;
+    }
 
-    return EXIT_SUCCESS;
+    return insert_result;
 }
 
+// insert function for future use
 // insert many document into a specific collection
 int insert_many_document(string uri, string database, string collection_name)
 {
@@ -61,27 +71,43 @@ int insert_many_document(string uri, string database, string collection_name)
 
     return EXIT_SUCCESS;
 }
-//16834
+
 // modify one field in a specific document
-int update_db(string uri, string database, string collection_name, string documentid, string modify_field, string modify_field_value)
+string update_db(string uri, string database, string collection_name, string documentid, string modify_field, string modify_field_value)
 {
     mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection coll=conn[database][collection_name];
     auto update_one_result= coll.update_one(make_document(kvp("_id",documentid)),
                                             make_document(kvp("$set",make_document(kvp(modify_field,modify_field_value)))));
-    //assert(update_one_result);  // Acknowledged writes return results.
-    //cout<<update_one_result<<endl;
-    return EXIT_SUCCESS;
+    //
+    string update_result;
+    if(update_one_result){
+        update_result= "Update document ID: " + documentid + ";" + "Update field: {" + modify_field + ":"+modify_field_value+"}";
+    } else {
+    // 
+        update_result = "Update operation failed." ;
+    }
+
+    return update_result;
 }
 
-int delete_a_document_from_collection(string uri, string database, string collection_name, string documentid)
+string delete_a_document_from_collection(string uri, string database, string collection_name, string documentid)
 {
     mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection coll=conn[database][collection_name];
-    auto delete_one_result = coll.delete_one(make_document(kvp("_id", documentid)));
-    //cout<<delete_one_result<<endl;
+    auto find_result=coll.find_one(make_document(kvp("_id",documentid)));
 
-    return EXIT_SUCCESS;
+    //
+    string delete_result;
+    if(find_result){
+        auto delete_one_result = coll.delete_one(make_document(kvp("_id", documentid)));
+        delete_result= "Delete document: "+documentid + " from database:"+database+"collection: "+collection_name;
+    } else {
+    // 
+        delete_result= "Document not found.";
+    }
+
+    return delete_result;
 }
 
 string global_uri;
@@ -203,8 +229,20 @@ int main() {
         const char* document_id= full_param.get("documentid");
         const char* field_name= full_param.get("fieldname");
         const char* field_value= full_param.get("fieldvalue");
-        update_db(global_uri,string(database_name),string(collection_name),string(document_id),string(field_name),string(field_value));
-        return crow::response(403, "update successfully");
+        try {
+            string results=update_db(global_uri,string(database_name),string(collection_name),string(document_id),string(field_name),string(field_value));
+
+            auto update_results= crow::mustache::load("update_results.html");
+            crow::mustache::context ctx;
+            ctx["update_results"]=results;
+            auto page= update_results.render(ctx);
+            return crow::response{page};    //try ,catch should return the same type
+        } catch(const exception & e){
+            crow::json::wvalue error_response;
+            error_response["error"] = std::string("Exception: ") + e.what();
+            return crow::response(500, error_response);
+        };
+        
     });
     //
     CROW_ROUTE(app,"/insert").methods(crow::HTTPMethod::POST)([](const crow::request& req){
@@ -224,9 +262,23 @@ int main() {
         const char* document_id= full_param.get("documentid");
         const char* field_name= full_param.get("fieldname");
         const char* field_value= full_param.get("fieldvalue");
-        insert_one_document(global_uri,string(database_name),string(collection_name),string(document_id),string(field_name),string(field_value));
-        return crow::response(403, "insert successfully");
+        try {
+            string results=insert_one_document(global_uri,string(database_name),string(collection_name),string(document_id),string(field_name),string(field_value));
+            auto insert_results= crow::mustache::load("insert_results.html");
+            crow::mustache::context ctx;
+            ctx["insert_results"]=results;
+            auto page= insert_results.render(ctx);
+            return crow::response{page};    //try ,catch should return the same type
+        } catch(const exception & e){
+            crow::json::wvalue error_response;
+            error_response["error"] = std::string("Exception: ") + e.what();
+            return crow::response(500, error_response);
+        };
+        
+    
     });
+
+
     CROW_ROUTE(app,"/delete").methods(crow::HTTPMethod::POST)([](const crow::request& req){
         auto deletetemp= crow::mustache::load("delete.html");
         crow::mustache::context ctx;
@@ -243,9 +295,20 @@ int main() {
         cout<<"database_name:"<<database_name<<endl;
         const char* collection_name= full_param.get("collectionname");
         const char* document_id= full_param.get("documentid");
-        delete_a_document_from_collection(global_uri,string(database_name),string(collection_name),string(document_id));
-        return crow::response(403, "delete successfully");
+        try {
+            string results=delete_a_document_from_collection(global_uri,string(database_name),string(collection_name),string(document_id));
 
+            auto delete_results= crow::mustache::load("delete_results.html");
+            crow::mustache::context ctx;
+            ctx["delete_results"]=results;
+            auto page= delete_results.render(ctx);
+            return crow::response{page};    //try ,catch should return the same type
+        } catch(const exception & e){
+            crow::json::wvalue error_response;
+            error_response["error"] = std::string("Exception: ") + e.what();
+            return crow::response(500, error_response);
+        };
+        
     });
 
 
