@@ -19,7 +19,7 @@ using bsoncxx::builder::basic::kvp;
 using bsoncxx::builder::basic::make_document;
 
 // search a specific field from a document
-int search_db( string uri, string database, string collection_name,string document, string search_field)
+string search_db( string uri, string database, string collection_name,string document, string search_field)
 {
     mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection collection=conn[database][collection_name];
@@ -27,11 +27,13 @@ int search_db( string uri, string database, string collection_name,string docume
     options.projection(make_document(kvp("_id",1),kvp(search_field,1)));
 
     auto cursor = collection.find(make_document(kvp("_id",document)),options);
+    string search_results;
     for(auto && doc : cursor)
     {
         cout<<bsoncxx::to_json(doc)<<endl;
+        search_results= search_results + string(bsoncxx::to_json(doc));
     }
-    return EXIT_SUCCESS;
+    return search_results;
 }
 
 // insert one document into a specific collection
@@ -168,8 +170,20 @@ int main() {
         const char* collection_name= full_param.get("collectionname");
         const char* document_id= full_param.get("documentid");
         const char* field_name= full_param.get("fieldname");
-        search_db(global_uri,string(database_name),string(collection_name),string(document_id),string(field_name) );
-        return crow::response(403, "query successfully");
+        try {
+            string results=search_db(global_uri,string(database_name),string(collection_name),string(document_id),string(field_name) );
+            auto query_results= crow::mustache::load("query_results.html");
+            crow::mustache::context ctx;
+            ctx["query_results"]=results;
+            auto page= query_results.render(ctx);
+            return crow::response{page};    //try ,catch should return the same type
+        } catch(const exception & e){
+            crow::json::wvalue error_response;
+            error_response["error"] = std::string("Exception: ") + e.what();
+            return crow::response(500, error_response);
+        };
+
+
     });
 
     CROW_ROUTE(app,"/update").methods(crow::HTTPMethod::POST)([](const crow::request& req){

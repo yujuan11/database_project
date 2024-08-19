@@ -115,14 +115,14 @@ for dir, coll in zip(directory_name_data, collection_name_data):
 for dir, coll in zip(directory_name_mc, collection_name_mc):
     input_function(dir, coll, database_name_mc)
 """
-"""
+
 file_path="/file_input_failed.txt"
 if os.path.exists(file_path):
     os.remove(file_path)
-"""
+
 
 # write the datafiles' name into 'file_input_failed' for which are not input successfully
-with open("file_input_failed.txt", "w") as file:
+with open(file_path, "w") as file:
     for i in file_input_failed:
        file.write(i+'\n')
 
