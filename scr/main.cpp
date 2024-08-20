@@ -155,9 +155,7 @@ int main() {
 	global_uri=uri;
 	try{
 	    //mongocxx::client client(uri);
-	    search_db(uri,"data","LKr","LKr-RawDecoderSettings","NChannels" );
-	    update_db(uri,"data","LKr","LKr-RawDecoderSettings","NChannels","16839");
-	    search_db(uri,"data","LKr","LKr-RawDecoderSettings","NChannels" );
+	   
         string loc="/select";
 	    crow::response res;
         res.redirect(loc);
@@ -205,7 +203,7 @@ int main() {
             return crow::response{page};    //try ,catch should return the same type
         } catch(const exception & e){
             crow::json::wvalue error_response;
-            error_response["error"] = std::string("Exception: ") + e.what();
+            error_response["error"] =  e.what();
             return crow::response(500, error_response);
         };
 
@@ -239,7 +237,7 @@ int main() {
             return crow::response{page};    //try ,catch should return the same type
         } catch(const exception & e){
             crow::json::wvalue error_response;
-            error_response["error"] = std::string("Exception: ") + e.what();
+            error_response["error"] =  e.what();
             return crow::response(500, error_response);
         };
         
@@ -271,7 +269,7 @@ int main() {
             return crow::response{page};    //try ,catch should return the same type
         } catch(const exception & e){
             crow::json::wvalue error_response;
-            error_response["error"] = std::string("Exception: ") + e.what();
+            error_response["error"] =  e.what();
             return crow::response(500, error_response);
         };
         
@@ -305,7 +303,7 @@ int main() {
             return crow::response{page};    //try ,catch should return the same type
         } catch(const exception & e){
             crow::json::wvalue error_response;
-            error_response["error"] = std::string("Exception: ") + e.what();
+            error_response["error"] =  e.what();
             return crow::response(500, error_response);
         };
         
