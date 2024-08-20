@@ -18,7 +18,7 @@ using namespace std;
 using bsoncxx::builder::basic::kvp;
 using bsoncxx::builder::basic::make_document;
 
-// search a specific field from a document
+// //A function to query a field in a document from a collection
 string search_db( string uri, string database, string collection_name,string documentid, string search_field)
 {
     mongocxx::client conn{mongocxx::uri{uri}};
@@ -36,8 +36,8 @@ string search_db( string uri, string database, string collection_name,string doc
     return search_results;
 }
 
-// insert one document into a specific collection
-string insert_one_document(string uri, string database,string collection_name, string documentid, string fieldname, string fieldvalue)
+// //A function to insert a document from a collection
+string insert_db(string uri, string database,string collection_name, string documentid, string fieldname, string fieldvalue)
 {
     mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection coll=conn[database][collection_name];
@@ -72,7 +72,7 @@ int insert_many_document(string uri, string database, string collection_name)
     return EXIT_SUCCESS;
 }
 
-// modify one field in a specific document
+// //A function to update a document from a collection
 string update_db(string uri, string database, string collection_name, string documentid, string modify_field, string modify_field_value)
 {
     mongocxx::client conn{mongocxx::uri{uri}};
@@ -91,7 +91,8 @@ string update_db(string uri, string database, string collection_name, string doc
     return update_result;
 }
 
-string delete_a_document_from_collection(string uri, string database, string collection_name, string documentid)
+//A function to delete a document from a collection
+string delete_db(string uri, string database, string collection_name, string documentid)
 {
     mongocxx::client conn{mongocxx::uri{uri}};
     mongocxx::collection coll=conn[database][collection_name];
@@ -118,19 +119,15 @@ int main() {
     // must remain alive for as long as the driver is in use.
     mongocxx::instance inst{};
     
-    
-    //search_db("data","LKr","LKr-RawDecoderSettings","NChannels" );
-    //update_db("cern_na62","LKr","LKr-RawDecoderSettings.dat","NChannels","16834");
-    
-    
 
     //create the application 
     crow::SimpleApp app;
 
-    auto login_temp= crow::mustache::load("loginpage.html");
+    
 
     // login route, default use GET method
-    CROW_ROUTE(app, "/login")([login_temp](const crow::request& req){
+    CROW_ROUTE(app, "/login")([](const crow::request& req){
+        auto login_temp= crow::mustache::load("loginpage.html");
         crow::mustache::context ctx;
 	    auto page= login_temp.render(ctx);
         return page;
@@ -261,7 +258,7 @@ int main() {
         const char* field_name= full_param.get("fieldname");
         const char* field_value= full_param.get("fieldvalue");
         try {
-            string results=insert_one_document(global_uri,string(database_name),string(collection_name),string(document_id),string(field_name),string(field_value));
+            string results=insert_db(global_uri,string(database_name),string(collection_name),string(document_id),string(field_name),string(field_value));
             auto insert_results= crow::mustache::load("insert_results.html");
             crow::mustache::context ctx;
             ctx["insert_results"]=results;
@@ -294,7 +291,7 @@ int main() {
         const char* collection_name= full_param.get("collectionname");
         const char* document_id= full_param.get("documentid");
         try {
-            string results=delete_a_document_from_collection(global_uri,string(database_name),string(collection_name),string(document_id));
+            string results=delete_db(global_uri,string(database_name),string(collection_name),string(document_id));
 
             auto delete_results= crow::mustache::load("delete_results.html");
             crow::mustache::context ctx;
