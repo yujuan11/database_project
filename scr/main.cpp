@@ -307,8 +307,8 @@ int main() {
     });
 
 
-
-    app.port(18080).multithreaded().run();
+    int threadnumber=4;
+    app.port(18080).multithreaded(threadnumber).run();
     
     return EXIT_SUCCESS;
 
