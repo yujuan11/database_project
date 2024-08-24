@@ -21,7 +21,8 @@ using bsoncxx::builder::basic::make_document;
 // //A function to query a field in a document from a collection
 string search_db( string uri, string database, string collection_name,string documentid, string search_field)
 {
-    mongocxx::client conn{mongocxx::uri{uri}};
+    string mongouri=uri + "/" +database;
+    mongocxx::client conn{mongocxx::uri{mongouri}};
     mongocxx::collection collection=conn[database][collection_name];
     mongocxx::options::find options{};
     options.projection(make_document(kvp("_id",1),kvp(search_field,1)));
@@ -39,7 +40,8 @@ string search_db( string uri, string database, string collection_name,string doc
 // //A function to insert a document from a collection
 string insert_db(string uri, string database,string collection_name, string documentid, string fieldname, string fieldvalue)
 {
-    mongocxx::client conn{mongocxx::uri{uri}};
+    string mongouri=uri + "/" +database;
+    mongocxx::client conn{mongocxx::uri{mongouri}};
     mongocxx::collection coll=conn[database][collection_name];
     auto insert_one_result = coll.insert_one(make_document(kvp("_id",documentid),kvp(fieldname,fieldvalue)));
     //
@@ -60,7 +62,8 @@ string insert_db(string uri, string database,string collection_name, string docu
 // insert many document into a specific collection
 int insert_many_document(string uri, string database, string collection_name)
 {
-    mongocxx::client conn{mongocxx::uri{uri}};
+    string mongouri=uri + "/" +database;
+    mongocxx::client conn{mongocxx::uri{mongouri}};
     mongocxx::collection coll=conn[database][collection_name];
     vector<bsoncxx::document::value> documents;
     documents.push_back(make_document(kvp("_id","first"),kvp("field","field_one")));
@@ -75,7 +78,8 @@ int insert_many_document(string uri, string database, string collection_name)
 // //A function to update a document from a collection
 string update_db(string uri, string database, string collection_name, string documentid, string modify_field, string modify_field_value)
 {
-    mongocxx::client conn{mongocxx::uri{uri}};
+    string mongouri=uri + "/" +database;
+    mongocxx::client conn{mongocxx::uri{mongouri}};
     mongocxx::collection coll=conn[database][collection_name];
     auto update_one_result= coll.update_one(make_document(kvp("_id",documentid)),
                                             make_document(kvp("$set",make_document(kvp(modify_field,modify_field_value)))));
@@ -94,7 +98,8 @@ string update_db(string uri, string database, string collection_name, string doc
 //A function to delete a document from a collection
 string delete_db(string uri, string database, string collection_name, string documentid)
 {
-    mongocxx::client conn{mongocxx::uri{uri}};
+    string mongouri=uri + "/" +database;
+    mongocxx::client conn{mongocxx::uri{mongouri}};
     mongocxx::collection coll=conn[database][collection_name];
     auto find_result=coll.find_one(make_document(kvp("_id",documentid)));
 
@@ -148,7 +153,7 @@ int main() {
            return crow::response(400, "Username or password missing");
 	}
 	
-	string uri= "mongodb://" + string(username) + ":" + string(pwd) + "@localhost:27017/data";
+	string uri= "mongodb://" + string(username) + ":" + string(pwd) + "@localhost:27017";
 	global_uri=uri;
 	try{
 	    //mongocxx::client client(uri);
