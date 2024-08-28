@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/db_test.dir/test.cpp.o -o db_test  -Wl,-rpath,/usr/local/lib64 /usr/local/lib64/libbsoncxx.so /usr/local/lib64/libmongocxx.so 

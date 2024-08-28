@@ -312,8 +312,9 @@ int main() {
     });
 
 
-    int threadnumber=4;
-    app.port(18080).multithreaded(threadnumber).run();
+    //Run the server on multiple threads using all available threads.
+    app.port(18080).multithreaded().run();
+
     
     return EXIT_SUCCESS;
 
