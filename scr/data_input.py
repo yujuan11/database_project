@@ -45,6 +45,7 @@ def parse_dat_file(file_path):
     data = {}  # dictionary for saving the fields
     # want to use the files' name as unique id. split it from the file path and input as the '_id' in document later
     data.update({"_id":file_path.split('/')[-1].replace('.dat','')})
+    data.update({"filename":file_path.split('/')[-1].replace('.dat','')})
     with open(file_path, 'r') as file:
         for line in file:
             # Remove whitespace characters at the start and end of the line
@@ -152,8 +153,8 @@ for dir, coll in zip(directory_name_data, collection_name_data):
     input_function(dir, coll, database_name_data)
 #
 
-for dir, coll in zip(directory_name_test, collection_name_test):
-    input_function(dir, coll, database_name_test)
+# for dir, coll in zip(directory_name_test, collection_name_test):
+#     input_function(dir, coll, database_name_test)
 
 
 file_path="file_input_failed.txt"

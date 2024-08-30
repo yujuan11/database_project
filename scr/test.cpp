@@ -24,8 +24,9 @@ string search_db( string uri, string database, string collection_name,string doc
     mongocxx::client conn{mongocxx::uri{mongouri}};
     mongocxx::collection collection=conn[database][collection_name];
     mongocxx::options::find options{};
+    //option query, change the 'filename' as '_id' if want to use inexed field or vice versa
     options.projection(make_document(kvp("filename",1),kvp(search_field,1)));
-
+    
     auto cursor = collection.find(make_document(kvp("filename",documentid)),options);
     string search_results;
     for(auto && doc : cursor)
@@ -37,7 +38,7 @@ string search_db( string uri, string database, string collection_name,string doc
 }
 // a specific query parameters, for testing 
 string query_uri= "mongodb://user1:user1_123@localhost:27017";
-string database="test";
+string database="data";
 string collection_name="LKr" ;
 string documentid= "LKr-RawDecoderSettings" ;
 string search_field ="NChannels" ;
@@ -74,7 +75,7 @@ int main() {
     auto start = std::chrono::high_resolution_clock::now();
 
     // create 3000 threads, one query operation for each thread
-    for (int i = 0; i < 7000; ++i) {
+    for (int i = 0; i < 6000; ++i) {
         threads.push_back(thread(timing_query, i, std::ref(response_times), std::ref(mtx)));
     }
 
