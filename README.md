@@ -16,19 +16,19 @@ Select RHEL9.4 in the VirtualBox control panel  -> Network -> Adapter 1 -> Attac
 ## Install Dependencies
 ###Install docker on red hat 9.4:
 Register Your System: If you’re using Red Hat Enterprise Linux (RHEL), you need to register your system with Red Hat Subscription Management:
-'sudo subscription-manager register'
-'sudo subscription-manager refresh'
+`sudo subscription-manager register`
+`sudo subscription-manager refresh`
 Enable Repositories: After registering, enable the repositories:
-sudo subscription-manager repos --enable=rhel-7-server-rpms
+`sudo subscription-manager repos --enable=rhel-7-server-rpms`
 Install docker using the convenient script: ( from docker documentation)
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
+`curl -fsSL https://get.docker.com -o get-docker.sh`
+`sudo sh get-docker.sh`
 Install docker deamon:
-sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+`sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
 add user to docker group: 
-sudo usermod -aG docker user1
+`sudo usermod -aG docker user1`
 apply the changes :
-newgrp docker
+`newgrp docker`
 
 
 ## VS Code remote connect
