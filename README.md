@@ -1,14 +1,39 @@
-# database
-
-## Name
-Choose a self-explaining name for your project.
+# database_project
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+This project constructed a MongoDB database instance, according to the properties of the origianl data, and created an interface to interact with the database. The original data comes from NA62 group in CERN, which is not public. So the data used in this project will not be public either. The whole system is built up in Linux environment: RedHat 9.4, which is a virtual environment. This documentation will illustrate the detailed steps about how to build this project, from environment setting to how to use the database and interface.
 
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## Environment Installation and Setting
+Install a virtual machine software package, can be downloaded here [virtualbox](https://www.virtualbox.org/) 
+Download the RedHat 9.4 installation file here [RedHat9.4](https://access.redhat.com/downloads/content/479/ver=/rhel---9/9.4/x86_64/product-software)
+Create the virtual machine using the .iso file downloaded above. From now on, it will be called 'RHEL9.4'.
+Network setup for RHEL9.4:
+VirtualBox control panel -> Tools -> Networks -> Host-only Networks panel -> Create -> IPv4 Prefix: 192.168.56.1 -> DHCP Server tab -> verify the Server Address, Lower Address Bound and Upper Address Bound -> apply;
+Select RHEL9.4 in the VirtualBox control panel  -> Network -> Adapter 1 -> Attached to NAT -> Adapter 2 -> Attached to Host-only Adapter -> Name: VirtualBox Host-Only Ethernet Adapter -> ok.
+
+
+## Install Dependencies
+###Install docker on red hat 9.4:
+Register Your System: If you’re using Red Hat Enterprise Linux (RHEL), you need to register your system with Red Hat Subscription Management:
+'sudo subscription-manager register'
+'sudo subscription-manager refresh'
+Enable Repositories: After registering, enable the repositories:
+sudo subscription-manager repos --enable=rhel-7-server-rpms
+Install docker using the convenient script: ( from docker documentation)
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+Install docker deamon:
+sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+add user to docker group: 
+sudo usermod -aG docker user1
+apply the changes :
+newgrp docker
+
+
+## VS Code remote connect
+
+
 
 ## Usage
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
