@@ -237,7 +237,7 @@ use a browser point to : 'http://0.0.0.0:18080/login`
 
 #### Select a operation
 
-After inputing username and password, select a operation.
+After inputing username and password, select an operation.
 
 ![image](https://github.com/user-attachments/assets/f8bec3a2-212f-4128-b072-a7001c84693f)
 
