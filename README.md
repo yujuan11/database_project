@@ -165,14 +165,48 @@ Ctrl+Shift+P -> Remote-SSH: Connect to Host... -> select the host just added in 
 
 ## Usage
 ### docker run a mongo instance
+pull a mongo image
 
+`docker pull mongo:4.4`
+
+when run the instance, create a root user using environment varibles and enable the authentication at the same time.
+
+`docker run -d --name mongodb -p 27017:27017 -v /my/own/datadir:/data/db -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=admin_123 mongo:4.4 --auth`
 
 
 ### Input data
 
+`cd scr`
+
+`python3 data_input.py`
+
 ### Setup user authentication
+into the mongodb 
+`docker exec -it mongodb mongo`
+
+switch to admin database
+
+`use admin`
+
+first authenticate as root user
+
+`db.auth('admin','admin_123')`
+
+switch to target database
+
+`use data`
+
+create a user assigning read and write rights
+
+`db.createUser({ user:"user1", pwd:"user1_123", roles: [{role:"readWrite",db:"data"}] })`
+
+create a user only assigning read right
+
+`db.createUser({ user:"user2", pwd:"user2_123", roles: [{role:"read",db:"data"}] })`
+
 
 ### Run the interface
+
 
 #### login
 
