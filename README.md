@@ -153,8 +153,11 @@ Use VS Code to open the project folder on the remote machine.
 VScode side bar -> extensions -> input 'Remote - SSH' -> install this extension -> Ctrl+Shift+P -> input 'Remote-SSH: Open SSH Configuration File...' -> create a ssh config file like this 
 
 "Host <vm_name>
+
   HostName <vm_ip_address> 
-  Port <port number> # default 22
+  
+  Port <port_number> # default 22
+  
   User <username>"
   
 Ctrl+Shift+P -> Remote-SSH: Connect to Host... -> select the host just added in the ssh config file -> connect to the vm.
