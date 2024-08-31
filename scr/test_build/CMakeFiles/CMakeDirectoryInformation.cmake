@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/user1/cern_na62/database_project/database_project/scr")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/user1/cern_na62/database_project/database_project/scr/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/user1/cern_na62/database_project/database_project/scr/test_build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

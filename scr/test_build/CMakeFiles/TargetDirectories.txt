@@ -1,0 +1,3 @@
+/home/user1/cern_na62/database_project/database_project/scr/test_build/CMakeFiles/db_test.dir
+/home/user1/cern_na62/database_project/database_project/scr/test_build/CMakeFiles/edit_cache.dir
+/home/user1/cern_na62/database_project/database_project/scr/test_build/CMakeFiles/rebuild_cache.dir
