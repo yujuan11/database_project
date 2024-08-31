@@ -206,9 +206,33 @@ create a user only assigning read right
 
 
 ### Run the interface
+navigate to database_project 
+
+`cd build`
+
+`./db_project`
+
+If the executable file cannot run successfully, try to rebuild it.
+navigate to database_project 
+`rm -rf build`
+
+`mkdir build`
+
+`cd build`
+
+`cmake ..`
+
+`make`
+
+`./db_project`
 
 
 #### login
+After the interface successfully running, use http url to login.
+
+use a browser point to : 'http://0.0.0.0:18080/login`
+![image](https://github.com/user-attachments/assets/8984d53e-525d-4f5f-9595-ad84ef55fcf7)
+
 
 #### Select a operation
 
