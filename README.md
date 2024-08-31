@@ -231,18 +231,45 @@ navigate to database_project
 After the interface successfully running, use http url to login.
 
 use a browser point to : 'http://0.0.0.0:18080/login`
-![image](https://github.com/user-attachments/assets/8984d53e-525d-4f5f-9595-ad84ef55fcf7)
+![image](https://github.com/user-attachments/assets/5746f283-8a28-4a62-be8e-b78ae9406562)
 
 
 #### Select a operation
+After inputing username and password, select a operation.
+![image](https://github.com/user-attachments/assets/f8bec3a2-212f-4128-b072-a7001c84693f)
+
 
 #### Query
+In query page, input query parameters.
+![image](https://github.com/user-attachments/assets/2e008926-aa24-49de-894d-1535173f631c)
+Get the query result.
+![image](https://github.com/user-attachments/assets/43d8045d-9f3f-4594-b0dd-1501cc067d24)
+
 
 #### Update
+In update page, input update parameters.
+![image](https://github.com/user-attachments/assets/3e39ffd5-fb89-47f1-a5fb-749f016977a7)
+Get the update result.
+![image](https://github.com/user-attachments/assets/956a50e8-66e3-4c6e-bbe6-060ce111deec)
+
+
 
 #### Insert
+In insert page, input insert parameters.
+![image](https://github.com/user-attachments/assets/3af22a21-577d-4ec0-8576-d4c0673e4813)
+Get the insert result.
+![image](https://github.com/user-attachments/assets/76bb41e6-da9b-4870-b99f-3655b0a2df14)
+
+
 
 #### Delete
+In delete page, input delete parameters.
+![image](https://github.com/user-attachments/assets/00768ddb-bda6-45fb-b12f-f3240ce647fc)
+Get the delete result.
+![image](https://github.com/user-attachments/assets/9bb6495f-ee29-4a16-abcd-e104c78211cd)
+If the document is not found.
+![image](https://github.com/user-attachments/assets/6b641f1e-5bf5-456e-85f3-cd788a618fc5)
+
 
 
 ### How to analyse the performance of index using test.cpp to get the database response time 
