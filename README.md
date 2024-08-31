@@ -6,10 +6,15 @@ This project constructed a MongoDB database instance, according to the propertie
 
 ## Environment Installation and Setting
 Install a virtual machine software package, can be downloaded here [virtualbox](https://www.virtualbox.org/) 
+
 Download the RedHat 9.4 installation file here [RedHat9.4](https://access.redhat.com/downloads/content/479/ver=/rhel---9/9.4/x86_64/product-software)
+
 Create the virtual machine using the .iso file downloaded above. From now on, it will be called 'RHEL9.4'.
+
 Network setup for RHEL9.4:
+
 VirtualBox control panel -> Tools -> Networks -> Host-only Networks panel -> Create -> IPv4 Prefix: 192.168.56.1 -> DHCP Server tab -> verify the Server Address, Lower Address Bound and Upper Address Bound -> apply;
+
 Select RHEL9.4 in the VirtualBox control panel  -> Network -> Adapter 1 -> Attached to NAT -> Adapter 2 -> Attached to Host-only Adapter -> Name: VirtualBox Host-Only Ethernet Adapter -> ok.
 
 
@@ -75,12 +80,16 @@ download:
 `wget https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.bz2`
 
 `tar --bzip2 -xf boost_1_80_0.tar.bz2`
+
 `cd boost_1_80_0`
+
 `./bootstrap.sh`
+
 `sudo ./b2 install`
 
 ### Install MongoDB C++ Driver
 Install C driver
+
 `wget https://github.com/mongodb/mongo-c-driver/releases/download/1.27.4/mongo-c-driver-1.27.4.tar.gz`
 
 `tar -xzf mongo-c-driver-1.27.4.tar.gz`
@@ -113,10 +122,12 @@ Install C++ driver
 
 `sudo make install`
 
-### Install asio，
+### Install asio
 
 `git clone https://github.com/chriskohlhoff/asio.git`
+
 `cd asio/asio/include`
+
 `sudo cp -r asio /usr/local/include/`
 
 ### Install crow
@@ -124,8 +135,12 @@ Install C++ driver
 `git clone https://github.com/CrowCpp/Crow.git`
 
 Run mkdir build inside of crow's source directory： 
+
 `mkdir build`
-Navigate to the new "build" directory:  `cd build `
+
+Navigate to the new "build" directory: 
+`cd build `
+
 run the following: 
 `cmake .. -DCROW_ENABLE_SSL=ON -DCMAKE_BUILD_TYPE=Debug -DASIO_INCLUDE_DIR=/home/user1/asio/asio/include`
 
@@ -134,11 +149,14 @@ run the following:
 
 ## VS Code remote connect
 Use VS Code to open the project folder on the remote machine.
+
 VScode side bar -> extensions -> input 'Remote - SSH' -> install this extension -> Ctrl+Shift+P -> input 'Remote-SSH: Open SSH Configuration File...' -> create a ssh config file like this 
+
 "Host <vm_name>
   HostName <vm_ip_address> 
   Port <port number> # default 22
   User <username>"
+  
 Ctrl+Shift+P -> Remote-SSH: Connect to Host... -> select the host just added in the ssh config file -> connect to the vm.
 
 
