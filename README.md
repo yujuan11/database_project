@@ -14,25 +14,132 @@ Select RHEL9.4 in the VirtualBox control panel  -> Network -> Adapter 1 -> Attac
 
 
 ## Install Dependencies
-###Install docker on red hat 9.4:
+### Install docker on red hat 9.4:
 Register Your System: If you’re using Red Hat Enterprise Linux (RHEL), you need to register your system with Red Hat Subscription Management:
+
 `sudo subscription-manager register`
+
 `sudo subscription-manager refresh`
+
 Enable Repositories: After registering, enable the repositories:
+
 `sudo subscription-manager repos --enable=rhel-7-server-rpms`
+
 Install docker using the convenient script: ( from docker documentation)
+
 `curl -fsSL https://get.docker.com -o get-docker.sh`
+
 `sudo sh get-docker.sh`
+
 Install docker deamon:
+
 `sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
+
 add user to docker group: 
+
 `sudo usermod -aG docker user1`
+
 apply the changes :
+
 `newgrp docker`
+
+When start again after last shutdown from the red hat, the docker is disabled automatically. Need to use this command line to start docker again:
+
+`sudo systemctl start docker`
+### install g++ and cmake
+Check the g++ version: 
+
+`g++ --version`
+
+Install g++ :    
+
+`sudo yum install gcc-c++`      (11.4.1 installed)
+
+Check the cmake version: 
+
+`cmake --version`
+
+Install cmake: 
+
+`sudo yum install cmake`    (3.26.5 installed)
+
+Install denpendancy before install c++ driver:
+
+`sudo yum groupinstall "Development Tools"`
+`sudo yum install wget tar bzip2`
+`sudo yum install -y openssl-devel`
+
+### Install boost:
+download:
+
+`wget https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.bz2`
+
+`tar --bzip2 -xf boost_1_80_0.tar.bz2`
+`cd boost_1_80_0`
+`./bootstrap.sh`
+`sudo ./b2 install`
+
+### Install MongoDB C++ Driver
+Install C driver
+`wget https://github.com/mongodb/mongo-c-driver/releases/download/1.27.4/mongo-c-driver-1.27.4.tar.gz`
+
+`tar -xzf mongo-c-driver-1.27.4.tar.gz`
+
+`cd mongo-c-driver-1.27.4`
+
+`mkdir cmake-build`
+
+`cd cmake-build`
+
+`cmake -DENABLE_AUTOMATIC_INIT_AND_CLEANUP=OFF ..`
+
+`make`
+
+`sudo make install`
+
+Install C++ driver
+
+`cd ~`
+
+`git clone -b r3.10.1 https://github.com/mongodb/mongo-cxx-driver.git`
+
+`cd mongo-cxx-driver`
+
+`cd build`
+
+`cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local ..`
+
+`make`
+
+`sudo make install`
+
+### Install asio，
+
+`git clone https://github.com/chriskohlhoff/asio.git`
+`cd asio/asio/include`
+`sudo cp -r asio /usr/local/include/`
+
+### Install crow
+
+`git clone https://github.com/CrowCpp/Crow.git`
+
+Run mkdir build inside of crow's source directory： 
+`mkdir build`
+Navigate to the new "build" directory:  `cd build `
+run the following: 
+`cmake .. -DCROW_ENABLE_SSL=ON -DCMAKE_BUILD_TYPE=Debug -DASIO_INCLUDE_DIR=/home/user1/asio/asio/include`
+
+`make`
 
 
 ## VS Code remote connect
-
+Use VS Code to open the project folder on the remote machine.
+VScode side bar -> extensions -> input 'Remote - SSH' -> install this extension -> Ctrl+Shift+P -> input 'Remote-SSH: Open SSH Configuration File...' -> create a ssh config file like this 
+"Host <vm_name>
+  HostName <vm_ip_address> 
+  Port <port number> # default 22
+  User <username>"
+Ctrl+Shift+P -> Remote-SSH: Connect to Host... -> select the host just added in the ssh config file -> connect to the vm.
 
 
 ## Usage
