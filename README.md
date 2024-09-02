@@ -294,17 +294,38 @@ If the document is not found.
 
 
 ### How to analyse the performance of index using test.cpp to get the database response time 
- 
+ navigate to database_project 
+
+`cd scr`
+
+`cd test_build`
+
+`./db_test`
+
+If the executable file cannot run successfully, try to rebuild it.
+
+`cd ..`
+
+`rm -rf test_build`
+
+`mkdir test_build`
+
+`cd test_build`
+
+`cmake ..`
+
+`make`
+
+`./db_test`
+
 
 ## Support
 If you have any question or ideas about this project, welcome to send an email: cv23649@bristol.ac.uk
 
 
 ## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+I would like to express my deepest gratitude to my supervisor, [Helen Heath], and NA62 group for their unwavering support, insightful guidance, and constant encouragement throughout the course of this project. Their expertise and valuable feedback have been instrumental in shaping my work, and their patience and understanding have made this journey both enriching and enjoyable. I am truly grateful for the opportunity to learn under their mentorship and for the profound impact they have had on my academic and personal growth.
 
 ## License
 [VISITE LICENSE](https://github.com/yujuan11/database_project/blob/main/LICENSE)
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
