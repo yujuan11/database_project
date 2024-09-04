@@ -1,8 +1,0 @@
-# Bad burst periods for the determination of bad bursts.
-# Produced for 2017D, v1.0.3.
-# The periods are read by NumberOfHitsMonitor.
-# The line format: RunNumber FirstBadBurst LastBadBurst Detector1 Detector2 ...
-#     or     : RunNumber FirstBadBurst all
-#
- 7634     642     800   HAC IRC MUV0 SAC SAV
-

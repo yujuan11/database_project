@@ -1,4 +1,0 @@
-### List of empty chips for run 9001, burst 1
-# Format: RunID BurstID NMissingChips StationID ChipID qChipMask
-# with BurstID = -1 the same set of missing chips is used for all bursts of the given run. Applied only in MC
-009001 -1 10 0 0 f 0 1 f 0 2 f 0 3 f 0 4 f 0 5 f 0 6 f 0 7 f 0 8 f 0 9 f

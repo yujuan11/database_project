@@ -1,8 +1,0 @@
-# this file is dummy, please do not remove it!
-#
-# Bad burst periods for the determination of bad bursts.
-# Produced for 
-# The periods are read by NumberOfHitsMonitor.
-# The line format: RunNumber FirstBadBurst LastBadBurst Detector1 Detector2 ...
-#     or     : RunNumber FirstBadBurst all
-#

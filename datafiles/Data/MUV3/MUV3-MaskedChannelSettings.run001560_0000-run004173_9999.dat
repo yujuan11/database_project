@@ -1,4 +1,0 @@
-# MUV3 masked channels 2015
-# Position IDs of the masked channels (multiple lines & multiple arguments per line allowed).
-# This instructs the reconstruction to build loose candidates in the corresponding tiles.
-MaskedChannels= 5 138 236 49 60 261 84 96 38 39 75 134 17 7 18 31 43 102 20 104 116 22

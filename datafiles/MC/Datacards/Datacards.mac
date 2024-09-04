@@ -1,6 +1,0 @@
-# Run-dependent NA62MC datacards.
-# They are executed after the standard datacards but before the user datacards.
-# No special datacards are required by default (settings from the standard macro file are used).
-
-# However the turtle beam is specified explicitly, in line with other run-dependent datacards.
-/beam/SetBeam turtle

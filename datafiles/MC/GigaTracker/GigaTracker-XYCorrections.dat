@@ -1,7 +1,0 @@
-# GTK Offsets and rotation angles, used by GigaTrackerReconstruction to correct Hit positions (dummy)
-# The 6 parameters of each line correspond to the alignment wrt GTK3
-# Format: StationID XOffwrtGTK3 YOffwrtGTK3 AwrtGTK3 BwrtGTK3 CwrtGTK3 DwrtGTK3
-0 0 0 1 0 0 1  
-1 0 0 1 0 0 1
-2 0 0 1 0 0 1
-3 0 0 1 0 0 1

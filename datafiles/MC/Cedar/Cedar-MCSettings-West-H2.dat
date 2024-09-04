@@ -1,8 +1,0 @@
-### Cedar-WEST-H2 simulation configuration ###
-
-CedarType WEST
-RadiatorGas H2
-RadiatorGasPressure 3.67
-DiaphragmApertureR 3.0
-OctantsEnabled 1 1 1 1 1 1 1 1
-LightGuideType 48

@@ -1,8 +1,0 @@
-# LKrPi0Calib-1D corrections produced with MC K2pi v3.1.0 reco v3.7.3 with overlay (run 9001 conditions) - r4643 software - November 2023
-#
-# Format:
-# FitRangeMin FitRangeMax FitPar[0] ... FitPar[7]
-#
-# Identity values: 0 999999999 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-#
-2000 47000 0.967921 9.27571e-06 -1.32269e-09 9.76454e-14 -4.05604e-18 9.61249e-23 -1.21317e-27 6.33053e-33

@@ -1,4 +1,0 @@
-#Opening of collimator bars: Horizontal (total x) (mm), vertical minus (-y), vertical plus (+y)
-#sets fGigaTrackerXCHVInnerDistance2X fGigaTrackerXCHVInnerDistanceYM  fGigaTrackerXCHVInnerDistanceYP 
-70.0 -20.0 20.0
-  

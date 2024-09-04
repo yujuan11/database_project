@@ -1,3 +1,0 @@
-# Format: six space separated numbers (one efficiency threshold per plane)
-# The efficiency threshold will be applied both to view X and view Y of the corresponding plane
-0.95 0.95 0.95 0.95 0.95 0.89
