@@ -324,7 +324,7 @@ If you have any question or ideas about this project, welcome to send an email: 
 
 
 ## Authors and acknowledgment
-I would like to express my deepest gratitude to my supervisor, [Helen Heath], and NA62 group for their unwavering support, insightful guidance, and constant encouragement throughout the course of this project. Their expertise and valuable feedback have been instrumental in shaping my work, and their patience and understanding have made this journey both enriching and enjoyable. I am truly grateful for the opportunity to learn under their mentorship and for the profound impact they have had on my academic and personal growth.
+I would like to express my deepest gratitude to my supervisor, Helen Heath, and NA62 group for their unwavering support, insightful guidance, and constant encouragement throughout the course of this project. Their expertise and valuable feedback have been instrumental in shaping my work, and their patience and understanding have made this journey both enriching and enjoyable. I am truly grateful for the opportunity to learn under their mentorship and for the profound impact they have had on my academic and personal growth.
 
 ## License
 [VISITE LICENSE](https://github.com/yujuan11/database_project/blob/main/LICENSE)
