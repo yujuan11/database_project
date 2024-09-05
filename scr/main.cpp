@@ -139,36 +139,41 @@ int main() {
     });
     //verify login route, POST method
     CROW_ROUTE(app,"/login").methods(crow::HTTPMethod::POST)([](const crow::request& req){
-	cout << "Request Body: " << req.body << endl;
+	//cout << "Request Body: " << req.body << endl;
 	auto full_param= req.get_body_params();
-	cout<<"full_param:"<<full_param<<endl;
+	//cout<<"full_param:"<<full_param<<endl;
 	const char* username= full_param.get("username");
-	cout<<"username:"<<username<<endl;
+	//cout<<"username:"<<username<<endl;
 	const char* pwd= full_param.get("password");
-	cout<<"pwd:"<<pwd<<endl;
-	
-	if ( !username || !pwd ) {
+	//cout<<"pwd:"<<pwd<<endl;
+	string user_str= string(username);
+    string pwd_str= string(pwd);
+	if (  user_str.length()==0|| pwd_str.length()==0 ) {
            // 
            cout << "Username or password not provided" << endl;
            return crow::response(400, "Username or password missing");
-	}
+	} 
+    else {
+        string uri= "mongodb://" + string(username) + ":" + string(pwd) + "@localhost:27017";
+        global_uri=uri;
+        try{
+            //mongocxx::client client(uri);
+        
+            string loc="/select";
+            crow::response res;
+            res.redirect(loc);
+            return res;
+
+        
+        } catch (const exception & e){
+            cerr<<"Login failed: " << e.what()<<endl;
+            return crow::response(403, "Invalid username or password");
+
+        };
+
+    };
 	
-	string uri= "mongodb://" + string(username) + ":" + string(pwd) + "@localhost:27017";
-	global_uri=uri;
-	try{
-	    //mongocxx::client client(uri);
-	   
-        string loc="/select";
-	    crow::response res;
-        res.redirect(loc);
-        return res;
-
-	   
-	} catch (const exception & e){
- 		cerr<<"Login failed: " << e.what()<<endl;
-		return crow::response(403, "Invalid username or password");
-
-	};
+	
     });
 
     // input search information to get the field's value
